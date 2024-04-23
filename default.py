@@ -1,26 +1,52 @@
 # https://docs.python.org/2.7/
-import os
+import json
 import sys
 import urllib
-import urlparse
+from urllib.parse import parse_qs
 # http://mirrors.kodi.tv/docs/python-docs/
-import xbmcaddon
-import xbmcgui
-import xbmcplugin
+# import xbmcaddon
+# import xbmcgui
+#import xbmcplugin
 # http://docs.python-requests.org/en/latest/
 import requests
 # http://www.crummy.com/software/BeautifulSoup/bs4/doc/
 from bs4 import BeautifulSoup
 
+
 def build_url(query):
     base_url = sys.argv[0]
     return base_url + '?' + urllib.urlencode(query)
-    
-def get_page(url):
-    # download the source HTML for the page using requests
-    # and parse the page using BeautifulSoup
-    return BeautifulSoup(requests.get(url).text, 'html.parser')
-    
+
+def parse_json(data):
+    parsed = json.loads(data)["nodes"][2]["data"];
+
+    def get_or_add (m, k):
+        if not k in m:
+            m[k] = parsed[k]
+        return m[k]
+
+    def expand_element(element):
+        return expand_element(parsed[element]) if isinstance(element, int) and not isinstance(parsed[element], int) else \
+            expand_dict(element) if isinstance(element, dict) else \
+            expand_tuple(element) if isinstance(element, tuple) else \
+            parsed[element] if isinstance(element, int) else \
+            element
+
+    def expand_tuple(element):
+        return map(lambda v: expand_element(v), element)
+
+    def expand_dict(element):
+        return {k: expand_element(v) for k,v in element.items()}
+
+
+    models={}
+    for element in parsed:
+        if isinstance(element, dict) and "model" in element:
+            model = get_or_add(models, element["model"])
+            print(expand_element(element))
+
+    return parsed
+
 def parse_page(page):
     songs = {}
     index = 1
@@ -62,31 +88,35 @@ def build_song_list(songs):
     # set the content of the directory
     xbmcplugin.setContent(addon_handle, 'songs')
     xbmcplugin.endOfDirectory(addon_handle)
-    
+
 def play_song(url):
     # set the path of the song to a list item
     play_item = xbmcgui.ListItem(path=url)
     # the list item is ready to be played by Kodi
     xbmcplugin.setResolvedUrl(addon_handle, True, listitem=play_item)
-    
+
 def main():
-    args = urlparse.parse_qs(sys.argv[2][1:])
+    radiofrance_page = "https://www.radiofrance.fr/podcasts/__data.json"
+
+    args = parse_qs(sys.argv[2][1:])
     mode = args.get('mode', None)
-    
+
     # initial launch of add-on
     if mode is None:
         # get the HTML for http://www.theaudiodb.com/testfiles/
-        page = get_page(sample_page)
+        page = requests.get(radiofrance_page).text
         # get the content needed from the page
-        content = parse_page(page)
+        content = parse_json(page)
+        print(content)
+
         # display the list of songs in Kodi
         build_song_list(content)
     # a song from the list has been selected
     elif mode[0] == 'stream':
         # pass the url of the song to play_song
         play_song(args['url'][0])
-    
+
 if __name__ == '__main__':
-    sample_page = 'http://www.theaudiodb.com/testfiles/'
     addon_handle = int(sys.argv[1])
     main()
+

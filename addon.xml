@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.example" name="Example Kodi audio Plugin" version="0.0.1" provider-name="curti">
+<addon id="plugin.audio.podcastrf" name="RadioFrance podcasts" version="0.0.1" provider-name="bateast">
     <requires>
         <import addon="xbmc.python" version="2.20.0" />
         <import addon="script.module.beautifulsoup4" version="4.3.2"/>
@@ -9,9 +9,9 @@
         <provides>audio</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">http://www.theaudiodb.com/testfiles/</summary>
-        <license>GNU General Public License, v2</license>
-        <description lang="en">Add-on tutorial for Audio using cc licensed audio from http://www.theaudiodb.com/</description>
+        <summary lang="en">https://www.radiofrance.fr</summary>
+        <license>GNU General Public License, v3</license>
+        <description lang="en">Get podcasts from RadioFrance (https://www.radiofrance.fr/podcasts)</description>
         <platform>all</platform>
     </extension>
 </addon>
