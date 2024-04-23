@@ -29,14 +29,15 @@ def parse_json(data):
 
 
     def expand_element(e):
-            match e :
-                case dict() :
+        import builtins
+        match type(e) :
+                case builtins.dict :
                     return expand_dict(e)
-                case tuple() :
+                case builtins.tuple :
                     return expand_tuple(e)
-                case list() :
+                case builtins.list :
                     return expand_tuple(e)
-                case int() if e < len(parsed) and not isinstance(parsed[e], int):
+                case builtins.int if e < len(parsed) and not isinstance(parsed[e], int):
                     return expand_element(parsed[e])
                 case _:
                     return e
