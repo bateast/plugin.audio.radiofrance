@@ -182,6 +182,8 @@ where numbers are entries index in `.nodes|.[2].data` (here title is `.nodes|.[2
     - "Expression" (105, 48) aka item page
     - "Tag" (264) aka… tag
     - "ManifestationAudio" (143, 289) item sound path (old the url audio path)
+    - "Theme"
+    - "PageTemplate"
 
 Podcast serie (see `"model": 70`)description are:
 
