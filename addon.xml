@@ -15,8 +15,11 @@
         <source>https://github.com/bateast/plugin.audio.podcastrf</source>
         <platform>all</platform>
         <news>
-v0.1.0 (2024-04-25)
-- First workable version
+            v0.1.0 (2024-04-23)
+            - First workable version
+            v0.2.0 (2024-04-24)
+            - Major cleanup for to handle more properly RadioFrance svelte logic
+            - Add Search function
         </news>
         <assets>
             <icon>podcastrf.jpg</icon>

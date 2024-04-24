@@ -171,9 +171,9 @@ Svelte classes:
 
 ## __data.json structures ##
 
-Data are in `.nodes|.[2]`
+Data are in `.nodes|.[-1]`
 
-where numbers are entries index in `.nodes|.[2].data` (here title is `.nodes|.[2].data.[14880]` )
+where numbers are entries index in `.nodes|.[-1].data` (here title is `.nodes|.[-1].data.[14880]` )
 
 - Model:
     - "Highlight" (35) aka category
