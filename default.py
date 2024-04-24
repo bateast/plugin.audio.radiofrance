@@ -257,7 +257,6 @@ def search(args):
 def get_and_build_lists(args, url_args="?"):
     xbmc.log("".join(["Get and build: " + str(args) + "(url args: " + url_args + ")"]), xbmc.LOGINFO)
     url = args['url'][0]
-    url_args += "recent=false&"
     page = requests.get(url + "/__data.json" + url_args).text
     content = parse_json(page)
 
