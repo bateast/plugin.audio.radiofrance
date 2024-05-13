@@ -12,7 +12,7 @@ import xbmc
 import xbmcgui
 import xbmcplugin
 
-from utils import Model, Item, Brand, expand_json, build_url
+from utils import *
 
 
 DEFAULT_MANIFESTATION = 0
@@ -53,7 +53,7 @@ def build_lists(data, args, url):
     if mode is None:
         add_search()
 
-    item = Item(data["podcastsData"] if "podcastsData" in data else data["content"] if "content" in data else data["layout"] if "layout" in data else data)
+    item = create_item(data)
     if mode == "index":
         element_index = int(args.get("index", [None])[0])
         list = Item(item.subs[element_index]).elements

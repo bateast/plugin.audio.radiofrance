@@ -32,31 +32,20 @@ def create_item(data):
             data = data["layout"]
         elif "podcastsData" in data:
             data = data["podcastsData"]
-        else:
-            return None
 
-    match data["model"]:
-        case Model.Brand.name:
-            item = Brand(data)
-        case Model.Theme.name:
-            item = Theme(data)
-        case Model.Concept.name:
-            item = Concept(data)
-        case Model.Highlight.name:
-            item = Highlight(data)
-        case Model.HighlightElement.name:
-            item = HighlightElement(data)
-        case Model.Expression.name:
-            item = Expression(data)
-        case Model.ManifestationAudio.name:
-            item = ManifestationAudio(data)
-        case Model.EmbedImage.name:
-            item = EmbedImage(data)
-        case Model.PageTemplate.name:
-            item = PageTemplate(data)
-        case _:
-            return None
+    match_list = {
+        Model.Brand.name: Brand,
+        Model.Theme.name: Theme,
+        Model.Concept.name: Concept,
+        Model.Highlight.name: Highlight,
+        Model.HighlightElement.name: HighlightElement,
+        Model.Expression.name: Expression,
+        Model.ManifestationAudio.name: ManifestationAudio,
+        Model.EmbedImage.name: EmbedImage,
+        Model.PageTemplate.name: PageTemplate,
+    }
 
+    item = match_list[data["model"]](data)
     # Remove singletons
     item.elements = item.subs
     while len(item.elements) == 1 and item.elements[0] is not None:
@@ -78,7 +67,7 @@ class Item:
         self.elements = []
 
         # Image
-        self.image = data["visual"]["src"] if "visual" in data and data["visual"] is not None else None
+        self.image = data["visual"]["src"] if "visual" in data and data["visual"] is not None and "src" in data["visual"] else None
         self.icon = data["squaredVisual"]["src"]if "squaredVisual" in data and data["squaredVisual"] is not None else None
 
         # Other pages (tuple (x,n): current page x over n)
@@ -130,9 +119,7 @@ class PageTemplate(Item):
     def __init__(self, data):
         super().__init__(data)
         if data["model"] == Model.PageTemplate.name:
-            self.subs = [create_item(i) for i in [data["layout"]]]
-        else:
-            self = None
+            self.subs = [create_item(i) for i in [data["layout"]]] if "layout" in data else []
 
 class ManifestationAudio(Item):
     def __init__(self, data):
@@ -173,8 +160,11 @@ class HighlightElement(Item):
         if data["model"] == Model.HighlightElement.name:
             if 0 < len(data["links"]):
                 self.path = RADIOFRANCE_PAGE + data["links"][0]["path"]
+            print(str(self))
             self.subs = [create_item(i) for i in data["contents"]]
             self.image = data["mainImage"]["src"] if data["mainImage"] is not None else None
+            if self.title is None and len(self.subs) == 1:
+                self = self.subs[0]
 
 class Brand(Item):
     def __init__(self, data):
@@ -185,6 +175,10 @@ class Brand(Item):
             self.title = data["shortTitle"]
 
 class Expression(Item):
+    None
+class Theme(Item):
+    None
+class EmbedImage(Item):
     None
 
 class Brand_page:
@@ -242,6 +236,7 @@ if __name__ == "__main__":
     data = sys.stdin.read()
     data = expand_json(data)
     # print(json.dumps(data))
+    # exit()
 
     item = create_item(data)
     print(str(item))
@@ -252,7 +247,7 @@ if __name__ == "__main__":
     else:
         subs = item.subs
 
-    for data in subs:
+    for data in item.subs:
         sub_item = data
         while sub_item.is_folder() and len(sub_item.subs) == 1 and sub_item.path is None:
             sub_item = sub_item.subs[0]
