@@ -7,7 +7,9 @@ from enum import Enum
 from time import localtime, strftime
 
 RADIOFRANCE_PAGE = "https://www.radiofrance.fr/"
+local_link = "podcasts/"
 BRAND_EXTENSION = "/api/live/webradios/"
+
 
 class Model(Enum):
     Other = 0
@@ -22,18 +24,28 @@ class Model(Enum):
     Brand = 9
 
 
-def create_item(data):
-    # item = Item(data["podcastsData"] if "podcastsData" in data else data["content"] if "content" in data else data["layout"] if "layout" in data else data)
+def create_item_from_page(data):
+
+    global local_link
+    local_link = data['context']['station'] if 'context' in data else ""
 
     if "model" not in data:
-        if  "content" in data:
+        if "content" in data:
             data = data["content"]
         elif "layout" in data:
             data = data["layout"]
         elif "podcastsData" in data:
             data = data["podcastsData"]
 
+    item = create_item(data)
+    while len(item.subs) == 1:
+        item = create_item(item.subs[0])
+    return item
+
+
+def create_item(data):
     match_list = {
+        Model.Other.name: Other,
         Model.Brand.name: Brand,
         Model.Theme.name: Theme,
         Model.Concept.name: Concept,
@@ -45,41 +57,59 @@ def create_item(data):
         Model.PageTemplate.name: PageTemplate,
     }
 
-    item = match_list[data["model"]](data)
+    item = match_list[data["model"] if "model" in data else "Other"](data)
     # Remove singletons
+    if item.path is None and len(item.subs) == 1:
+        item = create_item(item.subs[0])
+
     item.elements = item.subs
     while len(item.elements) == 1 and item.elements[0] is not None:
-        item.elements = item.elements[0].elements
+        item.elements = create_item(item.elements[0]).elements
+
     return item
 
 
 class Item:
     def __init__(self, data):
-        self.id = data["id"]
+        self.id = data["id"] if 'id' in data else "x" * 8
 
         # Model
         self.model = Model[data["model"]] if "model" in data else Model["Other"]
         # Path
-        self.path = data["path"] if "path" in data else None
+        self.path = podcast_url(data["path"] if "path" in data else None)
 
         # Sub elements
         self.subs = []
         self.elements = []
 
         # Image
-        self.image = data["visual"]["src"] if "visual" in data and data["visual"] is not None and "src" in data["visual"] else None
-        self.icon = data["squaredVisual"]["src"]if "squaredVisual" in data and data["squaredVisual"] is not None else None
+        self.image = (
+            data["visual"]["src"]
+            if "visual" in data
+            and data["visual"] is not None
+            and "src" in data["visual"]
+            else None
+        )
+        self.icon = (
+            data["squaredVisual"]["src"]
+            if "squaredVisual" in data and data["squaredVisual"] is not None
+            else None
+        )
 
         # Other pages (tuple (x,n): current page x over n)
         self.pages = (1, 1)
         if "pagination" in data:
             self.pages = (
                 data["pagination"]["pageNumber"],
-                data["pagination"]["lastPage"],
+                data["pagination"]["lastPage"] if "lastPage" in data["pagination"] else data["pagination"]["pageNumber"],
             )
 
         # Title
-        self.title = str(data["title"]) if "title" in data and data["title"] is not None else None
+        self.title = (
+            str(data["title"])
+            if "title" in data and data["title"] is not None
+            else None
+        )
 
     def __str__(self):
         return (
@@ -96,7 +126,7 @@ class Item:
             + str(self.path)
             + ")"
             + " — "
-            + str(self.id)
+            + str(self.id[:8])
         )
 
     def is_folder(self):
@@ -115,74 +145,118 @@ class Item:
     def is_audio(self):
         return not self.is_folder() and not self.is_image()
 
-class PageTemplate(Item):
+
+class Other(Item):
     def __init__(self, data):
         super().__init__(data)
+
+        self.subs = []
+        if "items" in data:
+            if isinstance(data['items'], dict):
+                for k in ["concepts", "personalities", "expressions_articles"]:
+                    if k in data['items']:
+                        self.subs += data['items'][k]['contents']
+            elif isinstance(data['items'], list):
+                self.subs += data["items"]
+            else:
+                self.subs = data["items"] if "items" in data else []
+
+
+class PageTemplate(Item):
+    def __init__(self, data):
+        global local_link
+        super().__init__(data)
         if data["model"] == Model.PageTemplate.name:
-            self.subs = [create_item(i) for i in [data["layout"]]] if "layout" in data else []
+            self.subs = [data["layout"]] if "layout" in data else []
+
 
 class ManifestationAudio(Item):
     def __init__(self, data):
         super().__init__(data)
         if data["model"] == Model.ManifestationAudio.name:
-            self.path = data["url"]
+            self.path = podcast_url(data["url"])
             self.duration = int(data["duration"])
+            self.release = strftime("%d-%m.%y", localtime(data["created"]))
 
-class Highlight(Item):
-    def __init__(self, data):
-        super().__init__(data)
-        if data["model"] == Model.Highlight.name:
-            self.subs = [create_item(i) for i in data["elements"]]
 
 class Concept(Item):
     def __init__(self, data):
         super().__init__(data)
         if data["model"] == Model.Concept.name:
             if "expressions" in data:
-                self.subs = [create_item(i) for i in data["expressions"]["items"]]
-                self.pages = (data["expressions"]["pageNumber"], data["expressions"]["lastPage"])
+                self.subs = data["expressions"]["items"]
+                self.pages = (
+                    data["expressions"]["pageNumber"],
+                    data["expressions"]["lastPage"],
+                )
             elif "promoEpisode" in data:
-                self.subs = [create_item(i) for i in data["promoEpisode"]["items"]]
+                self.subs = data["promoEpisode"]["items"]
+
 
 class Highlight(Item):
     def __init__(self, data):
         super().__init__(data)
         if data["model"] == Model.Highlight.name:
-            self.subs = [create_item(i) for i in data["elements"]]
+            self.subs = data["elements"]
 
             # Update title if necessary
-            if self.title is None and len(self.subs) == 1 :
-                self.title = self.subs[0].title
+            if self.title is None and len(self.subs) == 1:
+                self.title = self.subs[0]["title"]
+
 
 class HighlightElement(Item):
     def __init__(self, data):
         super().__init__(data)
         if data["model"] == Model.HighlightElement.name:
             if 0 < len(data["links"]):
-                self.path = RADIOFRANCE_PAGE + data["links"][0]["path"]
-            print(str(self))
-            self.subs = [create_item(i) for i in data["contents"]]
-            self.image = data["mainImage"]["src"] if data["mainImage"] is not None else None
+                url = data["links"][0]["path"]
+                if data['links'][0]['type'] == "path":
+                    self.path = podcast_url(url, local_link)
+                else:
+                    self.path = podcast_url(url)
+            self.subs = data["contents"]
+            self.image = (
+                data["mainImage"]["src"] if data["mainImage"] is not None else None
+            )
+
+            # Update title if necessary
             if self.title is None and len(self.subs) == 1:
-                self = self.subs[0]
+                self.title = self.subs[0]["title"]
+
 
 class Brand(Item):
     def __init__(self, data):
         super().__init__(data)
         if data["model"] == Model.Brand.name:
             name = data["slug"]
-            self.path = RADIOFRANCE_PAGE + name.split("_")[0] + BRAND_EXTENSION + name
+            self.path = podcast_url(name.split("_")[0] + BRAND_EXTENSION + name)
             self.title = data["shortTitle"]
 
+
 class Expression(Item):
-    None
+    def __init__(self, data):
+        super().__init__(data)
+        if data["model"] == Model.Expression.name:
+            self.artists = ", ".join([g["name"] for g in (data["guest"] if "guest" in data else [])])
+            self.release = strftime("%d-%m.%y", localtime(data["publishedDate"])) if "publishedDate" in data else ""
+            self.duration = 0
+            if 0 < len(data["manifestations"]):
+                manifestation = create_item(
+                    next(filter(lambda d: d["principal"], data["manifestations"]), data["manifestations"][0])
+                )
+                self.duration = manifestation.duration
+                self.path = podcast_url(manifestation.path)
+
+
 class Theme(Item):
     None
+
+
 class EmbedImage(Item):
     None
 
-class Brand_page:
 
+class BrandPage:
     def __init__(self, page):
         data = json.loads(page)
         self.title = data["stationName"]
@@ -195,7 +269,6 @@ class Brand_page:
             if key in data and data[key] is not None and "src" in data[key]:
                 self.icon = data[key]["src"]
         self.url = data["now"]["media"]["sources"][0]["url"]
-
 
 
 def expand_json(data):
@@ -226,6 +299,12 @@ def expand_json(data):
     return expand_element(parsed[0])
 
 
+def podcast_url(url, local=""):
+    if url is None:
+        return None
+    return RADIOFRANCE_PAGE + local + "/" + url if url[:8] != "https://" else "" + url
+
+
 def build_url(query):
     base_url = sys.argv[0]
     url = base_url + "?" + urlencode(query, quote_via=quote_plus)
@@ -238,18 +317,16 @@ if __name__ == "__main__":
     # print(json.dumps(data))
     # exit()
 
-    item = create_item(data)
+    item = create_item_from_page(data)
     print(str(item))
 
     if 1 < len(sys.argv):
         index = int(sys.argv[1])
-        subs = Item(item.subs[index]).elements
+        print("Using index: " + str(index))
+        subs = create_item(item.subs[index]).elements
     else:
         subs = item.subs
 
-    for data in item.subs:
-        sub_item = data
-        while sub_item.is_folder() and len(sub_item.subs) == 1 and sub_item.path is None:
-            sub_item = sub_item.subs[0]
+    for data in subs:
+        sub_item = create_item(data)
         print(str(sub_item))
-
