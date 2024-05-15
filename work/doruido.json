@@ -1,0 +1,4850 @@
+{
+  "type": "data",
+  "nodes": [
+    {
+      "type": "data",
+      "data": [
+        {
+          "config": 1,
+          "metadata": 82
+        },
+        {
+          "kirby": 2,
+          "feedback": 6,
+          "ga": -1,
+          "ads": 10,
+          "personalization": 22,
+          "pagination": 24,
+          "siteUrl": 44,
+          "pageLayouts": 45,
+          "captcha": 63,
+          "nonli": 70,
+          "appLinks": 76,
+          "prerollAodUrl": 81
+        },
+        {
+          "siteId": 3,
+          "siteUrl": 4,
+          "headers": 5
+        },
+        614404,
+        "https://kirby.radiofrance.fr",
+        {},
+        {
+          "link": 7
+        },
+        {
+          "default": 8,
+          "feedback": 9
+        },
+        "https://radio-france.typeform.com/to/esIuCXdd",
+        "https://radio-france.typeform.com/to/PxxtaNcE",
+        {
+          "siteId": 11,
+          "site_name": 20,
+          "purposeId": 21
+        },
+        {
+          "radiofrance": 12,
+          "fip": 13,
+          "francebleu": 14,
+          "franceculture": 15,
+          "franceinter": 16,
+          "franceinfo": 17,
+          "francemusique": 18,
+          "mouv": 19
+        },
+        "66952816-3623-4226-b867-8529822f6c37",
+        "286a85d2-c7ba-4ffc-92af-375f80ca5e0d",
+        "ba3dd42b-14a0-489b-a54d-005f2762fdfc",
+        "0fd25ad0-5b94-4555-91be-4fefcffd05c9",
+        "0ea8bd30-ce36-4094-b83c-df4972cf1c17",
+        "62623806-fb3e-4f7d-a280-bff6ea6fb8d4",
+        "b88fa46b-4300-4252-909d-312b6f602981",
+        "f08b86af-936c-464b-ad14-90ec66a07343",
+        "RF_radio_france",
+        "select_personalized_ads",
+        {
+          "purposeId": 23
+        },
+        "recommanda-98QKJGrW",
+        {
+          "concept": 25,
+          "bouquet": 28,
+          "serie": 29,
+          "selection": 30,
+          "taxonomies": 32,
+          "theme": 33,
+          "subtheme": 34,
+          "subsubtheme": 35,
+          "tag": 36,
+          "personality": 37,
+          "events": 38,
+          "concepts": 40,
+          "series": 41,
+          "interpretations": 42
+        },
+        {
+          "pageSize": 26,
+          "maxPageNumber": 27
+        },
+        20,
+        50,
+        {
+          "pageSize": 26,
+          "maxPageNumber": 27
+        },
+        {
+          "pageSize": 26
+        },
+        {
+          "pageSize": 26,
+          "maxPageNumber": 31
+        },
+        10,
+        {
+          "pageSize": 26
+        },
+        {
+          "pageSize": 26,
+          "maxPageNumber": 27
+        },
+        {
+          "pageSize": 26,
+          "maxPageNumber": 27
+        },
+        {
+          "pageSize": 26,
+          "maxPageNumber": 27
+        },
+        {
+          "pageSize": 26,
+          "maxPageNumber": 27
+        },
+        {
+          "pageSize": 26,
+          "maxPageNumber": 27
+        },
+        {
+          "pageSize": 26,
+          "timeInterval": 39
+        },
+        180,
+        {
+          "pageSize": 26
+        },
+        {
+          "pageSize": 26
+        },
+        {
+          "pageSize": 43
+        },
+        24,
+        "https://www.radiofrance.fr",
+        {
+          "homepage": 46,
+          "franceinter": 49,
+          "franceinfo": 51,
+          "francebleu": 53,
+          "franceculture": 55,
+          "francemusique": 57,
+          "fip": 59,
+          "mouv": 61
+        },
+        [
+          47,
+          48
+        ],
+        "9175e686-1859-4ee1-affd-67cb8c4b0c19",
+        "077f6181-1278-4a15-aaf8-f0070f10cb1e",
+        [
+          50
+        ],
+        "a0527594-65d6-4053-b105-296a37a0e4e5",
+        [
+          52
+        ],
+        "7f62c3dd-6a6a-4c47-9b97-3a3b06949668",
+        [
+          54
+        ],
+        "aef46c28-c781-4aad-969f-07d908205133",
+        [
+          56
+        ],
+        "0fa0b8a7-67e9-47b6-a31c-2058cd07c259",
+        [
+          58
+        ],
+        "1575fd9a-8d1a-4722-b8b4-19ca379c5ca0",
+        [
+          60
+        ],
+        "22d9340d-16d0-47b9-80cd-44f24dae8318",
+        [
+          62
+        ],
+        "a7d74e5d-f737-4302-971a-eede84255992",
+        {
+          "puzzle": 64,
+          "verify": 67,
+          "sitekey": 65,
+          "endpoint": 66
+        },
+        {
+          "sitekey": 65,
+          "endpoint": 66
+        },
+        "FCMI0MNA61VPFG5T",
+        "https://eu-api.friendlycaptcha.eu/api/v1/puzzle",
+        {
+          "secret": 68,
+          "endpoint": 69
+        },
+        "A1JJSNGULVK5I0DPBJ2CHUOQCN4NOI3VSGHH7V70LSDDC31I5638CFEI30",
+        "https://eu-api.friendlycaptcha.eu/api/v1/siteverify",
+        {
+          "franceinter": 71,
+          "franceculture": 72,
+          "francemusique": 73,
+          "fip": 74,
+          "mouv": 75,
+          "radiofrance": 71
+        },
+        "BNLI-1345",
+        "BNLI-1346",
+        "BNLI-1394",
+        "BNLI-1395",
+        "BNLI-1406",
+        {
+          "ios": 77,
+          "android": 79
+        },
+        {
+          "appStoreId": 78
+        },
+        "310211433",
+        {
+          "package": 80
+        },
+        "com.radiofrance.radio.radiofrance.android",
+        "https://preroll.radiofrance.fr",
+        {
+          "kirby": 83,
+          "brand": 89,
+          "seo": 93,
+          "redirectTo": 110
+        },
+        {
+          "pageType": 84,
+          "pageName": 85,
+          "station": 86,
+          "chaineId": 87,
+          "conceptTitle": 85,
+          "emissionId": 88
+        },
+        "emission",
+        "Doruido, le premier manga audio",
+        "france_culture",
+        5,
+        "36a56488-6f5f-4347-b3a2-6e50aeb50e09",
+        {
+          "id": 90,
+          "title": 91,
+          "name": 92
+        },
+        "5",
+        "France Culture",
+        "FRANCECULTURE",
+        {
+          "title": 85,
+          "description": 94,
+          "seoTitle": 95,
+          "seoDescription": 95,
+          "seoCanonicalUrl": 96,
+          "sitemap": 97,
+          "visual": 98
+        },
+        "Inspiré par le genre du shonen japonais, le manga audio \"Doruido\" met en scène Ayden, Liv et Od', des apprentis druides dans un monde celtique médiéval. Épique, comique, gore ou même kawaii : plongez dans l'aventure sonore. Une série écrite par Élie Olivennes, réalisée par Christophe Hocké.",
+        "",
+        "https://www.radiofrance.fr/franceculture/podcasts/serie-doruido-saison-1",
+        true,
+        {
+          "model": 99,
+          "src": 100,
+          "webpSrc": 101,
+          "legend": 85,
+          "copyright": 102,
+          "author": 103,
+          "width": 104,
+          "height": 104,
+          "preview": 105,
+          "id": 106,
+          "type": 107,
+          "preset": 108,
+          "dominant": 109
+        },
+        "EmbedImage",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/d7f729b6-2ee0-4395-8d8b-2c229fc21a4b/400x400_sc_fc-doruido-1400x1400.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/d7f729b6-2ee0-4395-8d8b-2c229fc21a4b/400x400_sc_fc-doruido-1400x1400.webp",
+        "Radio France",
+        "Reno Lemaire",
+        400,
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA%2F%2FEABYQAQEBAAAAAAAAAAAAAAAAAAABEf%2FEABgBAAMBAQAAAAAAAAAAAAAAAAECAwAE%2F8QAGBEBAQEBAQAAAAAAAAAAAAAAAQASAhH%2F2gAMAwEAAhEDEQA%2FALoNS5CuthS2KBAbnYnHWxOH15OF0rMY5xskYcMhPqQKMGLoKtUpiomGFt1VCGGQig0BVL%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "d7f729b6-2ee0-4395-8d8b-2c229fc21a4b",
+        "image",
+        "400x400",
+        "#f85808",
+        null
+      ],
+      "uses": {
+        "url": 1
+      }
+    },
+    {
+      "type": "data",
+      "data": [
+        {
+          "metadata": 1,
+          "context": 30,
+          "publicAlertContent": 29
+        },
+        {
+          "kirby": 2,
+          "brand": 8,
+          "seo": 12,
+          "redirectTo": 29
+        },
+        {
+          "pageType": 3,
+          "pageName": 4,
+          "station": 5,
+          "chaineId": 6,
+          "conceptTitle": 4,
+          "emissionId": 7
+        },
+        "emission",
+        "Doruido, le premier manga audio",
+        "france_culture",
+        5,
+        "36a56488-6f5f-4347-b3a2-6e50aeb50e09",
+        {
+          "id": 9,
+          "title": 10,
+          "name": 11
+        },
+        "5",
+        "France Culture",
+        "FRANCECULTURE",
+        {
+          "title": 4,
+          "description": 13,
+          "seoTitle": 14,
+          "seoDescription": 14,
+          "seoCanonicalUrl": 15,
+          "sitemap": 16,
+          "visual": 17
+        },
+        "Inspiré par le genre du shonen japonais, le manga audio \"Doruido\" met en scène Ayden, Liv et Od', des apprentis druides dans un monde celtique médiéval. Épique, comique, gore ou même kawaii : plongez dans l'aventure sonore. Une série écrite par Élie Olivennes, réalisée par Christophe Hocké.",
+        "",
+        "https://www.radiofrance.fr/franceculture/podcasts/serie-doruido-saison-1",
+        true,
+        {
+          "model": 18,
+          "src": 19,
+          "webpSrc": 20,
+          "legend": 4,
+          "copyright": 21,
+          "author": 22,
+          "width": 23,
+          "height": 23,
+          "preview": 24,
+          "id": 25,
+          "type": 26,
+          "preset": 27,
+          "dominant": 28
+        },
+        "EmbedImage",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/d7f729b6-2ee0-4395-8d8b-2c229fc21a4b/400x400_sc_fc-doruido-1400x1400.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/d7f729b6-2ee0-4395-8d8b-2c229fc21a4b/400x400_sc_fc-doruido-1400x1400.webp",
+        "Radio France",
+        "Reno Lemaire",
+        400,
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA%2F%2FEABYQAQEBAAAAAAAAAAAAAAAAAAABEf%2FEABgBAAMBAQAAAAAAAAAAAAAAAAECAwAE%2F8QAGBEBAQEBAQAAAAAAAAAAAAAAAQASAhH%2F2gAMAwEAAhEDEQA%2FALoNS5CuthS2KBAbnYnHWxOH15OF0rMY5xskYcMhPqQKMGLoKtUpiomGFt1VCGGQig0BVL%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "d7f729b6-2ee0-4395-8d8b-2c229fc21a4b",
+        "image",
+        "400x400",
+        "#f85808",
+        null,
+        {
+          "station": 31,
+          "locals": 32,
+          "hasLocals": 33,
+          "selectedLocal": 29,
+          "featureFlags": 34
+        },
+        "franceculture",
+        {},
+        false,
+        []
+      ],
+      "uses": {
+        "search_params": [
+          "local",
+          "ff[]"
+        ],
+        "parent": 1,
+        "url": 1
+      }
+    },
+    {
+      "type": "data",
+      "data": [
+        {
+          "breadcrumbs": 1
+        },
+        [
+          2
+        ],
+        {
+          "label": 3,
+          "link": 4
+        },
+        "France&nbsp;Culture",
+        "/franceculture"
+      ],
+      "uses": {
+        "params": [
+          "station"
+        ]
+      }
+    },
+    {
+      "type": "data",
+      "data": [
+        {
+          "metadata": 1,
+          "breadcrumbs": 286,
+          "context": 292,
+          "content": 294
+        },
+        {
+          "kirby": 2,
+          "brand": 8,
+          "seo": 12,
+          "redirectTo": 31,
+          "isNonLiPage": 17,
+          "nonLiProps": 32,
+          "pagination": 37,
+          "excludeRfTitle": 17
+        },
+        {
+          "pageType": 3,
+          "pageName": 4,
+          "station": 5,
+          "chaineId": 6,
+          "conceptTitle": 4,
+          "emissionId": 7
+        },
+        "emission",
+        "Doruido, le premier manga audio",
+        "france_culture",
+        5,
+        "36a56488-6f5f-4347-b3a2-6e50aeb50e09",
+        {
+          "id": 9,
+          "title": 10,
+          "name": 11
+        },
+        "5",
+        "France Culture",
+        "FRANCECULTURE",
+        {
+          "title": 13,
+          "description": 14,
+          "seoTitle": 15,
+          "seoDescription": 15,
+          "seoCanonicalUrl": 16,
+          "sitemap": 17,
+          "visual": 18,
+          "twitterCardContent": 30,
+          "robots": -1
+        },
+        "Doruido, le premier manga audio : un podcast à écouter en ligne | France Culture",
+        "Inspiré par le genre du shonen japonais, le manga audio \"Doruido\" met en scène Ayden, Liv et Od', des apprentis druides dans un monde celtique médiéval. Épique, comique, gore ou même kawaii : plongez dans l'aventure sonore. Une série écrite par Élie Olivennes, réalisée par Christophe Hocké.",
+        "",
+        "https://www.radiofrance.fr/franceculture/podcasts/serie-doruido-saison-1",
+        true,
+        {
+          "model": 19,
+          "src": 20,
+          "webpSrc": 21,
+          "legend": 4,
+          "copyright": 22,
+          "author": 23,
+          "width": 24,
+          "height": 24,
+          "preview": 25,
+          "id": 26,
+          "type": 27,
+          "preset": 28,
+          "dominant": 29
+        },
+        "EmbedImage",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/d7f729b6-2ee0-4395-8d8b-2c229fc21a4b/400x400_sc_fc-doruido-1400x1400.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/d7f729b6-2ee0-4395-8d8b-2c229fc21a4b/400x400_sc_fc-doruido-1400x1400.webp",
+        "Radio France",
+        "Reno Lemaire",
+        400,
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA%2F%2FEABYQAQEBAAAAAAAAAAAAAAAAAAABEf%2FEABgBAAMBAQAAAAAAAAAAAAAAAAECAwAE%2F8QAGBEBAQEBAQAAAAAAAAAAAAAAAQASAhH%2F2gAMAwEAAhEDEQA%2FALoNS5CuthS2KBAbnYnHWxOH15OF0rMY5xskYcMhPqQKMGLoKtUpiomGFt1VCGGQig0BVL%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "d7f729b6-2ee0-4395-8d8b-2c229fc21a4b",
+        "image",
+        "400x400",
+        "#f85808",
+        "summary",
+        null,
+        {
+          "publisherUrl": 33,
+          "publishedTime": 34,
+          "modifiedTime": 34,
+          "theme": 35,
+          "tags": 36,
+          "author": -1
+        },
+        "https://www.facebook.com/franceculture",
+        "2024-04-23T14:16:59.000Z",
+        "Monde",
+        "Monde,Arts et Divertissement,Asie ,BD – Manga,Mangas,Japon,Littérature jeunesse,Christophe Hocké,Fiction radiophonique,Mangaka,Création originale",
+        {
+          "prev": 31,
+          "next": 31,
+          "items": 38,
+          "lastPage": 69,
+          "pageSize": 285,
+          "pageNumber": 69
+        },
+        [
+          39,
+          107,
+          143,
+          179,
+          216,
+          251
+        ],
+        {
+          "id": 40,
+          "title": 41,
+          "standFirst": 42,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 46,
+          "guest": 47,
+          "publishedDate": 48,
+          "startDate": 48,
+          "endDate": 49,
+          "path": 15,
+          "migrated": 17,
+          "visual": 50,
+          "squaredVisual": 60,
+          "serie": 64,
+          "concept": 70,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 83,
+          "serieEpisodeTitle": 105,
+          "episodeSerieTitle": 68,
+          "seriePath": 65,
+          "brand": 106,
+          "isTimeshiftable": 43
+        },
+        "b6c3a494-c175-4060-8523-20f2663fa6c7",
+        "\"Ayden, je te rencontre enfin\"",
+        "Ayden, orphelin de 14 ans, s’ennuie dans son village, quand deux jeunes druides viennent enquêter : un monstre sévit dans les parages. C’est le début d’un trio amical et de l’aventure pour Ayden qui ignore encore beaucoup de choses, surtout sur lui-même…",
+        false,
+        "Expression",
+        "episode",
+        "web",
+        [],
+        1714734000,
+        1714735682,
+        {
+          "model": 19,
+          "src": 51,
+          "webpSrc": 52,
+          "legend": 53,
+          "copyright": 22,
+          "author": 23,
+          "width": 54,
+          "height": 55,
+          "preview": 56,
+          "id": 57,
+          "type": 27,
+          "preset": 58,
+          "dominant": 59
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/cf2f6396-324d-4d51-82ac-b80eb7e15ed2/464x261_sc_e1.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/cf2f6396-324d-4d51-82ac-b80eb7e15ed2/464x261_sc_e1.webp",
+        "Doruido, épisode 1",
+        464,
+        261,
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22464%22%20height%3D%22261%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22464%22%20height%3D%22261%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA%2F%2FEABYQAQEBAAAAAAAAAAAAAAAAAAABEf%2FEABcBAAMBAAAAAAAAAAAAAAAAAAECAwT%2FxAAXEQEBAQEAAAAAAAAAAAAAAAAAAQIx%2F9oADAMBAAIRAxEAPwDCMi5CtumYKwoklRQrAVhHSABdKTQMlOorABfL%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "cf2f6396-324d-4d51-82ac-b80eb7e15ed2",
+        "464x261",
+        "#f82858",
+        {
+          "model": 19,
+          "src": 61,
+          "webpSrc": 62,
+          "legend": 53,
+          "copyright": 22,
+          "author": 23,
+          "width": 24,
+          "height": 24,
+          "preview": 63,
+          "id": 57,
+          "type": 27,
+          "preset": 28,
+          "dominant": 59
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/cf2f6396-324d-4d51-82ac-b80eb7e15ed2/400x400_sc_e1.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/cf2f6396-324d-4d51-82ac-b80eb7e15ed2/400x400_sc_e1.webp",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgEDAP%2FEABcQAQEBAQAAAAAAAAAAAAAAAAABEQL%2FxAAYAQADAQEAAAAAAAAAAAAAAAABAgMEAP%2FEABkRAQEBAAMAAAAAAAAAAAAAAAABAhExQf%2FaAAwDAQACEQMRAD8AKxIcgNVqYuFI7BCaBy1APNJI0kHmNJC8k3HYlJKeJBRKi5XJctIHLSJjtw0hp4h6zolRFoz0%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        {
+          "path": 65,
+          "relationMeta": 66
+        },
+        "franceculture/podcasts/serie-doruido-saison-1",
+        {
+          "episode_order": 67,
+          "episode_title": 68,
+          "episode_number": 69
+        },
+        0,
+        "Doruido, le premier manga audio 1/5 : \"Ayden, je te rencontre enfin\"",
+        1,
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 74,
+          "squaredVisual": 79
+        },
+        "3c1c2e55-41a0-11e5-9fe0-005056a87c89",
+        "Le Feuilleton",
+        "franceculture/podcasts/fictions-le-feuilleton",
+        {
+          "model": 19,
+          "src": 75,
+          "webpSrc": 76,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 54,
+          "height": 55,
+          "preview": 77,
+          "id": 78,
+          "type": 27,
+          "preset": 58,
+          "dominant": 31
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production/2022/05/3075d02e-8e64-4648-a669-59df4475ce66/464x261_le-feuilleton.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production/2022/05/3075d02e-8e64-4648-a669-59df4475ce66/464x261_le-feuilleton.webp",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22464%22%20height%3D%22261%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22464%22%20height%3D%22261%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwT%2FxAAiEAACAgEDBAMAAAAAAAAAAAABAgADERIhQRMiMVEEUmH%2FxAAWAQEBAQAAAAAAAAAAAAAAAAAAAQP%2FxAAXEQEBAQEAAAAAAAAAAAAAAAAAEQEh%2F9oADAMBAAIRAxEAPwCqmoOwz4lllKpSDgFuTK6HK2DbP5NK2F6hlOfM02tdZhZtjG0Ut1G3m0KoGNMy3J0z2jb3GLSdIxdDepOtouT7lOLqrBXg4zGf5OUCBcAHMIRBAuccDPEhr2s7W4MIQRGtfOImpfrCEQr%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "3075d02e-8e64-4648-a669-59df4475ce66",
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production/2022/05/3075d02e-8e64-4648-a669-59df4475ce66/400x400_le-feuilleton.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production/2022/05/3075d02e-8e64-4648-a669-59df4475ce66/400x400_le-feuilleton.webp",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAABAAMBAAAAAAAAAAAAAAAAAgABBAP%2FxAAkEAACAgEDBAIDAAAAAAAAAAABAgARAxITITEyQVEEQiKBof%2FEABYBAQEBAAAAAAAAAAAAAAAAAAEAA%2F%2FEABgRAQEBAQEAAAAAAAAAAAAAAAARASFB%2F9oADAMBAAIRAxEAPwDguQqKEpnLceIlC1%2BUpwvFdZq3XtcXcorob3KtpF7uZJNtmPCmTbb1O24B9uJzOTnuMqIvDi1sL6RvhCYQ328w4MmnIOLE0DIHxC0N3DaNZtwVVQE624FTaEQCtP8AJlypttwP3LDR22h0n1FuNBqPuPVx2xOqGyLjf5I21RV6G5mkHWUTSM7%2BVs%2BIXznINLCuYl7Jzz9RAz1NSeoLX0YZIwV%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        [
+          84,
+          96
+        ],
+        {
+          "model": 85,
+          "id": 86,
+          "title": 41,
+          "url": 87,
+          "created": 48,
+          "duration": 88,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 89
+        },
+        "ManifestationAudio",
+        "67f6e8e2-5e36-49d3-a207-f8002db51546",
+        "https://media.radiofrance-podcast.net/podcast09/11495-03.05.2024-ITEMA_23705335-2023C3480E0150-25.m4a",
+        1682,
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        "25",
+        "stereo",
+        "AAC",
+        192,
+        48,
+        "-16LUFS (stéréo)",
+        {
+          "model": 85,
+          "id": 97,
+          "title": 41,
+          "url": 98,
+          "created": 48,
+          "duration": 88,
+          "shareable": 43,
+          "principal": 43,
+          "preset": 99
+        },
+        "76c96b76-746f-43ed-83f6-52d33e96075e",
+        "https://media.radiofrance-podcast.net/podcast09/11495-03.05.2024-ITEMA_23705335-2023C3480E0150-21.mp3",
+        {
+          "id": 100,
+          "name": 91,
+          "encoding": 101,
+          "bitrate": 102,
+          "frequency": 103,
+          "level": 104
+        },
+        "21",
+        "MP3",
+        128,
+        44.1,
+        "-15LUFS (stéréo)",
+        "1/5 : \"Ayden, je te rencontre enfin\"",
+        "franceculture",
+        {
+          "id": 108,
+          "title": 109,
+          "standFirst": 110,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 46,
+          "guest": 111,
+          "publishedDate": 112,
+          "startDate": 112,
+          "endDate": 113,
+          "path": 15,
+          "migrated": 17,
+          "visual": 114,
+          "squaredVisual": 121,
+          "serie": 125,
+          "concept": 129,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 132,
+          "serieEpisodeTitle": 142,
+          "episodeSerieTitle": 127,
+          "seriePath": 65,
+          "brand": 106,
+          "isTimeshiftable": 43
+        },
+        "da4d3c05-d844-4619-8c68-51619ed69c4d",
+        "L’auberge du bonheur",
+        "Ayden, Liv et Od' font route vers l’Académie des druides. Lorsque leur maître Tregòn s’absente, ils décident de faire escale dans une étrange auberge perdue au milieu de la forêt. Mais ils ignorent encore que ce lieu cache un terrible secret…",
+        [],
+        1714734300,
+        1714735933,
+        {
+          "model": 19,
+          "src": 115,
+          "webpSrc": 116,
+          "legend": 117,
+          "copyright": 22,
+          "author": 23,
+          "width": 54,
+          "height": 55,
+          "preview": 118,
+          "id": 119,
+          "type": 27,
+          "preset": 58,
+          "dominant": 120
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/d58f2f02-6fec-4c1d-ba0f-4c2a9a41db18/464x261_sc_episode-2-16-9.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/d58f2f02-6fec-4c1d-ba0f-4c2a9a41db18/464x261_sc_episode-2-16-9.webp",
+        "Doruido, épisode 2",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22464%22%20height%3D%22261%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22464%22%20height%3D%22261%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAFQABAQAAAAAAAAAAAAAAAAAAAAH%2FxAAVEAEBAAAAAAAAAAAAAAAAAAAAAf%2FEABYBAQEBAAAAAAAAAAAAAAAAAAMEAv%2FEABgRAQEBAQEAAAAAAAAAAAAAAAABAjEh%2F9oADAMBAAIRAxEAPwCgKNVLiAA5S2eABoDRFBjbeBAHC3iAHibXX%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+        "d58f2f02-6fec-4c1d-ba0f-4c2a9a41db18",
+        "#08a8f8",
+        {
+          "model": 19,
+          "src": 122,
+          "webpSrc": 123,
+          "legend": 117,
+          "copyright": 22,
+          "author": 23,
+          "width": 24,
+          "height": 24,
+          "preview": 124,
+          "id": 119,
+          "type": 27,
+          "preset": 28,
+          "dominant": 120
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/d58f2f02-6fec-4c1d-ba0f-4c2a9a41db18/400x400_sc_episode-2-16-9.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/d58f2f02-6fec-4c1d-ba0f-4c2a9a41db18/400x400_sc_episode-2-16-9.webp",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFgABAQEAAAAAAAAAAAAAAAAAAAEC%2F8QAFhABAQEAAAAAAAAAAAAAAAAAAAER%2F8QAFwEBAQEBAAAAAAAAAAAAAAAAAwECBP%2FEABcRAQEBAQAAAAAAAAAAAAAAAAABAhL%2F2gAMAwEAAhEDEQA%2FAKAXoEwIonROQQblFqKLi453RGRUWLQAkobGopFHqEzWaxW6zUjdRUCQNf%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+        {
+          "path": 65,
+          "relationMeta": 126
+        },
+        {
+          "episode_order": 69,
+          "episode_title": 127,
+          "episode_number": 128
+        },
+        "Doruido, le premier manga audio 2/5 : L’auberge du bonheur",
+        2,
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 130,
+          "squaredVisual": 131
+        },
+        {
+          "model": 19,
+          "src": 75,
+          "webpSrc": 76,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 54,
+          "height": 55,
+          "preview": 77,
+          "id": 78,
+          "type": 27,
+          "preset": 58,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          133,
+          138
+        ],
+        {
+          "model": 85,
+          "id": 134,
+          "title": 109,
+          "url": 135,
+          "created": 112,
+          "duration": 136,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 137
+        },
+        "aaeba596-0012-4966-ae7f-94366d80c382",
+        "https://media.radiofrance-podcast.net/podcast09/11495-03.05.2024-ITEMA_23705335-2023C3480E0151-25.m4a",
+        1633,
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        {
+          "model": 85,
+          "id": 139,
+          "title": 109,
+          "url": 140,
+          "created": 112,
+          "duration": 136,
+          "shareable": 43,
+          "principal": 43,
+          "preset": 141
+        },
+        "72378c67-2e15-44bd-a812-65eb8ef77014",
+        "https://media.radiofrance-podcast.net/podcast09/11495-03.05.2024-ITEMA_23705335-2023C3480E0151-21.mp3",
+        {
+          "id": 100,
+          "name": 91,
+          "encoding": 101,
+          "bitrate": 102,
+          "frequency": 103,
+          "level": 104
+        },
+        "2/5 : L’auberge du bonheur",
+        {
+          "id": 144,
+          "title": 145,
+          "standFirst": 146,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 46,
+          "guest": 147,
+          "publishedDate": 148,
+          "startDate": 148,
+          "endDate": 149,
+          "path": 15,
+          "migrated": 17,
+          "visual": 150,
+          "squaredVisual": 157,
+          "serie": 161,
+          "concept": 165,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 168,
+          "serieEpisodeTitle": 178,
+          "episodeSerieTitle": 163,
+          "seriePath": 65,
+          "brand": 106,
+          "isTimeshiftable": 43
+        },
+        "178fd8a7-432e-4614-99df-131d01993359",
+        "Cap sur Eirìnor !",
+        "Une tempête contraint les apprentis druides à accoster sur l'île d'Eirìnor. Suivis par des chasseurs de druides qui veulent s'emparer d'Ayden et du démon qu’il abrite, ils apprennent qu’une créature dangereuse s’apprête à attaquer les habitants.",
+        [],
+        1714734600,
+        1714736151,
+        {
+          "model": 19,
+          "src": 151,
+          "webpSrc": 152,
+          "legend": 153,
+          "copyright": 22,
+          "author": 23,
+          "width": 54,
+          "height": 55,
+          "preview": 154,
+          "id": 155,
+          "type": 27,
+          "preset": 58,
+          "dominant": 156
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/f848395c-94b0-4798-89b7-f050b408b899/464x261_sc_e3.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/f848395c-94b0-4798-89b7-f050b408b899/464x261_sc_e3.webp",
+        "Doruido, épisode 3",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22464%22%20height%3D%22261%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22464%22%20height%3D%22261%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA%2F%2FEABYQAQEBAAAAAAAAAAAAAAAAAAABEf%2FEABcBAQEBAQAAAAAAAAAAAAAAAAABBAL%2FxAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH%2F2gAMAwEAAhEDEQA%2FALxmOlibGVtqG40kUrMbisMEq7EUBzjCACgFR%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+        "f848395c-94b0-4798-89b7-f050b408b899",
+        "#f84808",
+        {
+          "model": 19,
+          "src": 158,
+          "webpSrc": 159,
+          "legend": 153,
+          "copyright": 22,
+          "author": 23,
+          "width": 24,
+          "height": 24,
+          "preview": 160,
+          "id": 155,
+          "type": 27,
+          "preset": 28,
+          "dominant": 156
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/f848395c-94b0-4798-89b7-f050b408b899/400x400_sc_e3.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/f848395c-94b0-4798-89b7-f050b408b899/400x400_sc_e3.webp",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFgABAQEAAAAAAAAAAAAAAAAAAgEA%2F8QAFhABAQEAAAAAAAAAAAAAAAAAAAER%2F8QAGAEBAQADAAAAAAAAAAAAAAAAAQIAAwT%2FxAAXEQEBAQEAAAAAAAAAAAAAAAAAAQIR%2F9oADAMBAAIRAxEAPwDLiQo5XdamMQ0iUWasFrCgQ4YjSpValECoWNiWyUYUGHGRmlXGVTWONisD1%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+        {
+          "path": 65,
+          "relationMeta": 162
+        },
+        {
+          "episode_order": 128,
+          "episode_title": 163,
+          "episode_number": 164
+        },
+        "Doruido, le premier manga audio 3/5 : Cap sur Eirìnor !",
+        3,
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 166,
+          "squaredVisual": 167
+        },
+        {
+          "model": 19,
+          "src": 75,
+          "webpSrc": 76,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 54,
+          "height": 55,
+          "preview": 77,
+          "id": 78,
+          "type": 27,
+          "preset": 58,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          169,
+          174
+        ],
+        {
+          "model": 85,
+          "id": 170,
+          "title": 145,
+          "url": 171,
+          "created": 148,
+          "duration": 172,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 173
+        },
+        "87175f86-826a-46a6-8872-0b577379523b",
+        "https://media.radiofrance-podcast.net/podcast09/11495-03.05.2024-ITEMA_23705335-2023C3480E0152-25.m4a",
+        1551,
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        {
+          "model": 85,
+          "id": 175,
+          "title": 145,
+          "url": 176,
+          "created": 148,
+          "duration": 172,
+          "shareable": 43,
+          "principal": 43,
+          "preset": 177
+        },
+        "16118801-67b5-4876-82c0-f8ad992fc47e",
+        "https://media.radiofrance-podcast.net/podcast09/11495-03.05.2024-ITEMA_23705335-2023C3480E0152-21.mp3",
+        {
+          "id": 100,
+          "name": 91,
+          "encoding": 101,
+          "bitrate": 102,
+          "frequency": 103,
+          "level": 104
+        },
+        "3/5 : Cap sur Eirìnor !",
+        {
+          "id": 180,
+          "title": 181,
+          "standFirst": 182,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 46,
+          "guest": 183,
+          "publishedDate": 184,
+          "startDate": 184,
+          "endDate": 185,
+          "path": 15,
+          "migrated": 17,
+          "visual": 186,
+          "squaredVisual": 193,
+          "serie": 197,
+          "concept": 201,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 204,
+          "serieEpisodeTitle": 215,
+          "episodeSerieTitle": 199,
+          "seriePath": 65,
+          "brand": 106,
+          "isTimeshiftable": 43
+        },
+        "a3a4f823-f959-40a1-a5e4-caf2e5c8ce75",
+        "Le baiser de la banshee",
+        "Les druides passent par un village sinistre frappé d'une malédiction : un \"fantôme\" s’attaque à celles et ceux qui ont le malheur de s’aimer. Pour débusquer le monstre, il faut faire tomber les masques, et exprimer des sentiments encore inavoués…",
+        [],
+        1714734900,
+        1714736742,
+        {
+          "model": 19,
+          "src": 187,
+          "webpSrc": 188,
+          "legend": 189,
+          "copyright": 22,
+          "author": 23,
+          "width": 54,
+          "height": 55,
+          "preview": 190,
+          "id": 191,
+          "type": 27,
+          "preset": 58,
+          "dominant": 192
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/77a18650-6d1b-4686-8111-34c0a91d8447/464x261_sc_e4.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/77a18650-6d1b-4686-8111-34c0a91d8447/464x261_sc_e4.webp",
+        "Doruido, épisode 4",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22464%22%20height%3D%22261%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22464%22%20height%3D%22261%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBP%2FEABUQAQEAAAAAAAAAAAAAAAAAAAAB%2F8QAGAEAAwEBAAAAAAAAAAAAAAAAAQIDAAT%2FxAAWEQEBAQAAAAAAAAAAAAAAAAAAAQL%2F2gAMAwEAAhEDEQA%2FAM8VExUd%2Bl6ZU00koFSKhWCcXACaanUUAkBFAC8M%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "77a18650-6d1b-4686-8111-34c0a91d8447",
+        "#8808f8",
+        {
+          "model": 19,
+          "src": 194,
+          "webpSrc": 195,
+          "legend": 189,
+          "copyright": 22,
+          "author": 23,
+          "width": 24,
+          "height": 24,
+          "preview": 196,
+          "id": 191,
+          "type": 27,
+          "preset": 28,
+          "dominant": 192
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/77a18650-6d1b-4686-8111-34c0a91d8447/400x400_sc_e4.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/77a18650-6d1b-4686-8111-34c0a91d8447/400x400_sc_e4.webp",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgEDAP%2FEABcQAQEBAQAAAAAAAAAAAAAAAAABAhH%2FxAAXAQADAQAAAAAAAAAAAAAAAAABAgME%2F8QAFxEBAQEBAAAAAAAAAAAAAAAAAAECEv%2FaAAwDAQACEQMRAD8AwhSJDkbdVapxLD4NJ0AVFqKQx5aQMtInstSs9U6z1U4EG0eutRoydvkwyaey1NMdNdMtEyECucjTk8f%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        {
+          "path": 65,
+          "relationMeta": 198
+        },
+        {
+          "episode_order": 164,
+          "episode_title": 199,
+          "episode_number": 200
+        },
+        "Doruido, le premier manga audio 4/5 : Le baiser de la banshee",
+        4,
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 202,
+          "squaredVisual": 203
+        },
+        {
+          "model": 19,
+          "src": 75,
+          "webpSrc": 76,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 54,
+          "height": 55,
+          "preview": 77,
+          "id": 78,
+          "type": 27,
+          "preset": 58,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          205,
+          210
+        ],
+        {
+          "model": 85,
+          "id": 206,
+          "title": 181,
+          "url": 207,
+          "created": 184,
+          "duration": 208,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 209
+        },
+        "51e91e9e-9bfa-4b11-947f-88681236ff42",
+        "https://media.radiofrance-podcast.net/podcast09/11495-03.05.2024-ITEMA_23705335-2023C3480E0153-25.m4a",
+        1842,
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        {
+          "model": 85,
+          "id": 211,
+          "title": 181,
+          "url": 212,
+          "created": 213,
+          "duration": 208,
+          "shareable": 43,
+          "principal": 43,
+          "preset": 214
+        },
+        "5b9b2ff0-d220-4368-95c2-44e8ea085d7c",
+        "https://media.radiofrance-podcast.net/podcast09/24808-06.05.2024-ITEMA_23732870-2023C3480E0153-21.mp3",
+        1714967100,
+        {
+          "id": 100,
+          "name": 91,
+          "encoding": 101,
+          "bitrate": 102,
+          "frequency": 103,
+          "level": 104
+        },
+        "4/5 : Le baiser de la banshee",
+        {
+          "id": 217,
+          "title": 218,
+          "standFirst": 219,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 46,
+          "guest": 220,
+          "publishedDate": 221,
+          "startDate": 221,
+          "endDate": 222,
+          "path": 15,
+          "migrated": 17,
+          "visual": 223,
+          "squaredVisual": 230,
+          "serie": 234,
+          "concept": 237,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 240,
+          "serieEpisodeTitle": 250,
+          "episodeSerieTitle": 236,
+          "seriePath": 65,
+          "brand": 106,
+          "isTimeshiftable": 43
+        },
+        "4c9bc9f6-026a-44fb-a386-c5035a666247",
+        "Chasseurs de druides",
+        "L’Académie est proche, les druides touchent au but. Mais ils tombent dans une embuscade. Les chasseurs de druides réussissent à isoler Ayden. Le combat fait rage, Liv et Od’ sont en danger de mort et Cernunnos est sur le point de se libérer à nouveau.",
+        [],
+        1714735200,
+        1714737168,
+        {
+          "model": 19,
+          "src": 224,
+          "webpSrc": 225,
+          "legend": 226,
+          "copyright": 22,
+          "author": 23,
+          "width": 54,
+          "height": 55,
+          "preview": 227,
+          "id": 228,
+          "type": 27,
+          "preset": 58,
+          "dominant": 229
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/515b8888-78cf-4f68-8a05-8439680870e9/464x261_sc_episode-5-16-9.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/515b8888-78cf-4f68-8a05-8439680870e9/464x261_sc_episode-5-16-9.webp",
+        "Doruido, épisode 5",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22464%22%20height%3D%22261%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22464%22%20height%3D%22261%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAGAABAQEBAQAAAAAAAAAAAAAAAgABAwT%2FxAAWEAEBAQAAAAAAAAAAAAAAAAAAARH%2FxAAYAQADAQEAAAAAAAAAAAAAAAABAwQAAv%2FEABoRAQADAAMAAAAAAAAAAAAAAAABAjEDESH%2F2gAMAwEAAhEDEQA%2FAPTaNqtG1pR0jtutlDWysZNfHSVuhKQp7aFCpBJ3GxsSA62HCSdI76%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "515b8888-78cf-4f68-8a05-8439680870e9",
+        "#08f8b8",
+        {
+          "model": 19,
+          "src": 231,
+          "webpSrc": 232,
+          "legend": 226,
+          "copyright": 22,
+          "author": 23,
+          "width": 24,
+          "height": 24,
+          "preview": 233,
+          "id": 228,
+          "type": 27,
+          "preset": 28,
+          "dominant": 229
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/515b8888-78cf-4f68-8a05-8439680870e9/400x400_sc_episode-5-16-9.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/515b8888-78cf-4f68-8a05-8439680870e9/400x400_sc_episode-5-16-9.webp",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAABAQEBAQAAAAAAAAAAAAAAAgEAAwT%2FxAAXEAEBAQEAAAAAAAAAAAAAAAAAAREC%2F8QAGAEAAwEBAAAAAAAAAAAAAAAAAAIDAQT%2FxAAYEQEBAQEBAAAAAAAAAAAAAAAAAQIRMf%2FaAAwDAQACEQMRAD8A9VoWtaFotc2MrrSha0rFLh1lUJSMjchqUdUjqzniMqA9hwgha1DUcJTjnyYXVkYClF0WCGvX%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        {
+          "path": 65,
+          "relationMeta": 235
+        },
+        {
+          "episode_order": 200,
+          "episode_title": 236,
+          "episode_number": 6
+        },
+        "Doruido, le premier manga audio 5/5 : Chasseurs de druides",
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 238,
+          "squaredVisual": 239
+        },
+        {
+          "model": 19,
+          "src": 75,
+          "webpSrc": 76,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 54,
+          "height": 55,
+          "preview": 77,
+          "id": 78,
+          "type": 27,
+          "preset": 58,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          241,
+          246
+        ],
+        {
+          "model": 85,
+          "id": 242,
+          "title": 218,
+          "url": 243,
+          "created": 221,
+          "duration": 244,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 245
+        },
+        "c8e61f1e-febc-4936-8ac7-d8b4960330e4",
+        "https://media.radiofrance-podcast.net/podcast09/11495-03.05.2024-ITEMA_23705335-2023C3480E0154-25.m4a",
+        1968,
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        {
+          "model": 85,
+          "id": 247,
+          "title": 218,
+          "url": 248,
+          "created": 221,
+          "duration": 244,
+          "shareable": 43,
+          "principal": 43,
+          "preset": 249
+        },
+        "aa616dfd-6272-4e95-8696-701f5fcefda0",
+        "https://media.radiofrance-podcast.net/podcast09/11495-03.05.2024-ITEMA_23705335-2023C3480E0154-21.mp3",
+        {
+          "id": 100,
+          "name": 91,
+          "encoding": 101,
+          "bitrate": 102,
+          "frequency": 103,
+          "level": 104
+        },
+        "5/5 : Chasseurs de druides",
+        {
+          "id": 252,
+          "title": 253,
+          "standFirst": 254,
+          "isExpired": 43,
+          "model": 44,
+          "type": 255,
+          "kind": 46,
+          "guest": 256,
+          "publishedDate": 257,
+          "startDate": 257,
+          "endDate": 258,
+          "path": 15,
+          "migrated": 17,
+          "visual": 259,
+          "squaredVisual": 264,
+          "serie": 268,
+          "concept": 271,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 274,
+          "episodeSerieTitle": 270,
+          "seriePath": 65,
+          "brand": 106,
+          "isTimeshiftable": 43
+        },
+        "c2b89ffb-36ad-4b6a-bef9-c881980988d9",
+        "Doruido : bande-annonce",
+        "\"Doruido\", premier manga audio, met en scène des apprentis druides dans un monde celtique médiéval. Épique, comique, gore ou même kawaii : plongez dans l'aventure sonore.",
+        "promo",
+        [],
+        1714150800,
+        1714150830,
+        {
+          "model": 19,
+          "src": 260,
+          "webpSrc": 261,
+          "legend": 4,
+          "copyright": 22,
+          "author": 23,
+          "width": 54,
+          "height": 55,
+          "preview": 262,
+          "id": 263,
+          "type": 27,
+          "preset": 58,
+          "dominant": 29
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/ffe20fde-f789-488d-b22a-4b3362c0b8ed/464x261_sc_fc-doruido-episode.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/ffe20fde-f789-488d-b22a-4b3362c0b8ed/464x261_sc_fc-doruido-episode.webp",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22464%22%20height%3D%22261%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22464%22%20height%3D%22261%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAFgABAQEAAAAAAAAAAAAAAAAAAAEC%2F8QAFBABAAAAAAAAAAAAAAAAAAAAAP%2FEABcBAQEBAQAAAAAAAAAAAAAAAAIEAAH%2FxAAVEQEBAAAAAAAAAAAAAAAAAAAAAf%2FaAAwDAQACEQMRAD8A0Aji6gKQoANOIoORqoBCgA0o%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "ffe20fde-f789-488d-b22a-4b3362c0b8ed",
+        {
+          "model": 19,
+          "src": 265,
+          "webpSrc": 266,
+          "legend": 4,
+          "copyright": 22,
+          "author": 23,
+          "width": 24,
+          "height": 24,
+          "preview": 267,
+          "id": 263,
+          "type": 27,
+          "preset": 28,
+          "dominant": 29
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/ffe20fde-f789-488d-b22a-4b3362c0b8ed/400x400_sc_fc-doruido-episode.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/ffe20fde-f789-488d-b22a-4b3362c0b8ed/400x400_sc_fc-doruido-episode.webp",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFgABAQEAAAAAAAAAAAAAAAAAAQAC%2F8QAFhABAQEAAAAAAAAAAAAAAAAAAAER%2F8QAFwEBAQEBAAAAAAAAAAAAAAAAAgMBBP%2FEABcRAQEBAQAAAAAAAAAAAAAAAAABEQL%2F2gAMAwEAAhEDEQA%2FANWhUOWR20kE8DUkgsUlCRkZKzqKQ4ZDiupYyGqAqkZjUZjUCHWoVESYoIG1sf%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+        {
+          "path": 65,
+          "relationMeta": 269
+        },
+        {
+          "episode_order": 6,
+          "episode_title": 270,
+          "episode_number": 31
+        },
+        "Doruido, le premier manga audio : Doruido : bande-annonce",
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 272,
+          "squaredVisual": 273
+        },
+        {
+          "model": 19,
+          "src": 75,
+          "webpSrc": 76,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 54,
+          "height": 55,
+          "preview": 77,
+          "id": 78,
+          "type": 27,
+          "preset": 58,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          275,
+          281
+        ],
+        {
+          "model": 85,
+          "id": 276,
+          "title": 277,
+          "url": 278,
+          "created": 257,
+          "duration": 279,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 280
+        },
+        "40015318-a79b-481e-8a7f-e02d83dad1ac",
+        "Doruido",
+        "https://media.radiofrance-podcast.net/podcast09/11495-26.04.2024-ITEMA_23723515-2024C3480T0002-25.m4a",
+        30,
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        {
+          "model": 85,
+          "id": 282,
+          "title": 253,
+          "url": 283,
+          "created": 257,
+          "duration": 279,
+          "shareable": 43,
+          "principal": 43,
+          "preset": 284
+        },
+        "a5a0d50a-aecf-484d-aa33-0d5d3960e59f",
+        "https://media.radiofrance-podcast.net/podcast09/11495-26.04.2024-ITEMA_23723515-2024C3480T0002-21.mp3",
+        {
+          "id": 100,
+          "name": 91,
+          "encoding": 101,
+          "bitrate": 102,
+          "frequency": 103,
+          "level": 104
+        },
+        20,
+        [
+          287,
+          288,
+          291
+        ],
+        {
+          "label": 10,
+          "link": 106
+        },
+        {
+          "label": 289,
+          "link": 290
+        },
+        "Podcasts",
+        "/franceculture/podcasts",
+        {
+          "label": 4,
+          "link": 65
+        },
+        {
+          "station": 106,
+          "pageType": 293
+        },
+        "Serie",
+        {
+          "id": 7,
+          "model": 295,
+          "title": 4,
+          "path": 65,
+          "kind": 296,
+          "numberOfEpisodes": 6,
+          "standFirst": 14,
+          "airtime": 31,
+          "publishedDate": 297,
+          "manualUpdate": 297,
+          "themes": 298,
+          "pageReacts": 328,
+          "tagsAndPersonalities": 329,
+          "lastEpisodeWithinTwoMonths": 350,
+          "expressionWithReactPage": 372,
+          "visual_400x400": 374,
+          "visual_1000x563": 380,
+          "visual_1024x320": 387,
+          "hasChronics": 43,
+          "hasSeries": 43,
+          "podcast": 31,
+          "staff": 394,
+          "connections": 395,
+          "parentConcept": 396,
+          "visual": 400,
+          "relatedSeries": 402,
+          "expressionCount": 927,
+          "expressions": 37,
+          "background": 928,
+          "lastEpisode": 931,
+          "bodyJson": 950,
+          "producers": 1063,
+          "timeshiftStreams": 1064
+        },
+        "Concept",
+        "serie",
+        1713881819,
+        [
+          299,
+          302,
+          306,
+          311,
+          316,
+          322
+        ],
+        {
+          "id": 300,
+          "title": 35,
+          "migrated": 17,
+          "path": 301,
+          "parent": 31
+        },
+        "21c946c9-d1d3-4d9e-b5bc-58725878d9ed",
+        "monde",
+        {
+          "id": 303,
+          "title": 304,
+          "migrated": 17,
+          "path": 305,
+          "parent": 31
+        },
+        "8b78fb1a-bf1e-436e-a2fc-4375fa38154b",
+        "Arts et Divertissement",
+        "arts-divertissements",
+        {
+          "id": 307,
+          "title": 308,
+          "migrated": 17,
+          "path": 309,
+          "parent": 310
+        },
+        "d618e85a-ff13-4ad5-a63d-b2641dc47b25",
+        "Asie ",
+        "monde/asie",
+        {
+          "id": 300,
+          "title": 35,
+          "path": 301,
+          "parent": 31
+        },
+        {
+          "id": 312,
+          "title": 313,
+          "migrated": 17,
+          "path": 314,
+          "parent": 315
+        },
+        "15fd4dd1-5f50-4f0b-b286-17dd7ead694c",
+        "BD – Manga",
+        "arts-divertissements/bd-manga",
+        {
+          "id": 303,
+          "title": 304,
+          "path": 305,
+          "parent": 31
+        },
+        {
+          "id": 317,
+          "title": 318,
+          "migrated": 17,
+          "path": 319,
+          "parent": 320
+        },
+        "08327dea-7c00-4223-add4-4f7cee2f42e4",
+        "Mangas",
+        "arts-divertissements/bd-manga/mangas",
+        {
+          "id": 312,
+          "title": 313,
+          "path": 314,
+          "parent": 321
+        },
+        {
+          "id": 303,
+          "title": 304,
+          "path": 305
+        },
+        {
+          "id": 323,
+          "title": 324,
+          "migrated": 17,
+          "path": 325,
+          "parent": 326
+        },
+        "43eef2f4-387c-45f2-b09c-261ba9814f32",
+        "Japon",
+        "monde/asie/japon",
+        {
+          "id": 307,
+          "title": 308,
+          "path": 309,
+          "parent": 327
+        },
+        {
+          "id": 300,
+          "title": 35,
+          "path": 301
+        },
+        [],
+        [
+          330,
+          335,
+          338,
+          342,
+          346
+        ],
+        {
+          "model": 331,
+          "id": 332,
+          "title": 333,
+          "path": 334,
+          "migrated": 17
+        },
+        "Tag",
+        "a458357d-66d5-4a5f-a72e-b179bed20473",
+        "Littérature jeunesse",
+        "sujets/litterature-jeunesse",
+        {
+          "id": 336,
+          "path": 15,
+          "migrated": 17,
+          "title": 337
+        },
+        "dbb01f21-b9f2-4a45-9e81-5bacd2121060",
+        "Christophe Hocké",
+        {
+          "model": 331,
+          "id": 339,
+          "title": 340,
+          "path": 341,
+          "migrated": 17
+        },
+        "90705624-a488-4d4e-82ee-26aa0fb4b5e7",
+        "Fiction radiophonique",
+        "sujets/fiction-radiophonique",
+        {
+          "id": 343,
+          "path": 344,
+          "migrated": 17,
+          "title": 345
+        },
+        "6c3a6f44-5c5a-478c-90be-2ac17962dedd",
+        "personnes/mangaka",
+        "Mangaka",
+        {
+          "model": 331,
+          "id": 347,
+          "title": 348,
+          "path": 349,
+          "migrated": 17
+        },
+        "191247c0-f18f-45d9-8e5e-34a2422607ac",
+        "Création originale",
+        "sujets/creation-originale",
+        {
+          "prev": 31,
+          "next": 351,
+          "items": 352
+        },
+        "MQ==",
+        [
+          353
+        ],
+        {
+          "id": 40,
+          "title": 41,
+          "standFirst": 42,
+          "brandEnums": 354,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 46,
+          "guest": 355,
+          "publishedDate": 48,
+          "startDate": 48,
+          "endDate": 49,
+          "path": 15,
+          "migrated": 17,
+          "visual": 356,
+          "squaredVisual": 357,
+          "serie": 358,
+          "concept": 360,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 363,
+          "originExpression": 368,
+          "series": 369
+        },
+        [
+          11
+        ],
+        [],
+        {
+          "model": 19,
+          "src": 51,
+          "webpSrc": 52,
+          "legend": 53,
+          "copyright": 22,
+          "author": 23,
+          "width": 54,
+          "height": 55,
+          "preview": 56,
+          "id": 57,
+          "type": 27,
+          "preset": 58,
+          "dominant": 59
+        },
+        {
+          "model": 19,
+          "src": 61,
+          "webpSrc": 62,
+          "legend": 53,
+          "copyright": 22,
+          "author": 23,
+          "width": 24,
+          "height": 24,
+          "preview": 63,
+          "id": 57,
+          "type": 27,
+          "preset": 28,
+          "dominant": 59
+        },
+        {
+          "path": 65,
+          "relationMeta": 359
+        },
+        {
+          "episode_order": 67,
+          "episode_title": 68,
+          "episode_number": 69
+        },
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 361,
+          "squaredVisual": 362
+        },
+        {
+          "model": 19,
+          "src": 75,
+          "webpSrc": 76,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 54,
+          "height": 55,
+          "preview": 77,
+          "id": 78,
+          "type": 27,
+          "preset": 58,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          364,
+          366
+        ],
+        {
+          "model": 85,
+          "id": 86,
+          "title": 41,
+          "url": 87,
+          "created": 48,
+          "duration": 88,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 365
+        },
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        {
+          "model": 85,
+          "id": 97,
+          "title": 41,
+          "url": 98,
+          "created": 48,
+          "duration": 88,
+          "shareable": 43,
+          "principal": 43,
+          "preset": 367
+        },
+        {
+          "id": 100,
+          "name": 91,
+          "encoding": 101,
+          "bitrate": 102,
+          "frequency": 103,
+          "level": 104
+        },
+        [],
+        [
+          370
+        ],
+        {
+          "id": 7,
+          "title": 4,
+          "path": 65,
+          "relationMeta": 371
+        },
+        {
+          "episode_order": 67,
+          "episode_title": 68,
+          "episode_number": 69
+        },
+        {
+          "prev": 31,
+          "next": 31,
+          "items": 373
+        },
+        [],
+        {
+          "model": 19,
+          "src": 375,
+          "webpSrc": 376,
+          "legend": 4,
+          "copyright": 377,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 378,
+          "id": 379,
+          "type": 27,
+          "preset": 28,
+          "dominant": 29
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/5cc33474-4733-4ee7-910c-4bdac220079a/400x400_sc_fc-doruido-promote.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/5cc33474-4733-4ee7-910c-4bdac220079a/400x400_sc_fc-doruido-promote.webp",
+        "Aucun(e)",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFgABAQEAAAAAAAAAAAAAAAAAAAEC%2F8QAFhABAQEAAAAAAAAAAAAAAAAAAAER%2F8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECBP%2FEABQRAQAAAAAAAAAAAAAAAAAAAAD%2F2gAMAwEAAhEDEQA%2FANiDjd6iAKIAgIiqIAoAIAKAQFi4Rpll%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "5cc33474-4733-4ee7-910c-4bdac220079a",
+        {
+          "model": 19,
+          "src": 381,
+          "webpSrc": 382,
+          "legend": 4,
+          "copyright": 377,
+          "author": 31,
+          "width": 383,
+          "height": 384,
+          "preview": 385,
+          "id": 379,
+          "type": 27,
+          "preset": 386,
+          "dominant": 29
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/5cc33474-4733-4ee7-910c-4bdac220079a/1000x563_sc_fc-doruido-promote.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/5cc33474-4733-4ee7-910c-4bdac220079a/1000x563_sc_fc-doruido-promote.webp",
+        1000,
+        563,
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221000%22%20height%3D%22563%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%221000%22%20height%3D%22563%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAFgABAQEAAAAAAAAAAAAAAAAAAAEC%2F8QAFBABAAAAAAAAAAAAAAAAAAAAAP%2FEABcBAQEBAQAAAAAAAAAAAAAAAAABBAL%2FxAAUEQEAAAAAAAAAAAAAAAAAAAAA%2F9oADAMBAAIRAxEAPwDYiMTeogK0ICIgDoUAAER%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "1000x563",
+        {
+          "model": 19,
+          "src": 388,
+          "webpSrc": 389,
+          "legend": 4,
+          "copyright": 377,
+          "author": 31,
+          "width": 390,
+          "height": 391,
+          "preview": 392,
+          "id": 379,
+          "type": 27,
+          "preset": 393,
+          "dominant": 29
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/5cc33474-4733-4ee7-910c-4bdac220079a/1024x320_sc_fc-doruido-promote.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/5cc33474-4733-4ee7-910c-4bdac220079a/1024x320_sc_fc-doruido-promote.webp",
+        1024,
+        320,
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221024%22%20height%3D%22320%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%221024%22%20height%3D%22320%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAANACoDASIAAhEBAxEB%2F8QAFgABAQEAAAAAAAAAAAAAAAAAAQAC%2F8QAFRABAQAAAAAAAAAAAAAAAAAAABH%2FxAAXAQADAQAAAAAAAAAAAAAAAAAAAQQF%2F8QAFREBAQAAAAAAAAAAAAAAAAAAABH%2F2gAMAwEAAhEDEQA%2FANIJE0CayQDTWURR%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "1024x320",
+        [],
+        [],
+        {
+          "id": 71,
+          "title": 72,
+          "airtime": 397,
+          "standFirst": 398,
+          "path": 73,
+          "visual": 399
+        },
+        "du lundi au vendredi de 20 h 30 à 21 h",
+        "Un rendez-vous destiné au grand public. Ces fictions auront pour mission de nous émouvoir, nous divertir, nous intriguer. Dramatiques radiophoniques, lectures, scénarios, adaptations, pages arrachées, toutes les formes radiophoniques et toutes les époques sont conviées pour conter une histoire.",
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 20,
+          "webpSrc": 21,
+          "legend": 4,
+          "copyright": 22,
+          "author": 23,
+          "width": 24,
+          "height": 24,
+          "preview": 25,
+          "id": 26,
+          "type": 27,
+          "preset": 28,
+          "dominant": 29,
+          "credits": 401
+        },
+        "© Reno Lemaire, Radio France",
+        [
+          403,
+          417,
+          462,
+          508,
+          554,
+          597,
+          645,
+          689,
+          737,
+          785,
+          833,
+          880
+        ],
+        {
+          "id": 404,
+          "path": 405,
+          "migrated": 17,
+          "standFirst": 406,
+          "baseline": 15,
+          "model": 295,
+          "kind": 296,
+          "title": 407,
+          "promoEpisode": 408,
+          "visual": 410
+        },
+        "082befaf-4c2a-428e-9168-3de5f9064e24",
+        "franceculture/podcasts/serie-filles-de-l-est-femmes-a-l-ouest",
+        "Cela fait maintenant 34 ans que le Mur de Berlin est tombé, mais les deux Europe semblent toujours se regarder par-dessus un mur de malentendus et de préjugés que huit écrivaines \"de l’Est\" font joyeusement valser pour nous !",
+        "\"Filles de l'Est, femmes à l'Ouest\"",
+        {
+          "items": 409
+        },
+        [],
+        {
+          "model": 19,
+          "src": 411,
+          "webpSrc": 412,
+          "legend": 413,
+          "copyright": 22,
+          "author": 22,
+          "width": 24,
+          "height": 24,
+          "preview": 414,
+          "id": 415,
+          "type": 27,
+          "preset": 28,
+          "dominant": 416
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/da10dfce-d1ce-46c9-831e-a91b88384643/400x400_sc_filles-de-l-est-femmes-a-louest.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/da10dfce-d1ce-46c9-831e-a91b88384643/400x400_sc_filles-de-l-est-femmes-a-louest.webp",
+        ".",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT%2FxAAXEAEBAQEAAAAAAAAAAAAAAAAAAQIR%2F8QAGAEBAAMBAAAAAAAAAAAAAAAAAwABAgT%2FxAAZEQEBAQEBAQAAAAAAAAAAAAAAAQIREiH%2F2gAMAwEAAhEDEQA%2FAKFsOFhehyjqJ2L6ieok0fMSsA9hW59adwCwdUOISxPUWpLB%2BnRIjYXitheEm0sdAgzGxYYKIAtdMhbA4Zl9Xx%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "da10dfce-d1ce-46c9-831e-a91b88384643",
+        "#48a8c8",
+        {
+          "id": 418,
+          "path": 419,
+          "migrated": 17,
+          "standFirst": 420,
+          "baseline": 15,
+          "model": 295,
+          "kind": 296,
+          "title": 421,
+          "promoEpisode": 422,
+          "visual": 456
+        },
+        "a41eedac-461d-4f29-be7c-20b3fedd4932",
+        "franceculture/podcasts/serie-rien-ne-s-oppose-a-la-nuit-de-delphine-de-vigan",
+        "Dans ce récit autobiographique, Delphine de Vigan écrit sur Lucile, sa propre mère qui s'est suicidée. À travers les souvenirs, les secrets et les drames traversés, elle construit une enquête au cœur de la mémoire familiale.",
+        "\"Rien ne s'oppose à la nuit\" de Delphine de Vigan",
+        {
+          "items": 423
+        },
+        [
+          424
+        ],
+        {
+          "id": 425,
+          "title": 426,
+          "standFirst": 427,
+          "brandEnums": 428,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 429,
+          "guest": 430,
+          "publishedDate": 431,
+          "startDate": 431,
+          "endDate": 432,
+          "path": 15,
+          "migrated": 17,
+          "visual": 433,
+          "squaredVisual": 442,
+          "serie": 443,
+          "concept": 446,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 449
+        },
+        "06c4f53f-7c53-11e3-af2e-782bcb73ed47",
+        "Le suicide de Lucile",
+        "\"Mon fils me rappelait à l’ordre: un chat s’appelait un chat. Grand-mère s’était suicidée, oui, foutue en l’air, elle avait baissé rideau, lâché l’affaire, elle avait dit stop, basta, terminado, et elle avait de bonnes raisons d’en arriver là.\"",
+        [
+          11
+        ],
+        "antenne",
+        [],
+        1412015400,
+        1412016840,
+        {
+          "model": 19,
+          "src": 434,
+          "webpSrc": 435,
+          "legend": 436,
+          "copyright": 437,
+          "author": 438,
+          "width": 24,
+          "height": 24,
+          "preview": 439,
+          "id": 440,
+          "type": 27,
+          "preset": 28,
+          "dominant": 441
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/b1b767bd-f5a4-47b3-998e-9d63ea8cf329/400x400_sc_gettyimages-1180310655.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/b1b767bd-f5a4-47b3-998e-9d63ea8cf329/400x400_sc_gettyimages-1180310655.webp",
+        "Chrysanthèmes",
+        "Getty",
+        "Zen Rial",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAQACA%2F%2FEABYQAQEBAAAAAAAAAAAAAAAAAAABEf%2FEABgBAAMBAQAAAAAAAAAAAAAAAAABAgME%2F8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER%2F9oADAMBAAIRAxEAPwDikmLrp0VIJrNZaow0WNpEm2BEBNgDQBY3iIJqAaDRUcEaBP%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+        "b1b767bd-f5a4-47b3-998e-9d63ea8cf329",
+        "#f84838",
+        {
+          "model": 19,
+          "src": 434,
+          "webpSrc": 435,
+          "legend": 436,
+          "copyright": 437,
+          "author": 438,
+          "width": 24,
+          "height": 24,
+          "preview": 439,
+          "id": 440,
+          "type": 27,
+          "preset": 28,
+          "dominant": 441
+        },
+        {
+          "path": 419,
+          "relationMeta": 444
+        },
+        {
+          "episode_order": 67,
+          "episode_title": 445,
+          "episode_number": 69
+        },
+        "\"Rien ne s'oppose à la nuit\" de Delphine de Vigan 1/10 : Le suicide de Lucile",
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 447,
+          "squaredVisual": 448
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          450
+        ],
+        {
+          "model": 85,
+          "id": 451,
+          "title": 426,
+          "url": 452,
+          "created": 453,
+          "duration": 454,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 455
+        },
+        "0623d7cb-677b-4144-a692-3d0e4ff8f173",
+        "https://media.radiofrance-podcast.net/podcast09/11495-29.09.2014-ITEMA_20674520-2014C3480E0179-25.m4a",
+        1412016300,
+        1481,
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        {
+          "model": 19,
+          "src": 457,
+          "webpSrc": 458,
+          "legend": 421,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 459,
+          "id": 460,
+          "type": 27,
+          "preset": 28,
+          "dominant": 461
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/03/0f5802a5-832b-4091-b87d-7ce6c4bee393/400x400_sc_carre.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/03/0f5802a5-832b-4091-b87d-7ce6c4bee393/400x400_sc_carre.webp",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGQABAQADAQAAAAAAAAAAAAAAAwIBBAUA%2F8QAGRABAQEBAQEAAAAAAAAAAAAAAAECEQMS%2F8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC%2F8QAFREBAQAAAAAAAAAAAAAAAAAAABH%2F2gAMAwEAAhEDEQA%2FAONxUjMipkFYPgOYfCqbMV8vYhflatcmRXGMrjLL0hsRGYfGQL5w3EYheA4WaXNBDYBsYjY88g8215gXEXxjKwf%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "0f5802a5-832b-4091-b87d-7ce6c4bee393",
+        "#080808",
+        {
+          "id": 463,
+          "path": 464,
+          "migrated": 17,
+          "standFirst": 465,
+          "baseline": 15,
+          "model": 295,
+          "kind": 296,
+          "title": 466,
+          "promoEpisode": 467,
+          "visual": 502
+        },
+        "8fc73475-51b7-4588-b867-7e8d5a3d5b86",
+        "franceculture/podcasts/serie-une-si-longue-lettre-de-mariama-ba",
+        "Une si longue lettre est une œuvre majeure, pour ce qu'elle dit de la condition des femmes. Au cœur de ce roman, la lettre que l'une d'elle, Ramatoulaye, adresse à sa meilleure amie, pendant la réclusion traditionnelle qui suit son veuvage.",
+        "\"Une si longue lettre\" de Mariama Bâ",
+        {
+          "items": 468
+        },
+        [
+          469
+        ],
+        {
+          "id": 470,
+          "title": 471,
+          "standFirst": 472,
+          "brandEnums": 473,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 429,
+          "guest": 474,
+          "publishedDate": 475,
+          "startDate": 475,
+          "endDate": 476,
+          "path": 15,
+          "migrated": 17,
+          "visual": 477,
+          "squaredVisual": 484,
+          "serie": 485,
+          "concept": 488,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 491
+        },
+        "c7839769-b5b7-4ceb-a227-95003bdebbd9",
+        "La mort est aussi belle que le fut la vie",
+        "\"J’écoute des mots qui créent autour de moi une atmosphère nouvelle où j’évolue, étrangère et crucifiée. La mort, passage ténu entre deux mondes opposés, l’un tumultueux, l’autre immobile.\"",
+        [
+          11
+        ],
+        [],
+        1709580600,
+        1709582362,
+        {
+          "model": 19,
+          "src": 478,
+          "webpSrc": 479,
+          "legend": 466,
+          "copyright": 22,
+          "author": 480,
+          "width": 24,
+          "height": 24,
+          "preview": 481,
+          "id": 482,
+          "type": 27,
+          "preset": 28,
+          "dominant": 483
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/02/a0c7ddf9-5341-4621-9907-d3847749ee34/400x400_sc_image-episode-webrf-4.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/02/a0c7ddf9-5341-4621-9907-d3847749ee34/400x400_sc_image-episode-webrf-4.webp",
+        "Justine Dibling",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFgABAQEAAAAAAAAAAAAAAAAAAQAD%2F8QAFRABAQAAAAAAAAAAAAAAAAAAAAH%2FxAAXAQEBAQEAAAAAAAAAAAAAAAAAAgEE%2F8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER%2F9oADAMBAAIRAxEAPwDIIMc8SBFYSCJFBA2AwEUSCIoRAQIoUikJf%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+        "a0c7ddf9-5341-4621-9907-d3847749ee34",
+        "#288858",
+        {
+          "model": 19,
+          "src": 478,
+          "webpSrc": 479,
+          "legend": 466,
+          "copyright": 22,
+          "author": 480,
+          "width": 24,
+          "height": 24,
+          "preview": 481,
+          "id": 482,
+          "type": 27,
+          "preset": 28,
+          "dominant": 483
+        },
+        {
+          "path": 464,
+          "relationMeta": 486
+        },
+        {
+          "episode_order": 67,
+          "episode_title": 487,
+          "episode_number": 69
+        },
+        "\"Une si longue lettre\" de Mariama Bâ 1/5 : La mort est aussi belle que le fut la vie",
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 489,
+          "squaredVisual": 490
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          492,
+          498
+        ],
+        {
+          "model": 85,
+          "id": 493,
+          "title": 471,
+          "url": 494,
+          "created": 495,
+          "duration": 496,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 497
+        },
+        "f3c56538-55e8-40fb-947c-e0a404c36e0b",
+        "https://media.radiofrance-podcast.net/podcast09/11495-04.03.2024-ITEMA_23648331-2023C3480E0145-25.m4a",
+        1709510400,
+        1767,
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        {
+          "model": 85,
+          "id": 499,
+          "title": 471,
+          "url": 500,
+          "created": 476,
+          "duration": 496,
+          "shareable": 43,
+          "principal": 43,
+          "preset": 501
+        },
+        "1857b94e-a92e-44a5-858d-31027bfbc7e8",
+        "https://media.radiofrance-podcast.net/podcast09/13026-04.03.2024-ITEMA_23666780-2023C3480E0145-21.mp3",
+        {
+          "id": 100,
+          "name": 91,
+          "encoding": 101,
+          "bitrate": 102,
+          "frequency": 103,
+          "level": 104
+        },
+        {
+          "model": 19,
+          "src": 503,
+          "webpSrc": 504,
+          "legend": 466,
+          "copyright": 22,
+          "author": 480,
+          "width": 24,
+          "height": 24,
+          "preview": 505,
+          "id": 506,
+          "type": 27,
+          "preset": 28,
+          "dominant": 507
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/02/7ea652d4-35eb-4f34-9adf-04d9ea4ffdf1/400x400_sc_carre-2.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/02/7ea652d4-35eb-4f34-9adf-04d9ea4ffdf1/400x400_sc_carre-2.webp",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT%2FxAAYEAEBAQEBAAAAAAAAAAAAAAAAAQIREv%2FEABgBAAMBAQAAAAAAAAAAAAAAAAABAgME%2F8QAGBEBAQADAAAAAAAAAAAAAAAAAAECETH%2F2gAMAwEAAhEDEQA%2FAO26J6DVJ1xyNFOhSyjFcBNRPyvxvK5kA0RTUJxEJopkkiuYVpjIPkZDcRsJahfKtKcoLMqZgQ8K0NIPBZJv%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "7ea652d4-35eb-4f34-9adf-04d9ea4ffdf1",
+        "#f8e838",
+        {
+          "id": 509,
+          "path": 510,
+          "migrated": 17,
+          "standFirst": 511,
+          "baseline": 15,
+          "model": 295,
+          "kind": 296,
+          "title": 512,
+          "promoEpisode": 513,
+          "visual": 549
+        },
+        "b857a0ac-42af-48f3-ac3a-f998a8bb84f3",
+        "franceculture/podcasts/serie-bye-bye-blondie-de-virginie-despentes",
+        "La langue de Virginie Despentes se fait ici entendre dans toute son énergie vitale, rythmée par une forme d'urgence et de nécessité, claquant comme un fouet.",
+        "\"Bye Bye Blondie\" de Virginie Despentes",
+        {
+          "items": 514
+        },
+        [
+          515
+        ],
+        {
+          "id": 516,
+          "title": 517,
+          "standFirst": 518,
+          "brandEnums": 519,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 429,
+          "guest": 520,
+          "publishedDate": 521,
+          "startDate": 521,
+          "endDate": 522,
+          "path": 15,
+          "migrated": 17,
+          "visual": 523,
+          "squaredVisual": 531,
+          "serie": 532,
+          "concept": 535,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 538
+        },
+        "4f3b45f2-fdf7-4ab0-9e4b-31f65b1b7234",
+        "Gloria",
+        "\"Gloria remonte la rue à grandes enjambées, sous une pluie qui se prend pour une douche. Trempée, elle se sent conne, cradingue et super à la rue… \"",
+        [
+          11
+        ],
+        [],
+        1637609400,
+        1637611110,
+        {
+          "model": 19,
+          "src": 524,
+          "webpSrc": 525,
+          "legend": 526,
+          "copyright": 437,
+          "author": 527,
+          "width": 24,
+          "height": 24,
+          "preview": 528,
+          "id": 529,
+          "type": 27,
+          "preset": 28,
+          "dominant": 530
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/02/9132ab9e-a855-40b2-a915-ba7f654a4924/400x400_sc_gettyimages-1415627247.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/02/9132ab9e-a855-40b2-a915-ba7f654a4924/400x400_sc_gettyimages-1415627247.webp",
+        "Une femme sous la pluie",
+        "Freezelight",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGQAAAgMBAAAAAAAAAAAAAAAAAgMAAQQF%2F8QAGBABAQEBAQAAAAAAAAAAAAAAAAECEQP%2FxAAUAQEAAAAAAAAAAAAAAAAAAAAA%2F8QAFBEBAAAAAAAAAAAAAAAAAAAAAP%2FaAAwDAQACEQMRAD8A5kWviAGho6GwAovicBouVXLTrzBcAz2BsPuQ3IE8Tg7A8B19YK1hq0VoGXWS9Ro0ToCNQPDNAB%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "9132ab9e-a855-40b2-a915-ba7f654a4924",
+        "#181818",
+        {
+          "model": 19,
+          "src": 524,
+          "webpSrc": 525,
+          "legend": 526,
+          "copyright": 437,
+          "author": 527,
+          "width": 24,
+          "height": 24,
+          "preview": 528,
+          "id": 529,
+          "type": 27,
+          "preset": 28,
+          "dominant": 530
+        },
+        {
+          "path": 510,
+          "relationMeta": 533
+        },
+        {
+          "episode_order": 67,
+          "episode_title": 534,
+          "episode_number": 69
+        },
+        "\"Bye Bye Blondie\" de Virginie Despentes 1/5 : Gloria",
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 536,
+          "squaredVisual": 537
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          539,
+          545
+        ],
+        {
+          "model": 85,
+          "id": 540,
+          "title": 517,
+          "url": 541,
+          "created": 542,
+          "duration": 543,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 544
+        },
+        "d281b2cd-73e7-4c72-a153-cf561d5e522b",
+        "https://media.radiofrance-podcast.net/podcast09/11495-22.11.2021-ITEMA_22819363-2021C3480E0239-25.m4a",
+        1637539200,
+        1710,
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        {
+          "model": 85,
+          "id": 546,
+          "title": 517,
+          "url": 547,
+          "created": 522,
+          "duration": 543,
+          "shareable": 43,
+          "principal": 43,
+          "preset": 548
+        },
+        "3fda53e5-727b-4d17-bfc9-dd37d8c3bf4f",
+        "https://media.radiofrance-podcast.net/podcast09/21813-22.11.2021-ITEMA_22847027-2021C3480E0239-21.mp3",
+        {
+          "id": 100,
+          "name": 91,
+          "encoding": 101,
+          "bitrate": 102,
+          "frequency": 103,
+          "level": 104
+        },
+        {
+          "model": 19,
+          "src": 550,
+          "webpSrc": 551,
+          "legend": 512,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 552,
+          "id": 553,
+          "type": 27,
+          "preset": 28,
+          "dominant": 461
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/02/5627070f-9d56-4f31-9f11-a09f9390743f/400x400_sc_bye-bye-blondie.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/02/5627070f-9d56-4f31-9f11-a09f9390743f/400x400_sc_bye-bye-blondie.webp",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGQABAQEBAQEAAAAAAAAAAAAAAwIBBAAF%2F8QAGhABAQEBAQEBAAAAAAAAAAAAAAIBEhETA%2F%2FEABYBAQEBAAAAAAAAAAAAAAAAAAEAAv%2FEABYRAQEBAAAAAAAAAAAAAAAAAAARAf%2FaAAwDAQACEQMRAD8A%2BhWj2k1YqsFdWG7TVhqzibdD6TVo6aprv39B1bn%2BjNtgEqh1SdpOpMqk9N3GclM6blDViBM1eZ6OTQC9keq%2BRZWQ%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "5627070f-9d56-4f31-9f11-a09f9390743f",
+        {
+          "id": 555,
+          "path": 556,
+          "migrated": 17,
+          "standFirst": 557,
+          "baseline": 558,
+          "model": 295,
+          "kind": 296,
+          "title": 559,
+          "promoEpisode": 560,
+          "visual": 591
+        },
+        "8e951431-5e47-4b08-bc39-153e166edda1",
+        "franceculture/podcasts/serie-fureurs",
+        "Fureurs a reçu le prix du podcast de fiction Télérama au festival Longueur d'ondes de Brest.\n",
+        "Science-fiction dans les Vosges : une série France Culture",
+        "Fureurs",
+        {
+          "items": 561
+        },
+        [
+          562
+        ],
+        {
+          "id": 563,
+          "title": 564,
+          "standFirst": 565,
+          "brandEnums": 566,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 46,
+          "guest": 567,
+          "publishedDate": 568,
+          "startDate": 568,
+          "endDate": 569,
+          "path": 15,
+          "migrated": 17,
+          "visual": 570,
+          "squaredVisual": 578,
+          "serie": 579,
+          "concept": 582,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 585
+        },
+        "cabc9a16-ad8d-4346-8ecd-68ebabed802d",
+        "Thomas",
+        "Dans un futur au goût de catastrophe annoncée, un jeune homme est conduit par Jacques dans un Poste de Surveillance Avancé, à la lisière de la forêt, dans les Vosges. Après lui avoir expliqué les règles de son nouveau job, Jacques le laisse seul.",
+        [
+          11
+        ],
+        [],
+        1694750400,
+        1694751971,
+        {
+          "model": 19,
+          "src": 571,
+          "webpSrc": 572,
+          "legend": 573,
+          "copyright": 22,
+          "author": 574,
+          "width": 24,
+          "height": 24,
+          "preview": 575,
+          "id": 576,
+          "type": 27,
+          "preset": 28,
+          "dominant": 577
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production/2023/09/191f72e2-061d-4b49-9015-2301d6c7525b/400x400_sc_image-episode-webrf-fureurs1.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production/2023/09/191f72e2-061d-4b49-9015-2301d6c7525b/400x400_sc_image-episode-webrf-fureurs1.webp",
+        "Fureurs, de Mehdi Bayad, réalisé par Baptiste Guiton.",
+        "Illustration de Jean-Michel Tixier",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFgABAQEAAAAAAAAAAAAAAAAAAgAB%2F8QAFhABAQEAAAAAAAAAAAAAAAAAAAER%2F8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA%2F%2FEABQRAQAAAAAAAAAAAAAAAAAAAAD%2F2gAMAwEAAhEDEQA%2FAFRtVo1xYbrdDWyqHq0dSCGkyqC1ICiUbgLFhJAMWEwFITIQj%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+        "191f72e2-061d-4b49-9015-2301d6c7525b",
+        "#78b858",
+        {
+          "model": 19,
+          "src": 571,
+          "webpSrc": 572,
+          "legend": 573,
+          "copyright": 22,
+          "author": 574,
+          "width": 24,
+          "height": 24,
+          "preview": 575,
+          "id": 576,
+          "type": 27,
+          "preset": 28,
+          "dominant": 577
+        },
+        {
+          "path": 556,
+          "relationMeta": 580
+        },
+        {
+          "episode_order": 67,
+          "episode_title": 581,
+          "episode_number": 69
+        },
+        "Fureurs 1/5 : Thomas",
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 583,
+          "squaredVisual": 584
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          586
+        ],
+        {
+          "model": 85,
+          "id": 587,
+          "title": 564,
+          "url": 588,
+          "created": 589,
+          "duration": 590,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 31
+        },
+        "86fae376-791d-4b11-9d9b-0baddd38b734",
+        "https://media.radiofrance-podcast.net/podcast09/11495-15.09.2023-ITEMA_23453569-2023C3480E0092-25.m4a",
+        1694739600,
+        1571,
+        {
+          "model": 19,
+          "src": 592,
+          "webpSrc": 593,
+          "legend": 594,
+          "copyright": 22,
+          "author": 574,
+          "width": 24,
+          "height": 24,
+          "preview": 595,
+          "id": 596,
+          "type": 27,
+          "preset": 28,
+          "dominant": 577
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production/2023/10/e71a8f05-92f8-4cea-bf58-a46836817913/400x400_sc_sc_microsoftteams-image-5.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production/2023/10/e71a8f05-92f8-4cea-bf58-a46836817913/400x400_sc_sc_microsoftteams-image-5.webp",
+        "\"Fureurs\" de Mehdi Bayad, réalisé par Baptiste Guiton",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA%2F%2FEABYQAQEBAAAAAAAAAAAAAAAAAAABEf%2FEABcBAAMBAAAAAAAAAAAAAAAAAAABAgP%2FxAAWEQEBAQAAAAAAAAAAAAAAAAAAARH%2F2gAMAwEAAhEDEQA%2FAOgoxZsVmt1mxUVHOxnHSwxcqtdhk1khazV1DCYYqjQIqEQAAoKQf%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+        "ef68749f-641a-46fe-b1a3-bc30d0bef957",
+        {
+          "id": 598,
+          "path": 599,
+          "migrated": 17,
+          "standFirst": 600,
+          "baseline": 15,
+          "model": 295,
+          "kind": 296,
+          "title": 601,
+          "promoEpisode": 602,
+          "visual": 637
+        },
+        "e339b04c-70b7-4918-a4c7-84cce7cfafeb",
+        "franceculture/podcasts/serie-la-maladie-blanche-de-karel-capek",
+        "Les personnes âgées de plus de 45 ans sont atteintes par une sorte de lèpre qui ne leur laisse que quelques semaines à vivre.",
+        "\"La Maladie blanche\" de Karel Čapek",
+        {
+          "items": 603
+        },
+        [
+          604
+        ],
+        {
+          "id": 605,
+          "title": 606,
+          "standFirst": 607,
+          "brandEnums": 608,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 429,
+          "guest": 609,
+          "publishedDate": 610,
+          "startDate": 610,
+          "endDate": 611,
+          "path": 15,
+          "migrated": 17,
+          "visual": 612,
+          "squaredVisual": 619,
+          "serie": 620,
+          "concept": 623,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 626
+        },
+        "efd523f7-80ca-4de7-8567-664be7240dc5",
+        "Le conseiller d'état",
+        "\"On va tous y passer tous ! Tout homme de plus de quarante ans est condamné. Vous vous en fichez, vous, avec vos trente ans ! Mais nous, nous les gens dans la force de l’âge…\"\n",
+        [
+          11
+        ],
+        [],
+        1707766200,
+        1707767895,
+        {
+          "model": 19,
+          "src": 613,
+          "webpSrc": 614,
+          "legend": 615,
+          "copyright": 437,
+          "author": 616,
+          "width": 24,
+          "height": 24,
+          "preview": 617,
+          "id": 618,
+          "type": 27,
+          "preset": 28,
+          "dominant": 461
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production/2024/01/34589513-acc2-4abf-a9fd-bbe07484ac16/400x400_sc_gettyimages-1263754090.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production/2024/01/34589513-acc2-4abf-a9fd-bbe07484ac16/400x400_sc_gettyimages-1263754090.webp",
+        "Passagers faisant la queue portant des masques de protection à la gare de Hankou à Wuhan",
+        "Jackal Pan",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA%2F%2FEABgQAQEBAQEAAAAAAAAAAAAAAAARAQIS%2F8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH%2FxAAUEQEAAAAAAAAAAAAAAAAAAAAA%2F9oADAMBAAIRAxEAPwDjvQqK1QVTUU0VeafTnWojnTUGgqmopoKrUMCAdAGnEnAUzYQf%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "34589513-acc2-4abf-a9fd-bbe07484ac16",
+        {
+          "model": 19,
+          "src": 613,
+          "webpSrc": 614,
+          "legend": 615,
+          "copyright": 437,
+          "author": 616,
+          "width": 24,
+          "height": 24,
+          "preview": 617,
+          "id": 618,
+          "type": 27,
+          "preset": 28,
+          "dominant": 461
+        },
+        {
+          "path": 599,
+          "relationMeta": 621
+        },
+        {
+          "episode_order": 67,
+          "episode_title": 622,
+          "episode_number": 69
+        },
+        "\"La Maladie blanche\" de Karel Čapek 1/5 : Le conseiller d'état",
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 624,
+          "squaredVisual": 625
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          627,
+          633
+        ],
+        {
+          "model": 85,
+          "id": 628,
+          "title": 606,
+          "url": 629,
+          "created": 630,
+          "duration": 631,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 632
+        },
+        "a1d9296b-4b04-4e7f-a616-6c75774899a3",
+        "https://media.radiofrance-podcast.net/podcast09/11495-12.02.2024-ITEMA_23639890-2023C3480E0130-25.m4a",
+        1707696000,
+        1703,
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        {
+          "model": 85,
+          "id": 634,
+          "title": 606,
+          "url": 635,
+          "created": 611,
+          "duration": 631,
+          "shareable": 43,
+          "principal": 43,
+          "preset": 636
+        },
+        "ade68e8a-2058-40ac-9f4e-844bdcd58fc5",
+        "https://media.radiofrance-podcast.net/podcast09/13023-12.02.2024-ITEMA_23645411-2023C3480E0130-21.mp3",
+        {
+          "id": 100,
+          "name": 91,
+          "encoding": 101,
+          "bitrate": 102,
+          "frequency": 103,
+          "level": 104
+        },
+        {
+          "model": 19,
+          "src": 638,
+          "webpSrc": 639,
+          "legend": 640,
+          "copyright": 22,
+          "author": 641,
+          "width": 24,
+          "height": 24,
+          "preview": 642,
+          "id": 643,
+          "type": 27,
+          "preset": 28,
+          "dominant": 644
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/02/72fe5165-678c-464b-b746-488c75ea9e0b/400x400_sc_la-maladie-blanche-de-karel-capek-lsm-lsm.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/02/72fe5165-678c-464b-b746-488c75ea9e0b/400x400_sc_la-maladie-blanche-de-karel-capek-lsm-lsm.webp",
+        "\"La maladie blanche\" de Karel Čapek",
+        "Kelsey Suleau",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAABAQEBAQAAAAAAAAAAAAAAAgEDAAT%2FxAAYEAEBAQEBAAAAAAAAAAAAAAAAARECEv%2FEABYBAQEBAAAAAAAAAAAAAAAAAAACAf%2FEABURAQEAAAAAAAAAAAAAAAAAAAAR%2F9oADAMBAAIRAxEAPwD2JrtG1jVtZ9FaLRn1A8trE8qqq1tC1aFQldWAcApFx0IGVGlRoOhQYUA4QxQf%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "72fe5165-678c-464b-b746-488c75ea9e0b",
+        "#b8b8a8",
+        {
+          "id": 646,
+          "path": 647,
+          "migrated": 17,
+          "standFirst": 648,
+          "baseline": 15,
+          "model": 295,
+          "kind": 296,
+          "title": 649,
+          "promoEpisode": 650,
+          "visual": 682
+        },
+        "ebbc4ea6-dd75-4ac1-8958-7d0b97008526",
+        "franceculture/podcasts/serie-pars-vite-et-reviens-tard-de-fred-vargas",
+        "Et si la peste était de retour à Paris ?",
+        "\"Pars vite et reviens tard\" de Fred Vargas",
+        {
+          "items": 651
+        },
+        [
+          652
+        ],
+        {
+          "id": 653,
+          "title": 654,
+          "standFirst": 655,
+          "brandEnums": 656,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 429,
+          "guest": 657,
+          "publishedDate": 658,
+          "startDate": 658,
+          "endDate": 659,
+          "path": 15,
+          "migrated": 17,
+          "visual": 660,
+          "squaredVisual": 668,
+          "serie": 669,
+          "concept": 672,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 675
+        },
+        "a7187174-613a-4b93-a7b7-beb1296e3c18",
+        "Crieur public",
+        "Joss Le Guern, marin breton émigré à Paris, a repris la vocation familiale de son arrière-arrière-grand-père : il est devenu crieur public. Or depuis quelque temps, d’étranges annonces se succèdent, au contenu énigmatique et vaguement apocalyptique.",
+        [
+          11
+        ],
+        [],
+        1706556600,
+        1706558057,
+        {
+          "model": 19,
+          "src": 661,
+          "webpSrc": 662,
+          "legend": 663,
+          "copyright": 437,
+          "author": 664,
+          "width": 24,
+          "height": 24,
+          "preview": 665,
+          "id": 666,
+          "type": 27,
+          "preset": 28,
+          "dominant": 667
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9d13a651-f66f-46af-8836-3611166fbcec/400x400_sc_gettyimages-539266790.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production/2024/01/9d13a651-f66f-46af-8836-3611166fbcec/400x400_sc_gettyimages-539266790.webp",
+        "Statue du Grand Georges, crieur public-Ardennes, Belgique.",
+        "Arterra",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAABAQEBAQAAAAAAAAAAAAAAAgEDAAT%2FxAAYEAEBAQEBAAAAAAAAAAAAAAAAAQISEf%2FEABcBAQEBAQAAAAAAAAAAAAAAAAEAAgP%2FxAAVEQEBAAAAAAAAAAAAAAAAAAAAEf%2FaAAwDAQACEQMRAD8A9iejanTpWIfqs5opRVDcnqemphdJ0yuh6c61G80c0800U2qo9HadsLsezVGdo%2BuognNL0Dgluh6SgS%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "9d13a651-f66f-46af-8836-3611166fbcec",
+        "#a8c8f8",
+        {
+          "model": 19,
+          "src": 661,
+          "webpSrc": 662,
+          "legend": 663,
+          "copyright": 437,
+          "author": 664,
+          "width": 24,
+          "height": 24,
+          "preview": 665,
+          "id": 666,
+          "type": 27,
+          "preset": 28,
+          "dominant": 667
+        },
+        {
+          "path": 647,
+          "relationMeta": 670
+        },
+        {
+          "episode_order": 67,
+          "episode_title": 671,
+          "episode_number": 69
+        },
+        "\"Pars vite et reviens tard\" de Fred Vargas 1/10 : Crieur public",
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 673,
+          "squaredVisual": 674
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          676
+        ],
+        {
+          "model": 85,
+          "id": 677,
+          "title": 654,
+          "url": 678,
+          "created": 679,
+          "duration": 680,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 681
+        },
+        "b954f2ba-1f76-4811-b31b-5af2f90f1deb",
+        "https://media.radiofrance-podcast.net/podcast09/11495-18.04.2016-ITEMA_20963884-2013C3480E0205-25.m4a",
+        1461005580,
+        1456,
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        {
+          "model": 19,
+          "src": 683,
+          "webpSrc": 684,
+          "legend": 685,
+          "copyright": 437,
+          "author": 686,
+          "width": 24,
+          "height": 24,
+          "preview": 687,
+          "id": 688,
+          "type": 27,
+          "preset": 28,
+          "dominant": 461
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/de6bd2ce-1c00-40e0-b2e7-131f6261703d/400x400_sc_pars-vite-et-reviens-tard-de-fred-vargas-lsm.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/de6bd2ce-1c00-40e0-b2e7-131f6261703d/400x400_sc_pars-vite-et-reviens-tard-de-fred-vargas-lsm.webp",
+        "Pont de Bir-Hakeim à Paris",
+        "Vadim Krisyan",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAABAQEBAQAAAAAAAAAAAAAAAgEAAwX%2FxAAWEAEBAQAAAAAAAAAAAAAAAAAAARH%2FxAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID%2F8QAFREBAQAAAAAAAAAAAAAAAAAAABH%2F2gAMAwEAAhEDEQA%2FAPMhRJCgFF0W1VPW0NbVq1JFxormyw0qNWiWjrUVHWVdCKyLaNq0aCWitFR%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "de6bd2ce-1c00-40e0-b2e7-131f6261703d",
+        {
+          "id": 690,
+          "path": 691,
+          "migrated": 17,
+          "standFirst": 692,
+          "baseline": 15,
+          "model": 295,
+          "kind": 296,
+          "title": 693,
+          "promoEpisode": 694,
+          "visual": 729
+        },
+        "7e4cfd39-5d8d-4751-8b57-137ee979764a",
+        "franceculture/podcasts/serie-les-faibles-et-les-forts-de-judith-perrignon",
+        "Août 2010 à Shreveport, en Louisiane. Six adolescents sont morts noyés sous les yeux de leurs proches. Chacun voulait sauver l’autre. Aucun ne savait nager. Pourquoi les Noirs ne savent pas nager ? s’interrogeait-on à la radio le lendemain.",
+        "\"Les Faibles et les Forts\" de Judith Perrignon",
+        {
+          "items": 695
+        },
+        [
+          696
+        ],
+        {
+          "id": 697,
+          "title": 698,
+          "standFirst": 699,
+          "brandEnums": 700,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 429,
+          "guest": 701,
+          "publishedDate": 702,
+          "startDate": 702,
+          "endDate": 703,
+          "path": 15,
+          "migrated": 17,
+          "visual": 704,
+          "squaredVisual": 711,
+          "serie": 712,
+          "concept": 715,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 718
+        },
+        "ebe013ef-ad00-4626-aa32-ae03630a25c7",
+        "Descente de flics",
+        "Louisiane, 2 août 2010. C’est dimanche. Ce matin les flics ont retourné la maison. Ils en avaient après Marcus, l’ainé des enfants. Maintenant, lui, ses frères et sœurs, sa mère et sa grand-mère Mary Lee, s’apprêtent à partir en voiture pour la rivière. ",
+        [
+          11
+        ],
+        [],
+        1705951800,
+        1705953531,
+        {
+          "model": 19,
+          "src": 705,
+          "webpSrc": 706,
+          "legend": 707,
+          "copyright": 437,
+          "author": 708,
+          "width": 24,
+          "height": 24,
+          "preview": 709,
+          "id": 710,
+          "type": 27,
+          "preset": 28,
+          "dominant": 530
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production/2024/01/a5a49b68-be67-4572-9420-612cbd49ba31/400x400_sc_gettyimages-696800518.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production/2024/01/a5a49b68-be67-4572-9420-612cbd49ba31/400x400_sc_gettyimages-696800518.webp",
+        "Louisiane",
+        "The Washington Post",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT%2FxAAWEAEBAQAAAAAAAAAAAAAAAAAAARH%2FxAAVAQEBAAAAAAAAAAAAAAAAAAAAAf%2FEABQRAQAAAAAAAAAAAAAAAAAAAAD%2F2gAMAwEAAhEDEQA%2FAPFFICCY0YDOJjeGCoqRRBYKKoGg5xqJGogAlA1NKij%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "a5a49b68-be67-4572-9420-612cbd49ba31",
+        {
+          "model": 19,
+          "src": 705,
+          "webpSrc": 706,
+          "legend": 707,
+          "copyright": 437,
+          "author": 708,
+          "width": 24,
+          "height": 24,
+          "preview": 709,
+          "id": 710,
+          "type": 27,
+          "preset": 28,
+          "dominant": 530
+        },
+        {
+          "path": 691,
+          "relationMeta": 713
+        },
+        {
+          "episode_order": 67,
+          "episode_title": 714,
+          "episode_number": 69
+        },
+        "\"Les Faibles et les Forts\" de Judith Perrignon 1/5 : Descente de flics",
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 716,
+          "squaredVisual": 717
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          719,
+          725
+        ],
+        {
+          "model": 85,
+          "id": 720,
+          "title": 698,
+          "url": 721,
+          "created": 722,
+          "duration": 723,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 724
+        },
+        "61836d93-3e1d-4d04-abfb-9f3a61dd4f47",
+        "https://media.radiofrance-podcast.net/podcast09/11495-22.01.2024-ITEMA_23602052-2023C3480E0124-25.m4a",
+        1705881600,
+        1732,
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        {
+          "model": 85,
+          "id": 726,
+          "title": 698,
+          "url": 727,
+          "created": 703,
+          "duration": 723,
+          "shareable": 43,
+          "principal": 43,
+          "preset": 728
+        },
+        "d9c2f929-e625-4036-a405-b0f330d2ace0",
+        "https://media.radiofrance-podcast.net/podcast09/13026-22.01.2024-ITEMA_23622439-2023C3480E0124-21.mp3",
+        {
+          "id": 100,
+          "name": 91,
+          "encoding": 101,
+          "bitrate": 102,
+          "frequency": 103,
+          "level": 104
+        },
+        {
+          "model": 19,
+          "src": 730,
+          "webpSrc": 731,
+          "legend": 732,
+          "copyright": 437,
+          "author": 733,
+          "width": 24,
+          "height": 24,
+          "preview": 734,
+          "id": 735,
+          "type": 27,
+          "preset": 28,
+          "dominant": 736
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production/2024/01/2eb94497-1fd9-45bc-91f0-5e631b37e315/400x400_sc_carre-1.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production/2024/01/2eb94497-1fd9-45bc-91f0-5e631b37e315/400x400_sc_carre-1.webp",
+        "\"Les faibles et les forts\" de Judith Perrignon",
+        "Giles Clarke",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT%2FxAAYEAEBAQEBAAAAAAAAAAAAAAAAARECEv%2FEABcBAQEBAQAAAAAAAAAAAAAAAAEAAgP%2FxAAVEQEBAAAAAAAAAAAAAAAAAAAAEf%2FaAAwDAQACEQMRAD8Ahz0rOnLz0pOgV9LaX0GlDStaGtUoc08qUp5XNKyjpJW1I2hpbQ0pKU0pIMQU1tIII2hoUCH%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "2eb94497-1fd9-45bc-91f0-5e631b37e315",
+        "#181808",
+        {
+          "id": 738,
+          "path": 739,
+          "migrated": 17,
+          "standFirst": 740,
+          "baseline": 15,
+          "model": 295,
+          "kind": 296,
+          "title": 741,
+          "promoEpisode": 742,
+          "visual": 780
+        },
+        "b39f7c0e-5793-4488-8ef3-4f14ab2942ec",
+        "franceculture/podcasts/serie-germinal-d-emile-zola",
+        "Étienne Lantier, un syndicaliste, trouve un travail dans la mine de charbon du Voreux. Logé chez les Maheu, une famille de mineurs, il tombe amoureux de leur fille Catherine. Le travail est rude, mal payé, et les conditions de sécurité ne sont pas respectées : la grève commence.",
+        "\"Germinal\" d'Émile Zola",
+        {
+          "items": 743
+        },
+        [
+          744
+        ],
+        {
+          "id": 745,
+          "title": 746,
+          "standFirst": 747,
+          "brandEnums": 748,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 429,
+          "guest": 749,
+          "publishedDate": 750,
+          "startDate": 750,
+          "endDate": 751,
+          "path": 15,
+          "migrated": 17,
+          "visual": 752,
+          "squaredVisual": 760,
+          "serie": 761,
+          "concept": 764,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 767
+        },
+        "d0428b57-bb42-443c-9465-7edb12356b9d",
+        "De Marchienne à Montsou ",
+        "Ouvrier sans travail, le jeune Etienne Lantier est parti dans le nord, dans la région des mines de charbon où, paraît-il, on embauche.",
+        [
+          11
+        ],
+        [],
+        1651516200,
+        1651517913,
+        {
+          "model": 19,
+          "src": 753,
+          "webpSrc": 754,
+          "legend": 755,
+          "copyright": 437,
+          "author": 756,
+          "width": 24,
+          "height": 24,
+          "preview": 757,
+          "id": 758,
+          "type": 27,
+          "preset": 28,
+          "dominant": 759
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production/2024/01/c733e940-c0bf-4031-9610-7ea653a58cc4/400x400_sc_16-9-germinal.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production/2024/01/c733e940-c0bf-4031-9610-7ea653a58cc4/400x400_sc_16-9-germinal.webp",
+        "Germinal",
+        "Hulton Archive",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAQACBP%2FEABYQAQEBAAAAAAAAAAAAAAAAAAABEf%2FEABQBAQAAAAAAAAAAAAAAAAAAAAD%2FxAAUEQEAAAAAAAAAAAAAAAAAAAAA%2F9oADAMBAAIRAxEAPwDkUhxqQBIcakOAxiasALDIbEBiGrQVZOgG6zTWaA1aKgOrQgf%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "c733e940-c0bf-4031-9610-7ea653a58cc4",
+        "#282828",
+        {
+          "model": 19,
+          "src": 753,
+          "webpSrc": 754,
+          "legend": 755,
+          "copyright": 437,
+          "author": 756,
+          "width": 24,
+          "height": 24,
+          "preview": 757,
+          "id": 758,
+          "type": 27,
+          "preset": 28,
+          "dominant": 759
+        },
+        {
+          "path": 739,
+          "relationMeta": 762
+        },
+        {
+          "episode_order": 67,
+          "episode_title": 763,
+          "episode_number": 69
+        },
+        "\"Germinal\" d'Émile Zola 1/10 : De Marchienne à Montsou ",
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 765,
+          "squaredVisual": 766
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          768,
+          775
+        ],
+        {
+          "model": 85,
+          "id": 769,
+          "title": 770,
+          "url": 771,
+          "created": 772,
+          "duration": 773,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 774
+        },
+        "715fa82d-79ee-409f-a8da-a8d21ea0aecb",
+        "\"Germinal\" d'Emile Zola : De Marchienne à Montsou 1/10",
+        "https://media.radiofrance-podcast.net/podcast09/11495-18.12.2023-ITEMA_23575781-2021C3480E0173-25.m4a",
+        1702857600,
+        1727,
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        {
+          "model": 85,
+          "id": 776,
+          "title": 770,
+          "url": 777,
+          "created": 778,
+          "duration": 773,
+          "shareable": 43,
+          "principal": 43,
+          "preset": 779
+        },
+        "999277f1-83ec-428a-8d9e-7ba6e31d38ae",
+        "https://media.radiofrance-podcast.net/podcast09/11495-02.05.2022-ITEMA_23026971-2021C3480E0173-21.mp3",
+        1651446000,
+        {
+          "id": 100,
+          "name": 91,
+          "encoding": 101,
+          "bitrate": 102,
+          "frequency": 103,
+          "level": 104
+        },
+        {
+          "model": 19,
+          "src": 781,
+          "webpSrc": 782,
+          "legend": 755,
+          "copyright": 437,
+          "author": 756,
+          "width": 24,
+          "height": 24,
+          "preview": 783,
+          "id": 784,
+          "type": 27,
+          "preset": 28,
+          "dominant": 759
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production/2024/01/53d328a0-ed39-4314-a1dc-5cb9fe49a4e7/400x400_sc_germinal.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production/2024/01/53d328a0-ed39-4314-a1dc-5cb9fe49a4e7/400x400_sc_germinal.webp",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBP%2FEABYQAQEBAAAAAAAAAAAAAAAAAAARAf%2FEABYBAQEBAAAAAAAAAAAAAAAAAAABAv%2FEABURAQEAAAAAAAAAAAAAAAAAAAAR%2F9oADAMBAAIRAxEAPwDn1FQBYKqpCKLVoCssooAAgJWmGsBQQCpTUB%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "53d328a0-ed39-4314-a1dc-5cb9fe49a4e7",
+        {
+          "id": 786,
+          "path": 787,
+          "migrated": 17,
+          "standFirst": 788,
+          "baseline": 15,
+          "model": 295,
+          "kind": 296,
+          "title": 789,
+          "promoEpisode": 790,
+          "visual": 826
+        },
+        "0b1e6675-35a0-489a-a2df-2a4311acd817",
+        "franceculture/podcasts/serie-le-temps-des-secrets-de-marcel-pagnol",
+        "Le Temps des secrets est le troisième tome des souvenirs d'enfance de Marcel Pagnol, paru après La Gloire de mon père et Le Château de ma mère, en 1960.",
+        "\"Le Temps des secrets\" de Marcel Pagnol",
+        {
+          "items": 791
+        },
+        [
+          792
+        ],
+        {
+          "id": 793,
+          "title": 794,
+          "standFirst": 795,
+          "brandEnums": 796,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 429,
+          "guest": 797,
+          "publishedDate": 798,
+          "startDate": 798,
+          "endDate": 799,
+          "path": 15,
+          "migrated": 17,
+          "visual": 800,
+          "squaredVisual": 808,
+          "serie": 809,
+          "concept": 812,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 815
+        },
+        "7c9f326f-d6cb-49bc-b828-c48040d936c1",
+        "De retour",
+        "\"Après la terrible affaire du Château, si glorieusement terminée par la victoire de Bouzigue, la joie s'installa dans la petite Bastide-Neuve, et les grandes vacances commencèrent.\" ",
+        [
+          11
+        ],
+        [],
+        1704137400,
+        1704139128,
+        {
+          "model": 19,
+          "src": 801,
+          "webpSrc": 802,
+          "legend": 803,
+          "copyright": 437,
+          "author": 804,
+          "width": 24,
+          "height": 24,
+          "preview": 805,
+          "id": 806,
+          "type": 27,
+          "preset": 28,
+          "dominant": 807
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production/2023/12/2c50d0f8-eed4-4e48-ad0a-2fb33d3b5247/400x400_sc_gettyimages-1291356741.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production/2023/12/2c50d0f8-eed4-4e48-ad0a-2fb33d3b5247/400x400_sc_gettyimages-1291356741.webp",
+        "Le vieux port de Marseille, 1905",
+        "Api",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT%2FxAAYEAEBAQEBAAAAAAAAAAAAAAAAARESAv%2FEABQBAQAAAAAAAAAAAAAAAAAAAAD%2FxAAUEQEAAAAAAAAAAAAAAAAAAAAA%2F9oADAMBAAIRAxEAPwDqlPKlppQWlNqM9G6BTRqfQ6Bza2VLps9AtPTekpW6CvQ6T1mg5Z6NPSUNAWlNKlDwDaNKAf%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+        "2c50d0f8-eed4-4e48-ad0a-2fb33d3b5247",
+        "#e8e8e8",
+        {
+          "model": 19,
+          "src": 801,
+          "webpSrc": 802,
+          "legend": 803,
+          "copyright": 437,
+          "author": 804,
+          "width": 24,
+          "height": 24,
+          "preview": 805,
+          "id": 806,
+          "type": 27,
+          "preset": 28,
+          "dominant": 807
+        },
+        {
+          "path": 787,
+          "relationMeta": 810
+        },
+        {
+          "episode_order": 67,
+          "episode_title": 811,
+          "episode_number": 69
+        },
+        "\"Le Temps des secrets\" de Marcel Pagnol 1/5 : De retour",
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 813,
+          "squaredVisual": 814
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          816,
+          822
+        ],
+        {
+          "model": 85,
+          "id": 817,
+          "title": 794,
+          "url": 818,
+          "created": 819,
+          "duration": 820,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 821
+        },
+        "ae240426-9243-4692-801e-4f735a207962",
+        "https://media.radiofrance-podcast.net/podcast09/11495-01.01.2024-ITEMA_23575783-2023C3480E0104-25.m4a",
+        1704067200,
+        1729,
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        {
+          "model": 85,
+          "id": 823,
+          "title": 794,
+          "url": 824,
+          "created": 799,
+          "duration": 820,
+          "shareable": 43,
+          "principal": 43,
+          "preset": 825
+        },
+        "19db3727-9677-4f94-b117-2822e9f174d3",
+        "https://media.radiofrance-podcast.net/podcast09/13023-01.01.2024-ITEMA_23600789-2023C3480E0104-21.mp3",
+        {
+          "id": 100,
+          "name": 91,
+          "encoding": 101,
+          "bitrate": 102,
+          "frequency": 103,
+          "level": 104
+        },
+        {
+          "model": 19,
+          "src": 827,
+          "webpSrc": 828,
+          "legend": 789,
+          "copyright": 22,
+          "author": 829,
+          "width": 24,
+          "height": 24,
+          "preview": 830,
+          "id": 831,
+          "type": 27,
+          "preset": 28,
+          "dominant": 832
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/03/5f62a8f5-10fb-407f-a59f-eb2bd02e9c37/400x400_sc_carre-le-temps-des-secrets.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/03/5f62a8f5-10fb-407f-a59f-eb2bd02e9c37/400x400_sc_carre-le-temps-des-secrets.webp",
+        "Maxime Bardou",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgEDAP%2FEABgQAQEBAQEAAAAAAAAAAAAAAAABAhES%2F8QAGAEAAwEBAAAAAAAAAAAAAAAAAQIDBAD%2FxAAXEQEBAQEAAAAAAAAAAAAAAAAAAREC%2F9oADAMBAAIRAxEAPwDTjuHxGidMt5GwbCqDoyM7kfLXjvJdWlb0KWqz1Uea6xLXD0oppMKQuOyRL0eRlaFq0SQapZGHk2hIeSSKSqR%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "5f62a8f5-10fb-407f-a59f-eb2bd02e9c37",
+        "#18a8f8",
+        {
+          "id": 834,
+          "path": 835,
+          "migrated": 17,
+          "standFirst": 836,
+          "baseline": 837,
+          "model": 295,
+          "kind": 296,
+          "title": 838,
+          "promoEpisode": 839,
+          "visual": 872
+        },
+        "babbb536-aa66-487d-8c68-969331aa4592",
+        "franceculture/podcasts/serie-un-immense-fil-d-une-heure-de-pierre-senges",
+        "\"Un immense fil d'une heure\" est un hommage à la radio analogique, une comédie policière en cinq épisodes - dans laquelle on verra le détective Maxwell et son assistant Marconi fouiller la maison de Radio France jusqu'aux sous-sols afin d'expliquer de bien étranges disparitions. ",
+        "Enquête policière en cinq épisodes à la Maison de la Radio. ",
+        "\"Un immense fil d'une heure\" de Pierre Senges",
+        {
+          "items": 840
+        },
+        [
+          841
+        ],
+        {
+          "id": 842,
+          "title": 843,
+          "standFirst": 844,
+          "brandEnums": 845,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 429,
+          "guest": 846,
+          "publishedDate": 847,
+          "startDate": 847,
+          "endDate": 848,
+          "path": 849,
+          "migrated": 17,
+          "visual": 850,
+          "squaredVisual": 858,
+          "serie": 859,
+          "concept": 862,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 865
+        },
+        "78856676-a192-102d-9c2c-fcfcfc001444",
+        "Un morceau de quelque chose",
+        "Dans ce premier épisode, le policier Maxwell et son assistant se rendent à la Maison de la Radio. Des objets en tout genre disparaissent, il faut mener l'enquête. ",
+        [
+          11
+        ],
+        [],
+        1191263700,
+        1191265200,
+        "franceculture/podcasts/fictions-le-feuilleton/un-immense-fil-d-une-heure-de-temps-1-5-de-pierre-senges-7975889",
+        {
+          "model": 19,
+          "src": 851,
+          "webpSrc": 852,
+          "legend": 853,
+          "copyright": 437,
+          "author": 854,
+          "width": 24,
+          "height": 24,
+          "preview": 855,
+          "id": 856,
+          "type": 27,
+          "preset": 28,
+          "dominant": 857
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production/2023/12/47650622-fc47-45ad-a154-6e52bd6e90d2/400x400_sc_gettyimages-1367857683.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production/2023/12/47650622-fc47-45ad-a154-6e52bd6e90d2/400x400_sc_gettyimages-1367857683.webp",
+        "Équipement audio",
+        "Prairie View A&M University",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT%2FxAAZEAEAAwEBAAAAAAAAAAAAAAAAAQISEQP%2FxAAUAQEAAAAAAAAAAAAAAAAAAAAA%2F8QAFBEBAAAAAAAAAAAAAAAAAAAAAP%2FaAAwDAQACEQMRAD8A5%2FN00Q86r1gD9LLAAwYINwE60PlSKmyCEwHFpqGQJWD8GKm4AweIJVWoFy2FGBPLZUYH%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "47650622-fc47-45ad-a154-6e52bd6e90d2",
+        "#f8f8f8",
+        {
+          "model": 19,
+          "src": 851,
+          "webpSrc": 852,
+          "legend": 853,
+          "copyright": 437,
+          "author": 854,
+          "width": 24,
+          "height": 24,
+          "preview": 855,
+          "id": 856,
+          "type": 27,
+          "preset": 28,
+          "dominant": 857
+        },
+        {
+          "path": 835,
+          "relationMeta": 860
+        },
+        {
+          "episode_order": 67,
+          "episode_title": 861,
+          "episode_number": 69
+        },
+        "\"Un immense fil d'une heure\" de Pierre Senges 1/5 : Un morceau de quelque chose",
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 863,
+          "squaredVisual": 864
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          866
+        ],
+        {
+          "model": 85,
+          "id": 867,
+          "title": 843,
+          "url": 868,
+          "created": 869,
+          "duration": 870,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 871
+        },
+        "c2b43ac7-340f-4aad-9944-44003fed51b7",
+        "https://media.radiofrance-podcast.net/podcast09/13023-01.10.2007-ITEMA_23583432-2007C3480E0127-21.mp3",
+        1191193200,
+        1204,
+        {
+          "id": 100,
+          "name": 91,
+          "encoding": 101,
+          "bitrate": 102,
+          "frequency": 103,
+          "level": 104
+        },
+        {
+          "model": 19,
+          "src": 873,
+          "webpSrc": 874,
+          "legend": 875,
+          "copyright": 437,
+          "author": 876,
+          "width": 24,
+          "height": 24,
+          "preview": 877,
+          "id": 878,
+          "type": 27,
+          "preset": 28,
+          "dominant": 879
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production/2023/12/36a24cec-716d-4332-97c8-e7bb699e6337/400x400_sc_gettyimages-949874590.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production/2023/12/36a24cec-716d-4332-97c8-e7bb699e6337/400x400_sc_gettyimages-949874590.webp",
+        "La Maison de la Radio à Paris, France.",
+        "Michel Ginfray/Gamma-Rapho",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA%2F%2FEABgQAQEBAQEAAAAAAAAAAAAAAAAREgEC%2F8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA%2F%2FEABURAQEAAAAAAAAAAAAAAAAAAAAR%2F9oADAMBAAIRAxEAPwDQ0066ViKBUUpDBUUpGdFZ09M1ppRWehoo0paZ99FpKJ70Uup6KvRaQBFd9FpPSQf%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "36a24cec-716d-4332-97c8-e7bb699e6337",
+        "#98a8c8",
+        {
+          "id": 881,
+          "path": 882,
+          "migrated": 17,
+          "standFirst": 883,
+          "baseline": 15,
+          "model": 295,
+          "kind": 296,
+          "title": 884,
+          "promoEpisode": 885,
+          "visual": 921
+        },
+        "074d3a10-335a-417d-afaf-d39b0ac85c2a",
+        "franceculture/podcasts/serie-leur-ame-au-diable-de-marin-ledun",
+        "Meurtres, corruption, manipulation, abus de pouvoir… Une plongée dans l’enfer de l’industrie du tabac.",
+        "\"Leur âme au diable\" de Marin Ledun",
+        {
+          "items": 886
+        },
+        [
+          887
+        ],
+        {
+          "id": 888,
+          "title": 889,
+          "standFirst": 890,
+          "brandEnums": 891,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 429,
+          "guest": 892,
+          "publishedDate": 893,
+          "startDate": 893,
+          "endDate": 894,
+          "path": 15,
+          "migrated": 17,
+          "visual": 895,
+          "squaredVisual": 903,
+          "serie": 904,
+          "concept": 907,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 910
+        },
+        "41043ef0-a870-4b00-a5f1-07fc19914241",
+        "Pas de fumée sans feu.",
+        "Une nuit de juillet 1986, Muller, avec la complicité de cinq hommes armés, braque deux camions-citernes remplis d’ammoniac. David Bartels, lobbyiste pro-tabac est le commanditaire de ce vol.\nPour l’inspecteur Nora, sept morts au total, ça fait tache.",
+        [
+          11
+        ],
+        [],
+        1701113400,
+        1701115124,
+        {
+          "model": 19,
+          "src": 896,
+          "webpSrc": 897,
+          "legend": 898,
+          "copyright": 437,
+          "author": 899,
+          "width": 24,
+          "height": 24,
+          "preview": 900,
+          "id": 901,
+          "type": 27,
+          "preset": 28,
+          "dominant": 902
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production/2023/11/896b7475-87cc-40da-aa6a-ee386a55c6ba/400x400_sc_gettyimages-1303337459.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production/2023/11/896b7475-87cc-40da-aa6a-ee386a55c6ba/400x400_sc_gettyimages-1303337459.webp",
+        "Homme portant un chapeau fedora, tenant un pistolet, fumant un cigare",
+        "Boris Zhitkov",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgEABP%2FEABYQAQEBAAAAAAAAAAAAAAAAAAABEf%2FEABcBAQEBAQAAAAAAAAAAAAAAAAMBAgD%2FxAAXEQEBAQEAAAAAAAAAAAAAAAAAAQIR%2F9oADAMBAAIRAxEAPwDho1aKQ22KDCiihxmjIfIUVtFYPVUpQWVRnKuhq6yWUNRkaFarIzmS1tRnNdf%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+        "896b7475-87cc-40da-aa6a-ee386a55c6ba",
+        "#d8d8d8",
+        {
+          "model": 19,
+          "src": 896,
+          "webpSrc": 897,
+          "legend": 898,
+          "copyright": 437,
+          "author": 899,
+          "width": 24,
+          "height": 24,
+          "preview": 900,
+          "id": 901,
+          "type": 27,
+          "preset": 28,
+          "dominant": 902
+        },
+        {
+          "path": 882,
+          "relationMeta": 905
+        },
+        {
+          "episode_order": 67,
+          "episode_title": 906,
+          "episode_number": 69
+        },
+        "\"Leur âme au diable\" de Marin Ledun 1/10 : Pas de fumée sans feu.",
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 908,
+          "squaredVisual": 909
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          911,
+          917
+        ],
+        {
+          "model": 85,
+          "id": 912,
+          "title": 889,
+          "url": 913,
+          "created": 914,
+          "duration": 915,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 916
+        },
+        "4665b663-952a-472e-92e0-bf385f2acb5a",
+        "https://media.radiofrance-podcast.net/podcast09/11495-27.11.2023-ITEMA_23550346-2023C3480E0109-25.m4a",
+        1701043200,
+        1725,
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        {
+          "model": 85,
+          "id": 918,
+          "title": 889,
+          "url": 919,
+          "created": 914,
+          "duration": 915,
+          "shareable": 43,
+          "principal": 43,
+          "preset": 920
+        },
+        "4015c153-dad8-4b6c-81d6-61a6a621b766",
+        "https://media.radiofrance-podcast.net/podcast09/11495-27.11.2023-ITEMA_23550346-2023C3480E0109-21.mp3",
+        {
+          "id": 100,
+          "name": 91,
+          "encoding": 101,
+          "bitrate": 102,
+          "frequency": 103,
+          "level": 104
+        },
+        {
+          "model": 19,
+          "src": 922,
+          "webpSrc": 923,
+          "legend": 884,
+          "copyright": 437,
+          "author": 899,
+          "width": 24,
+          "height": 24,
+          "preview": 924,
+          "id": 925,
+          "type": 27,
+          "preset": 28,
+          "dominant": 926
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production/2023/11/d0d95ce4-0661-4ab2-a955-d4c4baed83f9/400x400_sc_marinleduncarre-1.jpg",
+        "https://www.radiofrance.fr/s3/cruiser-production/2023/11/d0d95ce4-0661-4ab2-a955-d4c4baed83f9/400x400_sc_marinleduncarre-1.webp",
+        "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAQIABP%2FEABYQAQEBAAAAAAAAAAAAAAAAAAABEf%2FEABgBAAMBAQAAAAAAAAAAAAAAAAABAgME%2F8QAFxEBAQEBAAAAAAAAAAAAAAAAAAERAv%2FaAAwDAQACEQMRAD8A4g1BOjqlURFQ0aohtPVobGiiZWpwkBMrNotGk0nTSqlRCpjq9TawoIWjWqQev%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+        "d0d95ce4-0661-4ab2-a955-d4c4baed83f9",
+        "#082828",
+        6,
+        {
+          "model": 19,
+          "src": 388,
+          "webpSrc": 389,
+          "legend": 4,
+          "copyright": 31,
+          "author": 31,
+          "width": 390,
+          "height": 391,
+          "preview": 392,
+          "id": 379,
+          "type": 27,
+          "preset": 393,
+          "dominant": 29,
+          "srcset": 929,
+          "webpSrcset": 930
+        },
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/5cc33474-4733-4ee7-910c-4bdac220079a/400x400_sc_fc-doruido-promote.jpg 400w, https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/5cc33474-4733-4ee7-910c-4bdac220079a/1000x563_sc_fc-doruido-promote.jpg 1000w, https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/5cc33474-4733-4ee7-910c-4bdac220079a/1024x320_sc_fc-doruido-promote.jpg 1024w",
+        "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/5cc33474-4733-4ee7-910c-4bdac220079a/400x400_sc_fc-doruido-promote.webp 400w, https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/5cc33474-4733-4ee7-910c-4bdac220079a/1000x563_sc_fc-doruido-promote.webp 1000w, https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/5cc33474-4733-4ee7-910c-4bdac220079a/1024x320_sc_fc-doruido-promote.webp 1024w",
+        {
+          "id": 40,
+          "title": 41,
+          "standFirst": 42,
+          "brandEnums": 932,
+          "isExpired": 43,
+          "model": 44,
+          "type": 45,
+          "kind": 46,
+          "guest": 933,
+          "publishedDate": 48,
+          "startDate": 48,
+          "endDate": 49,
+          "path": 15,
+          "migrated": 17,
+          "visual": 934,
+          "squaredVisual": 935,
+          "serie": 936,
+          "concept": 938,
+          "mainResourceAudioAndVideo": 31,
+          "manifestations": 941,
+          "originExpression": 946,
+          "series": 947,
+          "serieEpisodeTitle": 105,
+          "episodeSerieTitle": 68,
+          "seriePath": 65,
+          "isTimeshiftable": 43
+        },
+        [
+          11
+        ],
+        [],
+        {
+          "model": 19,
+          "src": 51,
+          "webpSrc": 52,
+          "legend": 53,
+          "copyright": 22,
+          "author": 23,
+          "width": 54,
+          "height": 55,
+          "preview": 56,
+          "id": 57,
+          "type": 27,
+          "preset": 58,
+          "dominant": 59
+        },
+        {
+          "model": 19,
+          "src": 61,
+          "webpSrc": 62,
+          "legend": 53,
+          "copyright": 22,
+          "author": 23,
+          "width": 24,
+          "height": 24,
+          "preview": 63,
+          "id": 57,
+          "type": 27,
+          "preset": 28,
+          "dominant": 59
+        },
+        {
+          "path": 65,
+          "relationMeta": 937
+        },
+        {
+          "episode_order": 67,
+          "episode_title": 68,
+          "episode_number": 69
+        },
+        {
+          "id": 71,
+          "title": 72,
+          "path": 73,
+          "visual": 939,
+          "squaredVisual": 940
+        },
+        {
+          "model": 19,
+          "src": 75,
+          "webpSrc": 76,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 54,
+          "height": 55,
+          "preview": 77,
+          "id": 78,
+          "type": 27,
+          "preset": 58,
+          "dominant": 31
+        },
+        {
+          "model": 19,
+          "src": 80,
+          "webpSrc": 81,
+          "legend": 72,
+          "copyright": 22,
+          "author": 31,
+          "width": 24,
+          "height": 24,
+          "preview": 82,
+          "id": 78,
+          "type": 27,
+          "preset": 28,
+          "dominant": 31
+        },
+        [
+          942,
+          944
+        ],
+        {
+          "model": 85,
+          "id": 86,
+          "title": 41,
+          "url": 87,
+          "created": 48,
+          "duration": 88,
+          "shareable": 43,
+          "principal": 17,
+          "preset": 943
+        },
+        {
+          "id": 90,
+          "name": 91,
+          "encoding": 92,
+          "bitrate": 93,
+          "frequency": 94,
+          "level": 95
+        },
+        {
+          "model": 85,
+          "id": 97,
+          "title": 41,
+          "url": 98,
+          "created": 48,
+          "duration": 88,
+          "shareable": 43,
+          "principal": 43,
+          "preset": 945
+        },
+        {
+          "id": 100,
+          "name": 91,
+          "encoding": 101,
+          "bitrate": 102,
+          "frequency": 103,
+          "level": 104
+        },
+        [],
+        [
+          948
+        ],
+        {
+          "id": 7,
+          "title": 4,
+          "path": 65,
+          "relationMeta": 949
+        },
+        {
+          "episode_order": 67,
+          "episode_title": 68,
+          "episode_number": 69
+        },
+        [
+          951,
+          956,
+          960,
+          964,
+          975,
+          978,
+          987,
+          989,
+          993,
+          997,
+          1001,
+          1005,
+          1009,
+          1011,
+          1015,
+          1017,
+          1021,
+          1023,
+          1027,
+          1029,
+          1033,
+          1037,
+          1041,
+          1045,
+          1049,
+          1051,
+          1055,
+          1059
+        ],
+        {
+          "type": 952,
+          "children": 953
+        },
+        "text",
+        [
+          954
+        ],
+        {
+          "type": 952,
+          "value": 955
+        },
+        "<em>Doruido</em>, premier manga audio, raconte l'histoire d'Ayden et ses amis, trois apprentis druides dans un monde celtique médiéval imaginaire. Puisant ses inspirations dans le genre du shonen japonais, cette série épique, comique, parfois gore ou même kawaii, vous emmène dans une aventure sonore pleine de monstres et de magie.",
+        {
+          "type": 952,
+          "children": 957
+        },
+        [
+          958
+        ],
+        {
+          "type": 952,
+          "value": 959
+        },
+        "Ayden, un orphelin de 14 ans toujours accompagné de Phinx, son Chacureuil, voit son existence bouleversée lorsqu’une araignée géante attaque son village. Avec l’aide de Liv et Od’, deux jeunes druides de passage, il enquête sur la créature... et fait une troublante découverte : un démon surpuissant sommeille en lui depuis toujours. Désormais conscient du danger qu’il représente pour son entourage, Ayden quitte son village et suit ses nouveaux amis ainsi que leur maître, Tregòn, dans leurs aventures. Il est notamment attendu à la prestigieuse Académie des druides pour faire la lumière sur ses pouvoirs et sa véritable identité…",
+        {
+          "type": 952,
+          "children": 961
+        },
+        [
+          962
+        ],
+        {
+          "type": 952,
+          "value": 963
+        },
+        "<strong><em>Doruido</em> (saison 1), une série en cinq épisodes de 30 minutes.</strong><br />Une commande de France Culture, avec le soutien de la SACD.",
+        {
+          "type": 965,
+          "data": 966
+        },
+        "bounce",
+        {
+          "uuid": 967,
+          "path": 968,
+          "title": 969,
+          "conceptTitle": 31,
+          "type": 970,
+          "label": 971,
+          "migrated": 17,
+          "stationId": 927,
+          "visual": 972,
+          "visualEmbed": 31,
+          "conceptVisual": 15,
+          "conceptVisualEmbed": 31,
+          "manifestationUrl": 31,
+          "publishedDate": 973,
+          "updatedDate": 974,
+          "startDate": 31,
+          "duration": 31
+        },
+        "0b1cfaf9-42d5-4f85-89a3-13bb22c8731d",
+        "mouv/podcasts/yatta",
+        "Yatta !",
+        "podcast",
+        "À écouter aussi, l'émission culture manga de Mouv'",
+        "9cfa8da1-9c95-4aca-a75a-41424b62fc7c",
+        1681726544,
+        1695201732,
+        {
+          "type": 976,
+          "level": 128,
+          "value": 977
+        },
+        "heading",
+        "Participez à notre jeu-concours !",
+        {
+          "type": 952,
+          "children": 979
+        },
+        [
+          980,
+          982
+        ],
+        {
+          "type": 952,
+          "value": 981
+        },
+        "<em><strong>Après avoir écouté le podcast, dessinez votre propre version d’Ayden et son chacureuil Phinx ! Vous pourrez gagner une journée sur l’enregistrement de la saison 2*, mais aussi des places de cinéma, des invitations à des expositions partout en France, des livres… Les 5 créations les plus réussies seront également publiées sur nos réseaux sociaux !</strong> <br />Pour participer, envoyez votre dessin à comfranceculture@radiofrance.com avec l’objet “Concours Doruido”, ou publiez-le sur TikTok ou Instagram (votre compte devra être public) accompagné du hashtag #DoruidoFranceCulture. À vos crayons, vous avez jusqu’au 28 juin !<br />(*les frais de déplacement seront à la charge du ou de la gagnant.e.)</em><br />",
+        {
+          "type": 983,
+          "data": 984,
+          "value": 986
+        },
+        "link",
+        {
+          "href": 985
+        },
+        "https://www.radiofrance.fr/franceculture/jeu-concours-doruido-a-vos-crayons-7833137",
+        "<em>Voir les conditions de participation et le règlement</em>",
+        {
+          "type": 976,
+          "level": 128,
+          "value": 988
+        },
+        "Générique",
+        {
+          "type": 952,
+          "children": 990
+        },
+        [
+          991
+        ],
+        {
+          "type": 952,
+          "value": 992
+        },
+        "Une réalisation de <strong>Christophe Hocké</strong><br />Scénario original de <strong>Élie Olivennes</strong>",
+        {
+          "type": 952,
+          "children": 994
+        },
+        [
+          995
+        ],
+        {
+          "type": 952,
+          "value": 996
+        },
+        "Musique originale : <strong>Nicolas Worms</strong><br />Bruitages : <strong>Elodie Fiat</strong><br />Design sonore : <strong>Etienne Colin et Djaisan Taouss</strong><br />Prise de son, montage et mixage <strong>: Djaisan Taouss, Etienne Colin, Maxime de Peretti</strong>",
+        {
+          "type": 952,
+          "children": 998
+        },
+        [
+          999
+        ],
+        {
+          "type": 952,
+          "value": 1000
+        },
+        "Assistante à la réalisation : <strong>Laure Chastant</strong><br />Directeur littéraire : <strong>Thibaud Martin</strong>",
+        {
+          "type": 952,
+          "children": 1002
+        },
+        [
+          1003
+        ],
+        {
+          "type": 952,
+          "value": 1004
+        },
+        "Illustration et design original : <strong>Reno Lemaire</strong>",
+        {
+          "type": 952,
+          "children": 1006
+        },
+        [
+          1007
+        ],
+        {
+          "type": 952,
+          "value": 1008
+        },
+        "<strong><em>Doruido,</em> est une production du service des Fictions de France Culture.</strong> <em>Doruido</em> a été enregistré à la Ferme d’Escures en octobre 2023.<br />Remerciements à Elisa, Myriam et Hubert Caron de la Ferme d'Escures, Flavien Deletre de Will To Go Park et Jérémie Picard, gardien de l'Eglise de Saint-Jean-Le-Blanc",
+        {
+          "type": 976,
+          "level": 128,
+          "value": 1010
+        },
+        "\"Un manga audio : l’idée semble paradoxale\"",
+        {
+          "type": 952,
+          "children": 1012
+        },
+        [
+          1013
+        ],
+        {
+          "type": 952,
+          "value": 1014
+        },
+        "<strong>Note d’intention de l’auteur Élie Olivennes</strong><br />Un manga audio. L’idée semble paradoxale. Comment rendre sonore un objet a priori si visuel ? En réalité, si le manga est un format, le shonen - manga initialement destiné aux adolescents, lui, est un genre. Depuis plusieurs années maintenant, son succès a dépassé les frontières du Japon. La France est même le deuxième plus gros marché mondial ! <br />Depuis que j’ai 12 ans, j’arpente régulièrement les rayons des librairies et des bibliothèques à la recherche de nouveautés. Et encore aujourd’hui, le shonen continue de me fasciner. Les valeurs qu’il porte me réconfortent et me bercent : le goût de l’effort et du dépassement de soi, la force de l’amitié, l’acceptation de la différence et de la monstruosité… Les arcs narratifs et les personnages types qui s’y incarnent ne cessent d’être réinterprétés et enrichis au fil des œuvres. <br />En tant qu’auteur et scénariste de fiction audio, j’avais envie depuis longtemps d’écrire mon propre shonen. Cette série est le résultat de deux années de travail et de quinze ans de passion pour ce genre que je crois aujourd’hui universel et adapté pour l’audio.<br />Créer les aventures d’Ayden, Liv et Od’ dans cet univers celtique imaginaire (qui ne manque pas pour autant de fondements historiques et folkloriques) a été un défi d’écriture pour moi, et de réalisation pour toute l’équipe qui a participé au projet. L’ambition de <em><strong>Doruido</strong></em>, c’est de faire vibrer, rire et frissonner… faire rêver à travers les oreilles.",
+        {
+          "type": 976,
+          "level": 128,
+          "value": 1016
+        },
+        "Tourner dans une ferme",
+        {
+          "type": 952,
+          "children": 1018
+        },
+        [
+          1019
+        ],
+        {
+          "type": 952,
+          "value": 1020
+        },
+        "<strong>Note d’intention du réalisateur Christophe Hocké</strong> <br />Aujourd’hui, le manga fait partie de notre culture commune. C’est l’un des arts les plus populaires au monde. Il était temps que la radio s’en empare, même si le défi est immense car il s’agit d’un art essentiellement visuel. <br />À ma première lecture du scénario, j’ai été conquis par cette épopée druidique et par le défi que cela représentait pour un réalisateur radio. Comme beaucoup, j’ai été bercé par les univers de Tolkien, Harry Potter, Miyazaki, de Final Fantasy ou de Zelda dont j’ai reconnu l’influence sur <em><strong>Doruido</strong></em>. J’ai puisé dans ces références personnelles et ces sources communes pour définir une ligne esthétique. <br />J’ai souhaité associer à l’univers du manga, du cinéma de genre, de la Fantasy ou de la SF, un réalisme qui permette à l’auditeur de s’attacher aux personnages. J’ai lié des séquences très naturelles et concrètes, au plus proche de ces jeunes personnages en quête d’eux-mêmes, à des séquences plus stylisées où les codes du manga interviennent comme des citations. Il y a d’une part un monde druidique post-médiéval dans lequel on plonge naturellement en y appréciant un certain réalisme de sons, de nuances de jeu, de décors, de mouvements subtils, et d’autre part, un univers ultra stylisé, lors des combats notamment, faisant plutôt référence aux clips musicaux ou aux jeux vidéo. <br />C’est ce contraste, cette dynamique et ce rythme qui sont l’originalité de <em><strong>Doruido</strong></em> et qui en font un terrain de jeu vaste et stimulant pour un réalisateur. <br />Nous avons tourné une grande partie de la saison 1 dans une ferme en Normandie, emmenant toute l’équipe technique, les actrices et acteurs et en impliquant les forces vives sur place, notamment pour la figuration, l’accès aux lieux insolites etc. Nous avons ensuite tourné en studio à Paris pour enregistrer les monstres et les bruitages pour le sound-design avec des actrices et acteurs spécialistes du doublage de film, de jeu vidéo ou d’animés. Enfin, nous avons enregistré toute la musique originale de la première saison. <br />Le casting des personnages principaux a été un moment déterminant. Je cherchais des actrices et acteurs très attachants et crédibles dans le rôle d’adolescent.es. Je voulais qu’on puisse se représenter les personnages immédiatement, sans filtre. J’ai réuni des personnalités fortes, ambiguës, qui incarnent les personnages avec un naturel et une profondeur sans équivoque ; tout ceci avec l’enjeu de constituer un groupe capable de s’entendre et de relever le défi d’un tournage extérieur intense et mouvementé. Nous sommes prêts pour la saison 2 !",
+        {
+          "type": 976,
+          "level": 128,
+          "value": 1022
+        },
+        "Un enregistrement comme un tournage de cinéma",
+        {
+          "type": 952,
+          "children": 1024
+        },
+        [
+          1025
+        ],
+        {
+          "type": 952,
+          "value": 1026
+        },
+        "<strong>Note d'intention de Blandine Masson, directrice du service des fictions de France Culture</strong><br />Pour la première fois, France Culture engage sa production de fictions sur le terrain d’un genre populaire traditionnellement lié au monde de l’image. Lorsque nous avons rencontré Élie Olivennes, nous avons été convaincus par sa profonde connaissance d’un genre plus que d’un format : le \"shonen – manga\", mais aussi par sa capacité à écrire et inventer une série d’histoires originales. Nous lui avons donc confié la conception et l’écriture d’une série récurrente en épisodes bouclés, appelée à produire de nouveaux épisodes tous les ans. Mais si l’écriture d’un shonen-manga audio est un défi, celui de de sa réalisation sonore l’était peut-être plus encore. En effet comment donner corps, voix, son aux monstres et aux personnages issus de l’imagination d’Elie Olivennes ?<br />Nous avons fait le choix de confier à Christophe Hocké cette réalisation hors norme, nécessitant à la fois la connaissance des codes du shonen-manga et l’invention de nouveaux codes audio.<br />Le réalisateur, entouré d’une équipe technique virtuose, s’est engagé dans cette création audio qui présente la qualité d’être à la fois parfaitement innovante ET populaire.<br />L’enregistrement s’est déroulé comme un tournage de cinéma, hors les murs dans une ferme entourée de forêts. Une quarantaine de comédiens choisis et dirigés par Christophe Hocké ont prêté leurs voix aux personnages principaux et à la multitude de monstres et de créatures féériques inventés par l’auteur. Sans oublier le Chacureuil qui pourrait bien devenir un animal fétiche à l’image de Milou dans les Aventures de Tintin.<br />La musique composée par Nicolas Worms est également déterminante tant elle porte les situations, les transcende et nous plonge immédiatement dans un univers celtique et fantastique. Une chanson a été composée spécialement pour la série. Enfin, la post-production, phase la plus créative et la plus risquée, a nécessité à la fois un immense travail de recherche et de création.<br />Ainsi Christophe Hocké, avec son équipe, a pu et su créer les principes et les codes de la première série audio de shonen-manga, à la fois prototype et œuvre à part entière.",
+        {
+          "type": 976,
+          "level": 128,
+          "value": 1028
+        },
+        "Distribution",
+        {
+          "type": 952,
+          "children": 1030
+        },
+        [
+          1031
+        ],
+        {
+          "type": 952,
+          "value": 1032
+        },
+        "Les Druides : <strong>Tom Boyaval</strong> (Ayden), <strong>Manika Auxire</strong> (Liv), <strong>Yuming Hey</strong> (Od), <strong>Slimane Yefsah</strong> (Tregon), <strong>Marina Cappe</strong> (Phinx)<br />Les chasseurs de Druides : <strong>Léo-Antonin Lutinier</strong> (Sidhiel), <strong>Caroline Mounier</strong> (Tholris), <strong>Felipe Fonseca Nobre</strong> (Golbo), <strong>Suzanne Aubert</strong> (Carmenia et l’Epouse), <strong>Bastien Bouillon</strong> (Nemeton)<br />Les monstres : <strong>Pierre-Alain de Garrigues</strong> (Cernunnos, la Dolomède Mâle et le Dragon), <strong>Caroline Mounier</strong> (Dolomède Femelle), <strong>Chloé Chaudoye</strong> (La Banshee), <strong>Assane Timbo</strong> (Le Change-Forme)",
+        {
+          "type": 952,
+          "children": 1034
+        },
+        [
+          1035
+        ],
+        {
+          "type": 952,
+          "value": 1036
+        },
+        "Et <strong>Marie Tirmont</strong> (Dalsine), <strong>Daniel Kenigsberg</strong> (Bibliothécaire et Beltaïne), <strong>Christine Pignet</strong> (L’Aubergiste et la Crieuse Publique), <strong>Imer Kuttlovci</strong> (Le marchand), <strong>Chloé Chaudoye</strong> (La Cliente des bains), <strong>Joachim Salinger</strong> (Tire-Semelle), <strong>Hayet Darwich</strong> (Glenn), <strong>Teddy Chawa</strong> (Le Chef des Mineurs), <strong>Thomas Sagols</strong> (Deryn), <strong>Charlotte Legay</strong> (Lodis), <strong>Tamara Saade</strong> (La Voyante), <strong>Grégoire Monsaingeon</strong> (Le Bourgmestre et le Mari), <strong>Fabien Orcier</strong> (Le Bûcheron)",
+        {
+          "type": 952,
+          "children": 1038
+        },
+        [
+          1039
+        ],
+        {
+          "type": 952,
+          "value": 1040
+        },
+        "Et les voix de : Gweltaz Lesauvage, Estelle Leperchois, Florian Grande, Florence Lesauvage, Florent Lebègue, Céline Lemmonier, Fanny Blondeau, Mathieu Germain, Flavien Deletre, Jérémie Picard, Jean-Sébastien Pégon, Tony Lepetit, Michèle Fontaine Hocké, Marie-Lise Le Mellédo, Charlène Leroux, Christophe Legros, Stéphane Bourlier, Alexandra Bourlier, Patricia Laleman, Céline Fallot Déal, Mickaël Mary, Magali Cerles, Nell Déal, Olivier Picard, Nolwenn Bribet, Frédéric Leveillé, Nicolas Déal, Léo Déal, Lison Déal, Pauline Ngo",
+        {
+          "type": 952,
+          "children": 1042
+        },
+        [
+          1043
+        ],
+        {
+          "type": 952,
+          "value": 1044
+        },
+        "Musique originale composée par <strong>Nicolas Worms</strong> et interprétée par : <strong>Benoît Quentin, Lucas Henri et Sébastien Richelieu</strong> (basse électrique), <strong>Pierre Albizetti</strong> (batterie), <strong>Paul Cépède</strong> (guitare électrique), <strong>Nicolas Worms</strong> (claviers), <strong>Sarah Van Der List</strong> (flûtes), <strong>Lucas Henri</strong> (contrebasse, mandoline, guitare), <strong>Benjamin Gras</strong> (bodhràn), <strong>Anne Darrieu</strong> (violon), <strong>Michelle Michina</strong> (chant)",
+        {
+          "type": 952,
+          "children": 1046
+        },
+        [
+          1047
+        ],
+        {
+          "type": 952,
+          "value": 1048
+        },
+        "Régisseurs : <strong>Rares Ienasoaie, Norbert Ferrer, Olivier Kuhn, Boris Reumont</strong>",
+        {
+          "type": 976,
+          "level": 128,
+          "value": 1050
+        },
+        "Biographies",
+        {
+          "type": 952,
+          "children": 1052
+        },
+        [
+          1053
+        ],
+        {
+          "type": 952,
+          "value": 1054
+        },
+        "<strong>Biographie du réalisateur</strong><br /><strong>Christophe Hocké</strong> est réalisateur de fictions radiophoniques à Radio France depuis 2015. Il a réalisé pour France Culture avec l’Orchestre Philharmonique de Radio France : <em>Ça va ! Poèmes d’Octobre</em> de Vladimir Maïakovski, Apollinaire - <em>Poèmes de la paix et de la guerre</em>, <em>La Fontaine - Fables</em>… Il a également réalisé <em>Tram 83</em> de Fiston Muanza Mujila avec Adama Diop et le compositeur et musicien Mocke, <em>Michael Jackson - Man in the mirror</em> de Camille Azaïs, série musicale diffusée en direct, <em>La Métamorphose</em> de Franz Kafka avec Micha Lescot et le groupe Syd Matters, <em>Solaris</em> d'après le scénario d'Andreï Tarkovski et le roman de Stanislas Lem, avec une musique de Nicolas Woms et le Chœur accentus.",
+        {
+          "type": 952,
+          "children": 1056
+        },
+        [
+          1057
+        ],
+        {
+          "type": 952,
+          "value": 1058
+        },
+        "<strong>Biographie de l’auteur</strong><br /><strong>Élie Olivennes</strong> est un auteur, scénariste et réalisateur audio. Né en 1995, il se passionne rapidement pour les \"histoires en disque\" (ces fictions audio destinées aux enfants), les sagas MP3 du début des années 2000 et les livres. Il découvre en parallèle les classiques de la littérature française et du manga japonais. Naruto le fait autant vibrer qu’Edmond Dantès, Eikichi Onizuka (GTO) que Cyrano de Bergerac… En 2015, il intègre l’ENS Ulm et sort diplômé en 2018 du master \"Esthétique et philosophie de l’art\" à la Sorbonne (mémoire sur la fiction audio). Après ses études, il travaille pour le studio Louie Media et la plateforme Majelan, avant de se consacrer entièrement à l’écriture. Podcast amateur, série psychologique sur le jeu d’échecs, science-fiction écologique… il s’essaie à plusieurs genres et styles de contenus audio. Pour le studio Bababam, il écrit <em>Outsmarted</em> , un épisode de la saison 3 de Noises. En parallèle, il suit la formation/résidence \"Emergence - L’Atelier Podcast\" dont il sort avec une maquette du <em>Syndrome du prépuce</em> (série de docu-fiction humoristique autour du judaïsme libéral). Sur la base de ce projet, il est lauréat du premier appel à projets podcasts et créations radiophoniques du ministère de la Culture. L’année suivante, il dirige les comédiens sur deux séries de true crime mêlant narration et scènes de fiction (<em>Le massacre de Piketon</em>, <em>Crimes en série</em>). En 2022 et 2023, il écrit chaque semaine un nouvel épisode du podcast <em>Les Fabuleux Destin</em>s (anciennement <em>True Story</em>) pour le studio Bababam. Il explore aujourd’hui l’une de ses premières passions avec <em><strong>Doruido</strong></em>, un manga audio produit par France Culture pour un public d’adolescents et de jeunes adultes.",
+        {
+          "type": 952,
+          "children": 1060
+        },
+        [
+          1061
+        ],
+        {
+          "type": 952,
+          "value": 1062
+        },
+        "<strong>Biographie du compositeur</strong><br />Formé au CNSM de Paris, Nicolas Worms a reçu des commandes d’institutions comme le Théâtre du Châtelet, l’Opéra de Paris, l’Opéra du Rhin, et sa musique a été interprétée par de nombreux orchestres, ensembles et solistes. Sa musique est un lieu où circulent, en surface et en profondeur, des espace-temps contradictoires, dont la dissonance constitue la blessure et la structure. Habité par les thèmes de l’absence et du voyage intérieur, marqué par le psychédélisme, fasciné par le pouvoir narratif de la musique, il développe le concept de \"musique-fiction\" pour qualifier ses créations, comme le spectacle \"l’Île Fantôme\", la série \"Flot\", le solo aux claviers \"l’Enquête\" et le projet \"Numin\" qu’il mène avec l’artiste Eden Tinto Collins. Il collabore avec la scène pop/rock : Moonsters, UTO, Mocke, Benjamin Clementine, Yael Naim… Il participe aux BO de films de Q. Dupieux, C. Honoré, E. Judor, compose pour les chorégraphes R. El Meddeb et B. Bouché, signe la musique de fictions radiophoniques, comme celle de <em>Solaris</em>, fiction radiophonique réalisée par Christophe Hocké pour France Culture, ainsi que de nombreux ciné-concerts et performances.",
+        [],
+        []
+      ],
+      "uses": {
+        "search_params": [
+          "search",
+          "p"
+        ],
+        "params": [
+          "station"
+        ],
+        "parent": 1,
+        "url": 1
+      }
+    }
+  ]
+}
