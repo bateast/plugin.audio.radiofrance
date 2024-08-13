@@ -99,7 +99,7 @@ def build_lists(data, args, url):
             tag.setURL(item.path)
             tag.setGenres(["podcast"])
             tag.setArtist(item.artists)
-            tag.setDuration(item.duration)
+            tag.setDuration(item.duration if item.duration is not None else 0)
             tag.setReleaseDate(item.release)
             li.setProperty("IsPlayable", "true")
             if item.path is not None:
@@ -231,7 +231,7 @@ def main():
     else:
         if mode is None:
             url = RADIOFRANCE_PAGE
-            url = url + "/podcasts"
+            # url = url + "/podcasts"
             args["url"] = []
             args["url"].append(url)
         # New page

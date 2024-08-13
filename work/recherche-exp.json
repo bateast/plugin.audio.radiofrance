@@ -6,150 +6,104 @@
   },
   "items": {
     "concepts": {
-      "total": 2,
+      "total": 1,
       "contents": [
         {
           "model": "Concept",
-          "id": "6e30ec96-0dec-498a-b692-959fcee553c9",
-          "title": "Le jeu sans euros",
-          "path": "franceinter/podcasts/le-jeu-des-sans-euros",
+          "id": "0c11d927-fb88-420a-b32a-8fa9a65ea026",
+          "title": "Cyrano de Bergerac, d'Edmond Rostand, en 5 podcasts",
+          "path": "radiofrance/podcasts/selection-cyrano-de-bergerac-d-edmond-rostand-en-5-podcasts",
           "migrated": true,
           "brandEnums": [
-            "FRANCEINTER"
+            "RADIOFRANCE"
           ],
           "stationEnums": [
-            "FRANCEINTER"
+            "RADIOFRANCE"
           ],
           "visual": {
             "model": "EmbedImage",
-            "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.jpg",
-            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.webp",
-            "legend": "Le jeu sans euros",
+            "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/6b23e5e2-78cf-4b93-9e75-7060bb67de23/400x400_sc_carre-2.jpg",
+            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/6b23e5e2-78cf-4b93-9e75-7060bb67de23/400x400_sc_carre-2.webp",
+            "legend": "Cyrano de Bergerac, d'Edmond Rostand",
             "copyright": "Radio France",
-            "author": null,
+            "author": "Maxime Bardou",
             "width": 400,
             "height": 400,
-            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgMBAP%2FEABgQAQEBAQEAAAAAAAAAAAAAAAABAhES%2F8QAGAEBAQEBAQAAAAAAAAAAAAAAAgMBAAT%2FxAAYEQEBAQEBAAAAAAAAAAAAAAABABECEv%2FaAAwDAQACEQMRAD8AtaF03VS1XmCYW3Q2hdOlPKoZJnChcdsvWT0jpfUS1Gc0uWjWxtyUya1FlmKcHMU4ktJbbE7lWjRGI0vLZk2wtt2yQ%2BMhAxW%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-            "id": "1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b",
+            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAABAQEBAQAAAAAAAAAAAAAAAwIBAAT%2FxAAYEAEBAQEBAAAAAAAAAAAAAAAAAQIREv%2FEABgBAAMBAQAAAAAAAAAAAAAAAAECAwAE%2F8QAGBEBAQEBAQAAAAAAAAAAAAAAAAEREgL%2F2gAMAwEAAhEDEQA%2FAPPI3yuZVMujXPg%2FLvJvKbkumwVjOEsRxum5LmFkHguQox3E2FRpO08gdRHCaTwOjcuwfIMHwr6S8rTpaNI1WCrOKrCKR%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+            "id": "6b23e5e2-78cf-4b93-9e75-7060bb67de23",
             "type": "image",
             "preset": "400x400",
-            "dominant": "#a8c838",
-            "srcset": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.jpg 400w",
-            "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.webp 400w"
+            "dominant": "#0858a8",
+            "srcset": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/6b23e5e2-78cf-4b93-9e75-7060bb67de23/400x400_sc_carre-2.jpg 400w",
+            "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/6b23e5e2-78cf-4b93-9e75-7060bb67de23/400x400_sc_carre-2.webp 400w"
           },
           "visual_400x400": {
             "model": "EmbedImage",
-            "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.jpg",
-            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.webp",
-            "legend": "Le jeu sans euros",
+            "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/6b23e5e2-78cf-4b93-9e75-7060bb67de23/400x400_sc_carre-2.jpg",
+            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/6b23e5e2-78cf-4b93-9e75-7060bb67de23/400x400_sc_carre-2.webp",
+            "legend": "Cyrano de Bergerac, d'Edmond Rostand",
             "copyright": "Radio France",
-            "author": null,
+            "author": "Maxime Bardou",
             "width": 400,
             "height": 400,
-            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgMBAP%2FEABgQAQEBAQEAAAAAAAAAAAAAAAABAhES%2F8QAGAEBAQEBAQAAAAAAAAAAAAAAAgMBAAT%2FxAAYEQEBAQEBAAAAAAAAAAAAAAABABECEv%2FaAAwDAQACEQMRAD8AtaF03VS1XmCYW3Q2hdOlPKoZJnChcdsvWT0jpfUS1Gc0uWjWxtyUya1FlmKcHMU4ktJbbE7lWjRGI0vLZk2wtt2yQ%2BMhAxW%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-            "id": "1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b",
+            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAABAQEBAQAAAAAAAAAAAAAAAwIBAAT%2FxAAYEAEBAQEBAAAAAAAAAAAAAAAAAQIREv%2FEABgBAAMBAQAAAAAAAAAAAAAAAAECAwAE%2F8QAGBEBAQEBAQAAAAAAAAAAAAAAAAEREgL%2F2gAMAwEAAhEDEQA%2FAPPI3yuZVMujXPg%2FLvJvKbkumwVjOEsRxum5LmFkHguQox3E2FRpO08gdRHCaTwOjcuwfIMHwr6S8rTpaNI1WCrOKrCKR%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+            "id": "6b23e5e2-78cf-4b93-9e75-7060bb67de23",
             "type": "image",
             "preset": "400x400",
-            "dominant": "#a8c838"
+            "dominant": "#0858a8"
           },
           "squaredVisual": {
             "model": "EmbedImage",
-            "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.jpg",
-            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.webp",
-            "legend": "Le jeu sans euros",
+            "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/6b23e5e2-78cf-4b93-9e75-7060bb67de23/400x400_sc_carre-2.jpg",
+            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/6b23e5e2-78cf-4b93-9e75-7060bb67de23/400x400_sc_carre-2.webp",
+            "legend": "Cyrano de Bergerac, d'Edmond Rostand",
             "copyright": "Radio France",
-            "author": null,
+            "author": "Maxime Bardou",
             "width": 400,
             "height": 400,
-            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgMBAP%2FEABgQAQEBAQEAAAAAAAAAAAAAAAABAhES%2F8QAGAEBAQEBAQAAAAAAAAAAAAAAAgMBAAT%2FxAAYEQEBAQEBAAAAAAAAAAAAAAABABECEv%2FaAAwDAQACEQMRAD8AtaF03VS1XmCYW3Q2hdOlPKoZJnChcdsvWT0jpfUS1Gc0uWjWxtyUya1FlmKcHMU4ktJbbE7lWjRGI0vLZk2wtt2yQ%2BMhAxW%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-            "id": "1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b",
+            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAABAQEBAQAAAAAAAAAAAAAAAwIBAAT%2FxAAYEAEBAQEBAAAAAAAAAAAAAAAAAQIREv%2FEABgBAAMBAQAAAAAAAAAAAAAAAAECAwAE%2F8QAGBEBAQEBAQAAAAAAAAAAAAAAAAEREgL%2F2gAMAwEAAhEDEQA%2FAPPI3yuZVMujXPg%2FLvJvKbkumwVjOEsRxum5LmFkHguQox3E2FRpO08gdRHCaTwOjcuwfIMHwr6S8rTpaNI1WCrOKrCKR%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+            "id": "6b23e5e2-78cf-4b93-9e75-7060bb67de23",
             "type": "image",
             "preset": "400x400",
-            "dominant": "#a8c838"
+            "dominant": "#0858a8"
           },
-          "brand": "franceinter",
-          "station": "franceinter"
-        },
-        {
-          "model": "Concept",
-          "id": "033698b6-faca-47e1-a6f8-357273fa1651",
-          "title": "Bernadette, la vie avec 883 euros de retraite",
-          "path": "franceinter/podcasts/serie-bernadette-la-vie-avec-883-euros-de-retraite",
-          "migrated": true,
-          "brandEnums": [
-            "FRANCEINTER"
-          ],
-          "stationEnums": [
-            "FRANCEINTER"
-          ],
-          "visual": {
-            "model": "EmbedImage",
-            "src": "https://www.radiofrance.fr/s3/cruiser-production/2022/09/941db125-3d71-4bfd-951d-8e5c1bc7660e/400x400_bernadette-serie.jpg",
-            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2022/09/941db125-3d71-4bfd-951d-8e5c1bc7660e/400x400_bernadette-serie.webp",
-            "legend": "Vivre avec 883 euros de retraite (carré)",
-            "copyright": null,
-            "author": "Charlotte Perry / RF",
-            "width": 400,
-            "height": 400,
-            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGQAAAwEBAQAAAAAAAAAAAAAAAgMEAQUA%2F8QAJRAAAgIBAwMEAwAAAAAAAAAAAQIAAxEEEiETMUEjM1GRYXGB%2F8QAGAEBAQEBAQAAAAAAAAAAAAAAAQAEAgP%2FxAAaEQEBAQEAAwAAAAAAAAAAAAAAAREDAhIx%2F9oADAMBAAIRAxEAPwD1741RJhb8jMmvsHWJPeLN7EZUwOKmJP68yDUKS5OJSLN9WTFOcmRw2uiwgEDxNKtnxJFutL7Vc4lGfzBoneG9Otn3O2PmIamos3rY544jNHfWljm3yOIeotoIOMckcYnTKnTKoU%2BjAcHbOpW%2BmZSVA%2BovUtR0ztA3Qw651S7QSRzGZhODtyIjj5ihae4VuSUDAyivUqx29McyGrvKKfcgl%2FVQJsCAGTKN2Qw%2Fs1vcEDJ3GVe%2FCbaJ6yO3MT0hntG5PyYMGj08b9j%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
-            "id": "941db125-3d71-4bfd-951d-8e5c1bc7660e",
-            "type": "image",
-            "preset": "400x400",
-            "dominant": "#e80838",
-            "srcset": "https://www.radiofrance.fr/s3/cruiser-production/2022/09/941db125-3d71-4bfd-951d-8e5c1bc7660e/400x400_bernadette-serie.jpg 400w",
-            "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production/2022/09/941db125-3d71-4bfd-951d-8e5c1bc7660e/400x400_bernadette-serie.webp 400w"
-          },
-          "visual_400x400": {
-            "model": "EmbedImage",
-            "src": "https://www.radiofrance.fr/s3/cruiser-production/2022/09/941db125-3d71-4bfd-951d-8e5c1bc7660e/400x400_bernadette-serie.jpg",
-            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2022/09/941db125-3d71-4bfd-951d-8e5c1bc7660e/400x400_bernadette-serie.webp",
-            "legend": "Vivre avec 883 euros de retraite (carré)",
-            "copyright": "Aucun(e)",
-            "author": "Charlotte Perry / RF",
-            "width": 400,
-            "height": 400,
-            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGQAAAwEBAQAAAAAAAAAAAAAAAgMEAQUA%2F8QAJRAAAgIBAwMEAwAAAAAAAAAAAQIAAxEEEiETMUEjM1GRYXGB%2F8QAGAEBAQEBAQAAAAAAAAAAAAAAAQAEAgP%2FxAAaEQEBAQEAAwAAAAAAAAAAAAAAAREDAhIx%2F9oADAMBAAIRAxEAPwD1741RJhb8jMmvsHWJPeLN7EZUwOKmJP68yDUKS5OJSLN9WTFOcmRw2uiwgEDxNKtnxJFutL7Vc4lGfzBoneG9Otn3O2PmIamos3rY544jNHfWljm3yOIeotoIOMckcYnTKnTKoU%2BjAcHbOpW%2BmZSVA%2BovUtR0ztA3Qw651S7QSRzGZhODtyIjj5ihae4VuSUDAyivUqx29McyGrvKKfcgl%2FVQJsCAGTKN2Qw%2Fs1vcEDJ3GVe%2FCbaJ6yO3MT0hntG5PyYMGj08b9j%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
-            "id": "941db125-3d71-4bfd-951d-8e5c1bc7660e",
-            "type": "image",
-            "preset": "400x400",
-            "dominant": "#e80838"
-          },
-          "squaredVisual": {
-            "model": "EmbedImage",
-            "src": "https://www.radiofrance.fr/s3/cruiser-production/2022/09/941db125-3d71-4bfd-951d-8e5c1bc7660e/400x400_bernadette-serie.jpg",
-            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2022/09/941db125-3d71-4bfd-951d-8e5c1bc7660e/400x400_bernadette-serie.webp",
-            "legend": "Vivre avec 883 euros de retraite (carré)",
-            "copyright": "Aucun(e)",
-            "author": "Charlotte Perry / RF",
-            "width": 400,
-            "height": 400,
-            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGQAAAwEBAQAAAAAAAAAAAAAAAgMEAQUA%2F8QAJRAAAgIBAwMEAwAAAAAAAAAAAQIAAxEEEiETMUEjM1GRYXGB%2F8QAGAEBAQEBAQAAAAAAAAAAAAAAAQAEAgP%2FxAAaEQEBAQEAAwAAAAAAAAAAAAAAAREDAhIx%2F9oADAMBAAIRAxEAPwD1741RJhb8jMmvsHWJPeLN7EZUwOKmJP68yDUKS5OJSLN9WTFOcmRw2uiwgEDxNKtnxJFutL7Vc4lGfzBoneG9Otn3O2PmIamos3rY544jNHfWljm3yOIeotoIOMckcYnTKnTKoU%2BjAcHbOpW%2BmZSVA%2BovUtR0ztA3Qw651S7QSRzGZhODtyIjj5ihae4VuSUDAyivUqx29McyGrvKKfcgl%2FVQJsCAGTKN2Qw%2Fs1vcEDJ3GVe%2FCbaJ6yO3MT0hntG5PyYMGj08b9j%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
-            "id": "941db125-3d71-4bfd-951d-8e5c1bc7660e",
-            "type": "image",
-            "preset": "400x400",
-            "dominant": "#e80838"
-          },
-          "brand": "franceinter",
-          "station": "franceinter"
+          "brand": "radiofrance",
+          "station": "radiofrance"
         }
       ]
     },
     "personalities": {
-      "total": 0,
-      "contents": []
+      "total": 1,
+      "contents": [
+        {
+          "model": "Personality",
+          "id": "add03254-6729-11e3-af2e-782bcb73ed47",
+          "path": "personnes/cyrano-de-bergerac",
+          "name": "Cyrano de Bergerac",
+          "role": "",
+          "migrated": true,
+          "brandEnums": [
+            "RADIOFRANCE"
+          ],
+          "stationEnums": [
+            "RADIOFRANCE"
+          ],
+          "visual": null
+        }
+      ]
     },
     "expressions_articles": {
-      "total": 1554,
+      "total": 68,
       "contents": [
         {
           "model": "Expression",
-          "id": "52d66ed9-0528-4801-b451-e8b9db52ec6b",
-          "title": "Le jeu sans euros du dimanche 05 mai 2024",
+          "id": "5e4ae83b-7631-453e-a0e4-2b404cb15d5a",
+          "title": "Mon ami Cyrano",
           "kind": "antenne",
           "type": "episode",
-          "path": "franceinter/podcasts/le-jeu-sans-euros/le-jeu-sans-euros-du-dimanche-05-mai-2024-5960306",
+          "path": "franceinter/podcasts/l-ami-e-du-vendredi/la-chronique-de-guilemette-odicino-du-vendredi-15-decembre-2023-8172100",
           "migrated": true,
-          "startDate": 1714930800,
+          "startDate": 1702632000,
           "brandEnums": [
             "FRANCEINTER"
           ],
@@ -159,11 +113,11 @@
           "manifestations": [
             {
               "model": "ManifestationAudio",
-              "id": "883593b1-641a-4dff-bf65-3b1aa21cd33a",
-              "title": "Le jeu sans euros du dimanche 05 mai 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/18153-05.05.2024-ITEMA_23731458-2024F52406S0126-27.m4a",
-              "created": 1714930980,
-              "duration": 215,
+              "id": "79d3cf30-d29f-4b28-a3a0-377aef20ef0c",
+              "title": "Mon ami Cyrano",
+              "url": "https://media.radiofrance-podcast.net/podcast09/16173-15.12.2023-ITEMA_23585276-2023F33116S0349-27.m4a",
+              "created": 1702632300,
+              "duration": 260,
               "shareable": false,
               "principal": true,
               "preset": {
@@ -177,11 +131,11 @@
             },
             {
               "model": "ManifestationAudio",
-              "id": "ee299940-ac37-4870-b8b3-fb69dd234d52",
-              "title": "Le jeu sans euros du dimanche 05 mai 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/18153-05.05.2024-ITEMA_23731458-2024F52406S0126-22.mp3",
-              "created": 1714930980,
-              "duration": 215,
+              "id": "1b2d9fc5-e85f-42fa-b221-c80f170f4cb5",
+              "title": "Mon ami Cyrano",
+              "url": "https://media.radiofrance-podcast.net/podcast09/23135-15.12.2023-ITEMA_23585341-2023F33116S0349-22.mp3",
+              "created": 1702632300,
+              "duration": 260,
               "shareable": false,
               "principal": false,
               "preset": {
@@ -196,649 +150,19 @@
           ],
           "visual": null,
           "concept": {
-            "title": "Le jeu sans euros",
-            "id": "6e30ec96-0dec-498a-b692-959fcee553c9",
+            "title": "L'ami.e du vendredi",
+            "id": "68d07616-ab47-4c35-b86d-4896664b9755",
             "squaredVisual": {
               "model": "EmbedImage",
-              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.jpg",
-              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.webp",
-              "legend": "Le jeu sans euros",
+              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/04/945b77c2-5697-4d53-854d-d9993537c3be/400x400_sc_l-ami-e-du-vendredi.jpg",
+              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/04/945b77c2-5697-4d53-854d-d9993537c3be/400x400_sc_l-ami-e-du-vendredi.webp",
+              "legend": "L'ami.e du vendredi",
               "copyright": "Radio France",
               "author": null,
               "width": 400,
               "height": 400,
-              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgMBAP%2FEABgQAQEBAQEAAAAAAAAAAAAAAAABAhES%2F8QAGAEBAQEBAQAAAAAAAAAAAAAAAgMBAAT%2FxAAYEQEBAQEBAAAAAAAAAAAAAAABABECEv%2FaAAwDAQACEQMRAD8AtaF03VS1XmCYW3Q2hdOlPKoZJnChcdsvWT0jpfUS1Gc0uWjWxtyUya1FlmKcHMU4ktJbbE7lWjRGI0vLZk2wtt2yQ%2BMhAxW%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-              "id": "1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b",
-              "type": "image",
-              "preset": "400x400",
-              "dominant": "#a8c838"
-            }
-          },
-          "serie": null,
-          "brand": "franceinter",
-          "station": "franceinter"
-        },
-        {
-          "model": "Expression",
-          "id": "e70f6e54-ad43-4b72-9275-d855a8997633",
-          "title": "Le jeu sans euros du dimanche 28 avril 2024",
-          "kind": "antenne",
-          "type": "episode",
-          "path": "franceinter/podcasts/le-jeu-sans-euros/le-jeu-sans-euros-du-dimanche-28-avril-2024-9374344",
-          "migrated": true,
-          "startDate": 1714326000,
-          "brandEnums": [
-            "FRANCEINTER"
-          ],
-          "stationEnums": [
-            "FRANCEINTER"
-          ],
-          "manifestations": [
-            {
-              "model": "ManifestationAudio",
-              "id": "cf734b6f-ef7b-4f1b-a6ec-23be6178a408",
-              "title": "Le jeu sans euros du dimanche 28 avril 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/18153-28.04.2024-ITEMA_23724340-2024F52406S0119-27.m4a",
-              "created": 1714326180,
-              "duration": 300,
-              "shareable": false,
-              "principal": true,
-              "preset": {
-                "id": "27",
-                "name": "stereo",
-                "encoding": "AAC",
-                "bitrate": 192,
-                "frequency": 48,
-                "level": "Stéréo -16LUFS (stéréo + compression “FINTER”)"
-              }
-            },
-            {
-              "model": "ManifestationAudio",
-              "id": "c9f26b8c-3c7f-4e84-ab96-1e93d9539e83",
-              "title": "Le jeu sans euros du dimanche 28 avril 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/24471-28.04.2024-ITEMA_23724377-2024F52406S0119-22.mp3",
-              "created": 1714326180,
-              "duration": 300,
-              "shareable": false,
-              "principal": false,
-              "preset": {
-                "id": "22",
-                "name": "stereo",
-                "encoding": "MP3",
-                "bitrate": 128,
-                "frequency": 44.1,
-                "level": "-16LUFS (stéréo + compression “FINTER”)"
-              }
-            }
-          ],
-          "visual": null,
-          "concept": {
-            "title": "Le jeu sans euros",
-            "id": "6e30ec96-0dec-498a-b692-959fcee553c9",
-            "squaredVisual": {
-              "model": "EmbedImage",
-              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.jpg",
-              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.webp",
-              "legend": "Le jeu sans euros",
-              "copyright": "Radio France",
-              "author": null,
-              "width": 400,
-              "height": 400,
-              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgMBAP%2FEABgQAQEBAQEAAAAAAAAAAAAAAAABAhES%2F8QAGAEBAQEBAQAAAAAAAAAAAAAAAgMBAAT%2FxAAYEQEBAQEBAAAAAAAAAAAAAAABABECEv%2FaAAwDAQACEQMRAD8AtaF03VS1XmCYW3Q2hdOlPKoZJnChcdsvWT0jpfUS1Gc0uWjWxtyUya1FlmKcHMU4ktJbbE7lWjRGI0vLZk2wtt2yQ%2BMhAxW%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-              "id": "1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b",
-              "type": "image",
-              "preset": "400x400",
-              "dominant": "#a8c838"
-            }
-          },
-          "serie": null,
-          "brand": "franceinter",
-          "station": "franceinter"
-        },
-        {
-          "model": "Expression",
-          "id": "7730f3b2-59e3-49f4-a9b5-8c57bf9c85ef",
-          "title": "Le jeu sans euros du dimanche 14 avril 2024",
-          "kind": "antenne",
-          "type": "episode",
-          "path": "franceinter/podcasts/le-jeu-sans-euros/le-jeu-sans-euros-du-dimanche-14-avril-2024-4112664",
-          "migrated": true,
-          "startDate": 1713116400,
-          "brandEnums": [
-            "FRANCEINTER"
-          ],
-          "stationEnums": [
-            "FRANCEINTER"
-          ],
-          "manifestations": [
-            {
-              "model": "ManifestationAudio",
-              "id": "d95486de-c6bf-4d68-beb5-d9e099507246",
-              "title": "Le jeu sans euros du dimanche 14 avril 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/18153-14.04.2024-ITEMA_23709860-2024F52406S0105-27.m4a",
-              "created": 1713116580,
-              "duration": 306,
-              "shareable": false,
-              "principal": true,
-              "preset": {
-                "id": "27",
-                "name": "stereo",
-                "encoding": "AAC",
-                "bitrate": 192,
-                "frequency": 48,
-                "level": "Stéréo -16LUFS (stéréo + compression “FINTER”)"
-              }
-            },
-            {
-              "model": "ManifestationAudio",
-              "id": "1ed2748d-5b4d-4cea-9257-9785cd84db1e",
-              "title": "Le jeu sans euros du dimanche 14 avril 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/24471-14.04.2024-ITEMA_23709900-2024F52406S0105-22.mp3",
-              "created": 1713116580,
-              "duration": 306,
-              "shareable": false,
-              "principal": false,
-              "preset": {
-                "id": "22",
-                "name": "stereo",
-                "encoding": "MP3",
-                "bitrate": 128,
-                "frequency": 44.1,
-                "level": "-16LUFS (stéréo + compression “FINTER”)"
-              }
-            }
-          ],
-          "visual": null,
-          "concept": {
-            "title": "Le jeu sans euros",
-            "id": "6e30ec96-0dec-498a-b692-959fcee553c9",
-            "squaredVisual": {
-              "model": "EmbedImage",
-              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.jpg",
-              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.webp",
-              "legend": "Le jeu sans euros",
-              "copyright": "Radio France",
-              "author": null,
-              "width": 400,
-              "height": 400,
-              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgMBAP%2FEABgQAQEBAQEAAAAAAAAAAAAAAAABAhES%2F8QAGAEBAQEBAQAAAAAAAAAAAAAAAgMBAAT%2FxAAYEQEBAQEBAAAAAAAAAAAAAAABABECEv%2FaAAwDAQACEQMRAD8AtaF03VS1XmCYW3Q2hdOlPKoZJnChcdsvWT0jpfUS1Gc0uWjWxtyUya1FlmKcHMU4ktJbbE7lWjRGI0vLZk2wtt2yQ%2BMhAxW%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-              "id": "1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b",
-              "type": "image",
-              "preset": "400x400",
-              "dominant": "#a8c838"
-            }
-          },
-          "serie": null,
-          "brand": "franceinter",
-          "station": "franceinter"
-        },
-        {
-          "model": "Expression",
-          "id": "7b7bce8a-f749-4a70-809a-cf511849a3ff",
-          "title": "Le jeu sans euros du dimanche 07 avril 2024",
-          "kind": "antenne",
-          "type": "episode",
-          "path": "franceinter/podcasts/le-jeu-sans-euros/le-jeu-sans-euros-du-dimanche-07-avril-2024-7210014",
-          "migrated": true,
-          "startDate": 1712511600,
-          "brandEnums": [
-            "FRANCEINTER"
-          ],
-          "stationEnums": [
-            "FRANCEINTER"
-          ],
-          "manifestations": [
-            {
-              "model": "ManifestationAudio",
-              "id": "bd6610bb-058c-4c63-b3b2-c1bd80bc06cb",
-              "title": "Le jeu sans euros du dimanche 07 avril 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/18153-07.04.2024-ITEMA_23702642-2024F52406S0098-27.m4a",
-              "created": 1712511780,
-              "duration": 298,
-              "shareable": false,
-              "principal": true,
-              "preset": {
-                "id": "27",
-                "name": "stereo",
-                "encoding": "AAC",
-                "bitrate": 192,
-                "frequency": 48,
-                "level": "Stéréo -16LUFS (stéréo + compression “FINTER”)"
-              }
-            },
-            {
-              "model": "ManifestationAudio",
-              "id": "a898fed7-e79c-47dc-a960-f2cbcd7aa309",
-              "title": "Le jeu sans euros du dimanche 07 avril 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/24471-07.04.2024-ITEMA_23702680-2024F52406S0098-22.mp3",
-              "created": 1712511780,
-              "duration": 298,
-              "shareable": false,
-              "principal": false,
-              "preset": {
-                "id": "22",
-                "name": "stereo",
-                "encoding": "MP3",
-                "bitrate": 128,
-                "frequency": 44.1,
-                "level": "-16LUFS (stéréo + compression “FINTER”)"
-              }
-            }
-          ],
-          "visual": null,
-          "concept": {
-            "title": "Le jeu sans euros",
-            "id": "6e30ec96-0dec-498a-b692-959fcee553c9",
-            "squaredVisual": {
-              "model": "EmbedImage",
-              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.jpg",
-              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.webp",
-              "legend": "Le jeu sans euros",
-              "copyright": "Radio France",
-              "author": null,
-              "width": 400,
-              "height": 400,
-              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgMBAP%2FEABgQAQEBAQEAAAAAAAAAAAAAAAABAhES%2F8QAGAEBAQEBAQAAAAAAAAAAAAAAAgMBAAT%2FxAAYEQEBAQEBAAAAAAAAAAAAAAABABECEv%2FaAAwDAQACEQMRAD8AtaF03VS1XmCYW3Q2hdOlPKoZJnChcdsvWT0jpfUS1Gc0uWjWxtyUya1FlmKcHMU4ktJbbE7lWjRGI0vLZk2wtt2yQ%2BMhAxW%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-              "id": "1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b",
-              "type": "image",
-              "preset": "400x400",
-              "dominant": "#a8c838"
-            }
-          },
-          "serie": null,
-          "brand": "franceinter",
-          "station": "franceinter"
-        },
-        {
-          "model": "Expression",
-          "id": "dc63e4b6-8eb4-4ed6-953b-c904db98f4f5",
-          "title": "Le jeu sans euros du dimanche 31 mars 2024",
-          "kind": "antenne",
-          "type": "episode",
-          "path": "franceinter/podcasts/le-jeu-sans-euros/le-jeu-sans-euros-du-dimanche-31-mars-2024-9677849",
-          "migrated": true,
-          "startDate": 1711906800,
-          "brandEnums": [
-            "FRANCEINTER"
-          ],
-          "stationEnums": [
-            "FRANCEINTER"
-          ],
-          "manifestations": [
-            {
-              "model": "ManifestationAudio",
-              "id": "c8c724e7-5d37-4544-bbfc-b9146f359db8",
-              "title": "Le jeu sans euros du dimanche 31 mars 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/18153-31.03.2024-ITEMA_23695364-2024F52406S0091-27.m4a",
-              "created": 1711906980,
-              "duration": 271,
-              "shareable": false,
-              "principal": true,
-              "preset": {
-                "id": "27",
-                "name": "stereo",
-                "encoding": "AAC",
-                "bitrate": 192,
-                "frequency": 48,
-                "level": "Stéréo -16LUFS (stéréo + compression “FINTER”)"
-              }
-            },
-            {
-              "model": "ManifestationAudio",
-              "id": "bddbaaf4-fd9f-49b5-9383-0b2e87c7cafb",
-              "title": "Le jeu sans euros du dimanche 31 mars 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/24471-31.03.2024-ITEMA_23695402-2024F52406S0091-22.mp3",
-              "created": 1711906980,
-              "duration": 271,
-              "shareable": false,
-              "principal": false,
-              "preset": {
-                "id": "22",
-                "name": "stereo",
-                "encoding": "MP3",
-                "bitrate": 128,
-                "frequency": 44.1,
-                "level": "-16LUFS (stéréo + compression “FINTER”)"
-              }
-            }
-          ],
-          "visual": null,
-          "concept": {
-            "title": "Le jeu sans euros",
-            "id": "6e30ec96-0dec-498a-b692-959fcee553c9",
-            "squaredVisual": {
-              "model": "EmbedImage",
-              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.jpg",
-              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.webp",
-              "legend": "Le jeu sans euros",
-              "copyright": "Radio France",
-              "author": null,
-              "width": 400,
-              "height": 400,
-              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgMBAP%2FEABgQAQEBAQEAAAAAAAAAAAAAAAABAhES%2F8QAGAEBAQEBAQAAAAAAAAAAAAAAAgMBAAT%2FxAAYEQEBAQEBAAAAAAAAAAAAAAABABECEv%2FaAAwDAQACEQMRAD8AtaF03VS1XmCYW3Q2hdOlPKoZJnChcdsvWT0jpfUS1Gc0uWjWxtyUya1FlmKcHMU4ktJbbE7lWjRGI0vLZk2wtt2yQ%2BMhAxW%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-              "id": "1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b",
-              "type": "image",
-              "preset": "400x400",
-              "dominant": "#a8c838"
-            }
-          },
-          "serie": null,
-          "brand": "franceinter",
-          "station": "franceinter"
-        },
-        {
-          "model": "Expression",
-          "id": "fc937349-ef6a-49e9-878e-4b88bb51ee0b",
-          "title": "Laurent Saint-Martin annonce \"15 milliards d'euros\" d'investissements étrangers \"pour 56 projets\" en France",
-          "kind": "antenne",
-          "type": "episode",
-          "path": "franceinter/podcasts/l-invite-de-6h20/l-invite-de-6h20-du-lundi-13-mai-2024-6145119",
-          "migrated": true,
-          "startDate": 1715574070,
-          "brandEnums": [
-            "FRANCEINTER"
-          ],
-          "stationEnums": [
-            "FRANCEINTER"
-          ],
-          "manifestations": [
-            {
-              "model": "ManifestationAudio",
-              "id": "fd50bb07-c3f1-4102-8fa9-a91fe94413d7",
-              "title": "Laurent Saint-Martin",
-              "url": "https://media.radiofrance-podcast.net/podcast09/22898-13.05.2024-ITEMA_23739867-2024F21438S0134-21.mp3",
-              "created": 1715574430,
-              "duration": 443,
-              "shareable": false,
-              "principal": false,
-              "preset": {
-                "id": "21",
-                "name": "stereo",
-                "encoding": "MP3",
-                "bitrate": 128,
-                "frequency": 44.1,
-                "level": "-15LUFS (stéréo)"
-              }
-            },
-            {
-              "model": "ManifestationAudio",
-              "id": "5a940232-0dce-478d-a5a6-e1c0c55909a1",
-              "title": "Laurent Saint-Martin annonce \"15 milliards d'euros\" d'investissements étrangers \"pour 56 projets\" en France",
-              "url": "https://media.radiofrance-podcast.net/podcast09/15273-13.05.2024-ITEMA_23739422-2024F21438S0134-22.mp3",
-              "created": 1715574430,
-              "duration": 446,
-              "shareable": false,
-              "principal": false,
-              "preset": {
-                "id": "22",
-                "name": "stereo",
-                "encoding": "MP3",
-                "bitrate": 128,
-                "frequency": 44.1,
-                "level": "-16LUFS (stéréo + compression “FINTER”)"
-              }
-            }
-          ],
-          "visual": {
-            "model": "EmbedImage",
-            "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/b7c8f26c-a9ed-4d35-92f2-5196573fb6d0/560x315_sc_000-34n42rt.jpg",
-            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/b7c8f26c-a9ed-4d35-92f2-5196573fb6d0/560x315_sc_000-34n42rt.webp",
-            "legend": "Laurent Saint-Martin, directeur général de Business France",
-            "copyright": "AFP",
-            "author": "Thomas SAMSON",
-            "width": 560,
-            "height": 315,
-            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22560%22%20height%3D%22315%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22560%22%20height%3D%22315%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT%2FxAAYEAEBAQEBAAAAAAAAAAAAAAAAARESAv%2FEABYBAQEBAAAAAAAAAAAAAAAAAAABAv%2FEABQRAQAAAAAAAAAAAAAAAAAAAAD%2F2gAMAwEAAhEDEQA%2FAOaeT5acixtlGHhnALkctJDwQsTQBUnAAaeVACP%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
-            "id": "b7c8f26c-a9ed-4d35-92f2-5196573fb6d0",
-            "type": "image",
-            "preset": "560x315",
-            "dominant": "#7898b8"
-          },
-          "concept": {
-            "title": "L'invité de 6h20",
-            "id": "80dc2ff5-fe0e-11e3-907f-782bcb6744eb",
-            "squaredVisual": {
-              "model": "EmbedImage",
-              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/07/ce8ea694-f0cf-47ec-be98-992b3b91d6eb/400x400_sc_l-invite-de-6h20ni.jpg",
-              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/07/ce8ea694-f0cf-47ec-be98-992b3b91d6eb/400x400_sc_l-invite-de-6h20ni.webp",
-              "legend": "6h20",
-              "copyright": "Radio France",
-              "author": null,
-              "width": 400,
-              "height": 400,
-              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgEAA%2F%2FEABcQAQEBAQAAAAAAAAAAAAAAAAABEQL%2FxAAXAQEBAQEAAAAAAAAAAAAAAAAAAQIE%2F8QAFREBAQAAAAAAAAAAAAAAAAAAABH%2F2gAMAwEAAhEDEQA%2FANaNq1ztZdq3pNHWgpJiwsFpVzsdbBsGHLFkLGwGkPEkLBSo4TCBjYTAkiqwr%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
-              "id": "ce8ea694-f0cf-47ec-be98-992b3b91d6eb",
-              "type": "image",
-              "preset": "400x400",
-              "dominant": "#e86878"
-            }
-          },
-          "serie": null,
-          "brand": "franceinter",
-          "station": "franceinter"
-        },
-        {
-          "model": "Expression",
-          "id": "02d05b4d-1833-45d2-8952-d7dd521fdb73",
-          "title": "Le jeu sans euros du dimanche 24 mars 2024",
-          "kind": "antenne",
-          "type": "episode",
-          "path": "franceinter/podcasts/le-jeu-sans-euros/le-jeu-sans-euros-du-dimanche-24-mars-2024-7416232",
-          "migrated": true,
-          "startDate": 1711305600,
-          "brandEnums": [
-            "FRANCEINTER"
-          ],
-          "stationEnums": [
-            "FRANCEINTER"
-          ],
-          "manifestations": [
-            {
-              "model": "ManifestationAudio",
-              "id": "9b457189-4890-4560-a02e-5081877db364",
-              "title": "Le jeu sans euros du dimanche 24 mars 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/18153-24.03.2024-ITEMA_23687875-2024F52406S0084-27.m4a",
-              "created": 1711305780,
-              "duration": 299,
-              "shareable": false,
-              "principal": true,
-              "preset": {
-                "id": "27",
-                "name": "stereo",
-                "encoding": "AAC",
-                "bitrate": 192,
-                "frequency": 48,
-                "level": "Stéréo -16LUFS (stéréo + compression “FINTER”)"
-              }
-            },
-            {
-              "model": "ManifestationAudio",
-              "id": "b6d186db-fce4-4933-94f4-f7a42ff842d3",
-              "title": "Le jeu sans euros du dimanche 24 mars 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/24471-24.03.2024-ITEMA_23687911-2024F52406S0084-22.mp3",
-              "created": 1711305780,
-              "duration": 299,
-              "shareable": false,
-              "principal": false,
-              "preset": {
-                "id": "22",
-                "name": "stereo",
-                "encoding": "MP3",
-                "bitrate": 128,
-                "frequency": 44.1,
-                "level": "-16LUFS (stéréo + compression “FINTER”)"
-              }
-            }
-          ],
-          "visual": null,
-          "concept": {
-            "title": "Le jeu sans euros",
-            "id": "6e30ec96-0dec-498a-b692-959fcee553c9",
-            "squaredVisual": {
-              "model": "EmbedImage",
-              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.jpg",
-              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.webp",
-              "legend": "Le jeu sans euros",
-              "copyright": "Radio France",
-              "author": null,
-              "width": 400,
-              "height": 400,
-              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgMBAP%2FEABgQAQEBAQEAAAAAAAAAAAAAAAABAhES%2F8QAGAEBAQEBAQAAAAAAAAAAAAAAAgMBAAT%2FxAAYEQEBAQEBAAAAAAAAAAAAAAABABECEv%2FaAAwDAQACEQMRAD8AtaF03VS1XmCYW3Q2hdOlPKoZJnChcdsvWT0jpfUS1Gc0uWjWxtyUya1FlmKcHMU4ktJbbE7lWjRGI0vLZk2wtt2yQ%2BMhAxW%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-              "id": "1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b",
-              "type": "image",
-              "preset": "400x400",
-              "dominant": "#a8c838"
-            }
-          },
-          "serie": null,
-          "brand": "franceinter",
-          "station": "franceinter"
-        },
-        {
-          "model": "Expression",
-          "id": "0a87ca9b-2ba1-4d2a-b32d-a42a4b9b80a6",
-          "title": "Le jeu sans euros du dimanche 17 mars 2024",
-          "kind": "antenne",
-          "type": "episode",
-          "path": "franceinter/podcasts/le-jeu-sans-euros/le-jeu-sans-euros-du-dimanche-17-mars-2024-2513208",
-          "migrated": true,
-          "startDate": 1710700800,
-          "brandEnums": [
-            "FRANCEINTER"
-          ],
-          "stationEnums": [
-            "FRANCEINTER"
-          ],
-          "manifestations": [
-            {
-              "model": "ManifestationAudio",
-              "id": "d61afb2f-7ee9-40c8-a909-9c0fec5788d0",
-              "title": "Le jeu sans euros du dimanche 17 mars 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/18153-17.03.2024-ITEMA_23680577-2024F52406S0077-27.m4a",
-              "created": 1710700980,
-              "duration": 284,
-              "shareable": false,
-              "principal": true,
-              "preset": {
-                "id": "27",
-                "name": "stereo",
-                "encoding": "AAC",
-                "bitrate": 192,
-                "frequency": 48,
-                "level": "Stéréo -16LUFS (stéréo + compression “FINTER”)"
-              }
-            },
-            {
-              "model": "ManifestationAudio",
-              "id": "2e73aae8-3cd8-4462-baae-ec08328a555a",
-              "title": "Le jeu sans euros du dimanche 17 mars 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/24471-17.03.2024-ITEMA_23680614-2024F52406S0077-22.mp3",
-              "created": 1710700980,
-              "duration": 284,
-              "shareable": false,
-              "principal": false,
-              "preset": {
-                "id": "22",
-                "name": "stereo",
-                "encoding": "MP3",
-                "bitrate": 128,
-                "frequency": 44.1,
-                "level": "-16LUFS (stéréo + compression “FINTER”)"
-              }
-            }
-          ],
-          "visual": null,
-          "concept": {
-            "title": "Le jeu sans euros",
-            "id": "6e30ec96-0dec-498a-b692-959fcee553c9",
-            "squaredVisual": {
-              "model": "EmbedImage",
-              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.jpg",
-              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.webp",
-              "legend": "Le jeu sans euros",
-              "copyright": "Radio France",
-              "author": null,
-              "width": 400,
-              "height": 400,
-              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgMBAP%2FEABgQAQEBAQEAAAAAAAAAAAAAAAABAhES%2F8QAGAEBAQEBAQAAAAAAAAAAAAAAAgMBAAT%2FxAAYEQEBAQEBAAAAAAAAAAAAAAABABECEv%2FaAAwDAQACEQMRAD8AtaF03VS1XmCYW3Q2hdOlPKoZJnChcdsvWT0jpfUS1Gc0uWjWxtyUya1FlmKcHMU4ktJbbE7lWjRGI0vLZk2wtt2yQ%2BMhAxW%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-              "id": "1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b",
-              "type": "image",
-              "preset": "400x400",
-              "dominant": "#a8c838"
-            }
-          },
-          "serie": null,
-          "brand": "franceinter",
-          "station": "franceinter"
-        },
-        {
-          "model": "Expression",
-          "id": "496b62c6-4177-47c7-a822-0c3effe666de",
-          "title": "3000 euros de biscuits",
-          "kind": "antenne",
-          "type": "episode",
-          "path": "franceinter/podcasts/tanguy-pastureau-maltraite-l-info/tanguy-pastureau-maltraite-l-info-du-mardi-23-janvier-2024-8319255",
-          "migrated": true,
-          "startDate": 1706008200,
-          "brandEnums": [
-            "FRANCEINTER"
-          ],
-          "stationEnums": [
-            "FRANCEINTER"
-          ],
-          "manifestations": [
-            {
-              "model": "ManifestationAudio",
-              "id": "f39303bc-505b-4679-b5eb-1370000be0a8",
-              "title": "3000 euros de biscuits",
-              "url": "https://media.radiofrance-podcast.net/podcast09/13939-23.01.2024-ITEMA_23623684-2024F29767S0023-27.m4a",
-              "created": 1706008500,
-              "duration": 331,
-              "shareable": false,
-              "principal": true,
-              "preset": {
-                "id": "27",
-                "name": "stereo",
-                "encoding": "AAC",
-                "bitrate": 192,
-                "frequency": 48,
-                "level": "Stéréo -16LUFS (stéréo + compression “FINTER”)"
-              }
-            },
-            {
-              "model": "ManifestationAudio",
-              "id": "e15a4843-12bb-4f45-8cf0-fb1806458d85",
-              "title": "3000 euros de biscuits",
-              "url": "https://media.radiofrance-podcast.net/podcast09/18141-23.01.2024-ITEMA_23623652-2024F29767S0023-22.mp3",
-              "created": 1706008500,
-              "duration": 331,
-              "shareable": false,
-              "principal": false,
-              "preset": {
-                "id": "22",
-                "name": "stereo",
-                "encoding": "MP3",
-                "bitrate": 128,
-                "frequency": 44.1,
-                "level": "-16LUFS (stéréo + compression “FINTER”)"
-              }
-            }
-          ],
-          "visual": null,
-          "concept": {
-            "title": "Tanguy Pastureau maltraite l'info",
-            "id": "eaf66c64-99e0-45a7-8eb3-d74fa59659a2",
-            "squaredVisual": {
-              "model": "EmbedImage",
-              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/04/ee0f01db-fc01-49c8-8a6a-7cdcd15ed803/400x400_sc_tanguy-pastureau-maltraite-l-info.jpg",
-              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/04/ee0f01db-fc01-49c8-8a6a-7cdcd15ed803/400x400_sc_tanguy-pastureau-maltraite-l-info.webp",
-              "legend": "Tanguy Pastureau maltraite l'info",
-              "copyright": "Radio France",
-              "author": null,
-              "width": 400,
-              "height": 400,
-              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAABAQEBAQAAAAAAAAAAAAAAAgABAwT%2FxAAYEAEBAQEBAAAAAAAAAAAAAAAAAQIREv%2FEABcBAQEBAQAAAAAAAAAAAAAAAAMCBAD%2FxAAYEQEBAQEBAAAAAAAAAAAAAAAAAQIRMf%2FaAAwDAQACEQMRAD8A72j6G6G1jmD9O6C1lrOqmSRlZwlxXi%2Bs9LodbKSRllJKFI6wkqkPizD4LSuvHVFpQsoHTLrmOWHbKdVcKQuKEC1b%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-              "id": "ee0f01db-fc01-49c8-8a6a-7cdcd15ed803",
+              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDAP%2FEABgQAQADAQAAAAAAAAAAAAAAAAABAhIR%2F8QAGAEBAQADAAAAAAAAAAAAAAAAAgEAAwT%2FxAAYEQEBAQEBAAAAAAAAAAAAAAAAAQIREv%2FaAAwDAQACEQMRAD8AraU7WNaUrNciZjTYkyEsvHRmC3BiDcYfriliTC3AyyOXKGWyvhsq2%2Bk61Pk0VHghdG4OTQJQIXITBwlKvScHgsIWv%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+              "id": "945b77c2-5697-4d53-854d-d9993537c3be",
               "type": "image",
               "preset": "400x400",
               "dominant": "#a80828"
@@ -850,13 +174,177 @@
         },
         {
           "model": "Expression",
-          "id": "bcbfadd6-377b-40a8-92ae-9de332a76bee",
-          "title": "Le jeu sans euros du dimanche 10 mars 2024",
+          "id": "d866b8b6-2de2-446c-a532-fbfbd4d6efd8",
+          "title": "Cyrano : verbe haut, spectacle tranquille  ",
           "kind": "antenne",
           "type": "episode",
-          "path": "franceinter/podcasts/le-jeu-sans-euros/le-jeu-sans-euros-du-dimanche-10-mars-2024-4595005",
+          "path": "franceculture/podcasts/le-regard-culturel/le-regard-culturel-chronique-du-mardi-09-janvier-2024-4962399",
           "migrated": true,
-          "startDate": 1710096000,
+          "startDate": 1704786900,
+          "brandEnums": [
+            "FRANCECULTURE"
+          ],
+          "stationEnums": [
+            "FRANCECULTURE"
+          ],
+          "manifestations": [
+            {
+              "model": "ManifestationAudio",
+              "id": "3c2d2b55-b4f0-4809-9576-c1228b4fd9d1",
+              "title": "Cyrano : verbe haut, spectacle tranquille  ",
+              "url": "https://media.radiofrance-podcast.net/podcast09/11981-09.01.2024-ITEMA_23608424-2024C40969S0009-25.m4a",
+              "created": 1704787080,
+              "duration": 205,
+              "shareable": false,
+              "principal": true,
+              "preset": {
+                "id": "25",
+                "name": "stereo",
+                "encoding": "AAC",
+                "bitrate": 192,
+                "frequency": 48,
+                "level": "-16LUFS (stéréo)"
+              }
+            },
+            {
+              "model": "ManifestationAudio",
+              "id": "676346a5-4572-4cfd-91ea-9931a712c7e2",
+              "title": "Cyrano : verbe haut, spectacle tranquille  ",
+              "url": "https://media.radiofrance-podcast.net/podcast09/21713-09.01.2024-ITEMA_23608787-2024C40969S0009-21.mp3",
+              "created": 1704787080,
+              "duration": 205,
+              "shareable": false,
+              "principal": false,
+              "preset": {
+                "id": "21",
+                "name": "stereo",
+                "encoding": "MP3",
+                "bitrate": 128,
+                "frequency": 44.1,
+                "level": "-15LUFS (stéréo)"
+              }
+            }
+          ],
+          "visual": {
+            "model": "EmbedImage",
+            "src": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/cee371f5-0915-461a-848f-4d93575d28fb/560x315_sc_sc-jordan-rezgui-laurent-lafitte-dans-cyrano-de-bergerac-salle-richelieu-dec-23-c-christophe-raynaud-de-lage.jpg",
+            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/cee371f5-0915-461a-848f-4d93575d28fb/560x315_sc_sc-jordan-rezgui-laurent-lafitte-dans-cyrano-de-bergerac-salle-richelieu-dec-23-c-christophe-raynaud-de-lage.webp",
+            "legend": "Jordan Rezgui, Laurent Lafitte dans Cyrano de Bergerac, Salle Richelieu",
+            "copyright": "Aucun(e)",
+            "author": "Christophe Raynaud de Lage, coll. Comédie-Française",
+            "width": 560,
+            "height": 315,
+            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22560%22%20height%3D%22315%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22560%22%20height%3D%22315%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT%2FxAAXEAEBAQEAAAAAAAAAAAAAAAAAAQIR%2F8QAFgEAAwAAAAAAAAAAAAAAAAAAAAEC%2F8QAFREBAQAAAAAAAAAAAAAAAAAAABH%2F2gAMAwEAAhEDEQA%2FAOHMVzCZVyhY4yxQtKHUrC8U0U4TM1TNAUk%2FS2gAE1S9AAf%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+            "id": "cee371f5-0915-461a-848f-4d93575d28fb",
+            "type": "image",
+            "preset": "560x315",
+            "dominant": "#080808"
+          },
+          "concept": {
+            "title": "Le Regard culturel",
+            "id": "8c129c0b-d9b6-4db7-b82f-2920d8c43ccd",
+            "squaredVisual": {
+              "model": "EmbedImage",
+              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/08/bb3b042a-be6e-4995-a819-472401034ff8/400x400_sc_fc-leregardculture-1400x1400.jpg",
+              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/08/bb3b042a-be6e-4995-a819-472401034ff8/400x400_sc_fc-leregardculture-1400x1400.webp",
+              "legend": "Le Regard culturel",
+              "copyright": "Radio France",
+              "author": null,
+              "width": 400,
+              "height": 400,
+              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA%2F%2FEABYQAQEBAAAAAAAAAAAAAAAAAAABEf%2FEABcBAQEBAQAAAAAAAAAAAAAAAAIBAwD%2FxAAWEQEBAQAAAAAAAAAAAAAAAAAAARH%2F2gAMAwEAAhEDEQA%2FAM6mnalvrfQAFUgYcmC0tK0pQoWrikyqWFCpKpGbOlopM2S5Vys4qLCiiAIn%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+              "id": "bb3b042a-be6e-4995-a819-472401034ff8",
+              "type": "image",
+              "preset": "400x400",
+              "dominant": "#882898"
+            }
+          },
+          "serie": null,
+          "brand": "franceculture",
+          "station": "franceculture"
+        },
+        {
+          "model": "Expression",
+          "id": "8f871bc6-3659-44b8-ba67-86ee2c7b915f",
+          "title": "Avec Cyrano, Laurent Lafitte passe un cap ",
+          "kind": "antenne",
+          "type": "episode",
+          "path": "franceculture/podcasts/les-midis-de-culture/laurent-lafitte-prete-son-nez-a-cyrano-de-bergerac-4179247",
+          "migrated": true,
+          "startDate": 1702900200,
+          "brandEnums": [
+            "FRANCECULTURE"
+          ],
+          "stationEnums": [
+            "FRANCECULTURE"
+          ],
+          "manifestations": [
+            {
+              "model": "ManifestationAudio",
+              "id": "68c3bfe0-1b71-4a1a-ac03-3c3fa36cdfe5",
+              "title": "Avec Cyrano, Laurent Lafitte passe un cap ",
+              "url": "https://media.radiofrance-podcast.net/podcast09/12360-18.12.2023-ITEMA_23587796-2023C51852S1352-21.mp3",
+              "created": 1702902525,
+              "duration": 2320,
+              "shareable": false,
+              "principal": true,
+              "preset": {
+                "id": "21",
+                "name": "stereo",
+                "encoding": "MP3",
+                "bitrate": 128,
+                "frequency": 44.1,
+                "level": "-15LUFS (stéréo)"
+              }
+            }
+          ],
+          "visual": {
+            "model": "EmbedImage",
+            "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/12/986e61ff-1e69-46f8-9801-89bc9bd55788/560x315_sc_laurent-lafitte-yoann-gasiorowski-dans-cyrano-de-bergerac-salle-richelieu-decembre-2023.jpg",
+            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/12/986e61ff-1e69-46f8-9801-89bc9bd55788/560x315_sc_laurent-lafitte-yoann-gasiorowski-dans-cyrano-de-bergerac-salle-richelieu-decembre-2023.webp",
+            "legend": "Laurent Lafitte, Yoann Gasiorowski dans Cyrano de Bergerac, Salle Richelieu, décembre 2023.",
+            "copyright": "Aucun(e)",
+            "author": "©Christophe Raynaud de Lage, coll. Comédie-Française",
+            "width": 560,
+            "height": 315,
+            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22560%22%20height%3D%22315%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22560%22%20height%3D%22315%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQX%2FxAAXEAEBAQEAAAAAAAAAAAAAAAAAAQIR%2F8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH%2FxAAUEQEAAAAAAAAAAAAAAAAAAAAA%2F9oADAMBAAIRAxEAPwDk5imYTK2YDZllikjKKjYU%2BiCMytkAU8rLQAS1SdAEf%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+            "id": "986e61ff-1e69-46f8-9801-89bc9bd55788",
+            "type": "image",
+            "preset": "560x315",
+            "dominant": "#080808"
+          },
+          "concept": {
+            "title": "Les Midis de Culture",
+            "id": "32a14af6-fc87-4f4f-a06e-39ccf8587119",
+            "squaredVisual": {
+              "model": "EmbedImage",
+              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/8aa0a034-1009-431b-8ac4-136c5e9e57b1/400x400_sc_fc-midis-1400x1400-1.jpg",
+              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/8aa0a034-1009-431b-8ac4-136c5e9e57b1/400x400_sc_fc-midis-1400x1400-1.webp",
+              "legend": "Les Midis de Culture",
+              "copyright": "Radio France",
+              "author": null,
+              "width": 400,
+              "height": 400,
+              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAQACA%2F%2FEABYQAQEBAAAAAAAAAAAAAAAAAAARAf%2FEABcBAQEBAQAAAAAAAAAAAAAAAAIBAAP%2FxAAWEQEBAQAAAAAAAAAAAAAAAAAAARH%2F2gAMAwEAAhEDEQA%2FAOIWjXau1VQVHU0pJWI0jWrVlGCABwiEoUISWrVDDjWADMEbBQo%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+              "id": "8aa0a034-1009-431b-8ac4-136c5e9e57b1",
+              "type": "image",
+              "preset": "400x400",
+              "dominant": "#883898"
+            }
+          },
+          "serie": null,
+          "brand": "franceculture",
+          "station": "franceculture"
+        },
+        {
+          "model": "Expression",
+          "id": "2474c19a-66d8-4521-bf08-49a5a2e63d53",
+          "title": "Laurent Lafitte : \"Cyrano de Bergerac est une pièce qui touche beaucoup aux blessures de l'adolescence\"",
+          "kind": "antenne",
+          "type": "episode",
+          "path": "franceinter/podcasts/l-invite-de-7h50-du-week-end/l-invite-de-7h50-du-we-du-samedi-23-decembre-2023-3631289",
+          "migrated": true,
+          "startDate": 1703314060,
           "brandEnums": [
             "FRANCEINTER"
           ],
@@ -866,11 +354,11 @@
           "manifestations": [
             {
               "model": "ManifestationAudio",
-              "id": "714b16c7-8999-44b5-9c2c-9c8fe764a146",
-              "title": "Le jeu sans euros du dimanche 10 mars 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/18153-10.03.2024-ITEMA_23673083-2024F52406S0070-27.m4a",
-              "created": 1710096180,
-              "duration": 303,
+              "id": "bc8dca28-e500-4ff3-af51-027cc14cf579",
+              "title": "Le comédien Laurent Lafitte",
+              "url": "https://media.radiofrance-podcast.net/podcast09/16183-23.12.2023-ITEMA_23594248-2023F26250S0357-27.m4a",
+              "created": 1703314710,
+              "duration": 674,
               "shareable": false,
               "principal": true,
               "preset": {
@@ -884,11 +372,29 @@
             },
             {
               "model": "ManifestationAudio",
-              "id": "5c7a8942-f894-49b4-806b-49df6654fe0d",
-              "title": "Le jeu sans euros du dimanche 10 mars 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/24471-10.03.2024-ITEMA_23673120-2024F52406S0070-22.mp3",
-              "created": 1710096180,
-              "duration": 303,
+              "id": "e52919b0-d067-4a67-8d58-37ee6376076b",
+              "title": "Laurent Lafitte : \"Cyrano de Bergerac est une pièce qui touche beaucoup aux blessures de l'adolescence\"",
+              "url": "https://media.radiofrance-podcast.net/podcast09/22898-23.12.2023-ITEMA_23594496-2023F26250S0357-21.mp3",
+              "created": 1703314710,
+              "duration": 671,
+              "shareable": false,
+              "principal": false,
+              "preset": {
+                "id": "21",
+                "name": "stereo",
+                "encoding": "MP3",
+                "bitrate": 128,
+                "frequency": 44.1,
+                "level": "-15LUFS (stéréo)"
+              }
+            },
+            {
+              "model": "ManifestationAudio",
+              "id": "ef6dc3f9-5645-4e7c-9ec8-220427baa4bf",
+              "title": "Le comédien Laurent Lafitte",
+              "url": "https://media.radiofrance-podcast.net/podcast09/15273-23.12.2023-ITEMA_23594281-2023F26250S0357-22.mp3",
+              "created": 1703314710,
+              "duration": 674,
               "shareable": false,
               "principal": false,
               "preset": {
@@ -901,21 +407,515 @@
               }
             }
           ],
-          "visual": null,
+          "visual": {
+            "model": "EmbedImage",
+            "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/12/8d58c7b0-65e6-4f39-b4b1-2e91e30a43af/560x315_sc_laurent-lafitte-laurent-koffel-getty.jpg",
+            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/12/8d58c7b0-65e6-4f39-b4b1-2e91e30a43af/560x315_sc_laurent-lafitte-laurent-koffel-getty.webp",
+            "legend": "Laurent Laffite jour Cyrano à la comédie française jusqu'au 24 avril 2024.",
+            "copyright": "Getty",
+            "author": "Laurent Koffel",
+            "width": 560,
+            "height": 315,
+            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22560%22%20height%3D%22315%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22560%22%20height%3D%22315%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAGQABAQEAAwAAAAAAAAAAAAAAAwACAQQF%2F8QAFxABAQEBAAAAAAAAAAAAAAAAAAIBEf%2FEABUBAQEAAAAAAAAAAAAAAAAAAAEA%2F8QAFBEBAAAAAAAAAAAAAAAAAAAAAP%2FaAAwDAQACEQMRAD8A9bdFetVQboFinGM7SykjQUMaXpDF0692kiLbU0kkeKL1Ih%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+            "id": "8d58c7b0-65e6-4f39-b4b1-2e91e30a43af",
+            "type": "image",
+            "preset": "560x315",
+            "dominant": "#f8f8f8"
+          },
           "concept": {
-            "title": "Le jeu sans euros",
-            "id": "6e30ec96-0dec-498a-b692-959fcee553c9",
+            "title": "L'invité de 7h50 du week-end",
+            "id": "82fa5d6e-48d7-4f41-b4ea-7095453319bd",
             "squaredVisual": {
               "model": "EmbedImage",
-              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.jpg",
-              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b/400x400_sc_le-jeu-des-sans-euros.webp",
-              "legend": "Le jeu sans euros",
+              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/3f0a37f7-8b0e-43d8-a064-d1ca660311db/400x400_sc_l-invite-de-7h50-we.jpg",
+              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/09/3f0a37f7-8b0e-43d8-a064-d1ca660311db/400x400_sc_l-invite-de-7h50-we.webp",
+              "legend": "7h50 - Baddou - L'hour",
               "copyright": "Radio France",
               "author": null,
               "width": 400,
               "height": 400,
-              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgMBAP%2FEABgQAQEBAQEAAAAAAAAAAAAAAAABAhES%2F8QAGAEBAQEBAQAAAAAAAAAAAAAAAgMBAAT%2FxAAYEQEBAQEBAAAAAAAAAAAAAAABABECEv%2FaAAwDAQACEQMRAD8AtaF03VS1XmCYW3Q2hdOlPKoZJnChcdsvWT0jpfUS1Gc0uWjWxtyUya1FlmKcHMU4ktJbbE7lWjRGI0vLZk2wtt2yQ%2BMhAxW%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-              "id": "1aff2f3e-dac3-4aa8-8f47-fcd30c5cdc7b",
+              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA%2F%2FEABgQAQEBAQEAAAAAAAAAAAAAAAABEQIS%2F8QAGAEAAwEBAAAAAAAAAAAAAAAAAAECAwT%2FxAAYEQEBAQEBAAAAAAAAAAAAAAAAAQIREv%2FaAAwDAQACEQMRAD8AAwJ1WtU0gJ9BsLYGk0dbUadVxzXStA1tHClUwiiayuNGmoq2FPpUrmYQjtKpHK0tsv%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+              "id": "3f0a37f7-8b0e-43d8-a064-d1ca660311db",
+              "type": "image",
+              "preset": "400x400",
+              "dominant": "#d85878"
+            }
+          },
+          "serie": null,
+          "brand": "franceinter",
+          "station": "franceinter"
+        },
+        {
+          "model": "Expression",
+          "id": "4a386c47-b5f7-4c05-adf9-f6b50f61dba3",
+          "title": "La Compagnie passe le bac 2/4 : Le panache de Cyrano",
+          "kind": "antenne",
+          "type": "episode",
+          "path": "franceculture/podcasts/la-compagnie-des-auteurs/le-panache-de-cyrano-9753271",
+          "migrated": true,
+          "startDate": 1559048410,
+          "brandEnums": [
+            "FRANCECULTURE"
+          ],
+          "stationEnums": [
+            "FRANCECULTURE"
+          ],
+          "manifestations": [
+            {
+              "model": "ManifestationAudio",
+              "id": "80d4ed93-eae5-4e78-ba97-7c4f508f4e72",
+              "title": "LA COMPAGNIE DES AUTEURS",
+              "url": "https://media.radiofrance-podcast.net/podcast09/20090-28.05.2019-ITEMA_22073537-2.mp3",
+              "created": 1558998240,
+              "duration": 3520,
+              "shareable": false,
+              "principal": true,
+              "preset": null
+            }
+          ],
+          "visual": {
+            "model": "EmbedImage",
+            "src": "https://www.radiofrance.fr/s3/cruiser-production/2019/05/d8f21b7b-6a4d-4fce-9077-d13690e366b5/560x315_cyrano_gravure.jpg.jpg",
+            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2019/05/d8f21b7b-6a4d-4fce-9077-d13690e366b5/560x315_cyrano_gravure.jpg.webp",
+            "legend": "Gravure représentant Cyrano de Bergerac, vers 1640. ",
+            "copyright": "Getty",
+            "author": "Hulton Archive",
+            "width": 560,
+            "height": 315,
+            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22560%22%20height%3D%22315%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22560%22%20height%3D%22315%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAABAADBf%2FEACEQAAICAQQDAQEAAAAAAAAAAAECAAMRBBIhQRNRYSKB%2F8QAFAEBAAAAAAAAAAAAAAAAAAAAAP%2FEABQRAQAAAAAAAAAAAAAAAAAAAAD%2F2gAMAwEAAhEDEQA%2FAK5tqcdwmeYjUEk4hwMsoz3AZVp0NY3qSzd%2BodlWuzCkkH3Ogz7E%2FPQnPZvJbn1A2pbcCh%2Fk2F7gYzDVcWCM8SwB3Al8Sp04a5Sx%2BylAXegIwOMwzafxrlTn3KUDOkhrAPs6G6UoH%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+            "id": "d8f21b7b-6a4d-4fce-9077-d13690e366b5",
+            "type": "image",
+            "preset": "560x315",
+            "dominant": null
+          },
+          "concept": {
+            "title": "La Compagnie des œuvres",
+            "id": "0649037a-c459-4d1a-9702-4f1e814aafbb",
+            "squaredVisual": {
+              "model": "EmbedImage",
+              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/07/37e23d64-e69f-4e0a-bdf8-420f72761547/400x400_sc_la-compagnie-des-oeuvres.jpg",
+              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/07/37e23d64-e69f-4e0a-bdf8-420f72761547/400x400_sc_la-compagnie-des-oeuvres.webp",
+              "legend": "La Compagnie des oeuvres",
+              "copyright": "Radio France",
+              "author": null,
+              "width": 400,
+              "height": 400,
+              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA%2F%2FEABcQAQEBAQAAAAAAAAAAAAAAAAABERL%2FxAAXAQEBAQEAAAAAAAAAAAAAAAABAgAD%2F8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER%2F9oADAMBAAIRAxEAPwDkcaKkWjE4MXjWBnOwYuwYVSqioiVcpVik06LQnE0GhgmVUrnCp1rp0NSwSbRrBg%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+              "id": "37e23d64-e69f-4e0a-bdf8-420f72761547",
+              "type": "image",
+              "preset": "400x400",
+              "dominant": "#f8f8f8"
+            }
+          },
+          "serie": {
+            "relationMeta": {
+              "episode_order": 1,
+              "episode_title": "La Compagnie passe le bac 2/4 : Le panache de Cyrano",
+              "episode_number": 2
+            }
+          },
+          "brand": "franceculture",
+          "station": "franceculture"
+        },
+        {
+          "model": "Expression",
+          "id": "2eac4c2f-0583-4e92-acb4-8d9fd829890d",
+          "title": "Grappe de Cyrano, le rallye national enduro-moto les 20 et 21 avril 2024",
+          "kind": "antenne",
+          "type": "episode",
+          "path": "francebleu/podcasts/sport-en-perigord/grappe-de-cyrano-le-rallye-national-enduro-moto-les-20-et-21-avril-2024-5177095",
+          "migrated": true,
+          "startDate": 1712637600,
+          "brandEnums": [
+            "FRANCEBLEU"
+          ],
+          "stationEnums": [
+            "FRANCEBLEU_PERIGORD"
+          ],
+          "manifestations": [
+            {
+              "model": "ManifestationAudio",
+              "id": "80fe18c7-ac4f-4e9b-82dd-c6a67f04a1b5",
+              "title": "Grappe de Cyrano, le rallye national enduro-moto les 20 et 21 avril 2024",
+              "url": "https://media.radiofrance-podcast.net/podcast09/15043-09.04.2024-ITEMA_23704390-2024B20387S0100-21.mp3",
+              "created": 1712637750,
+              "duration": 208,
+              "shareable": false,
+              "principal": true,
+              "preset": {
+                "id": "21",
+                "name": "stereo",
+                "encoding": "MP3",
+                "bitrate": 128,
+                "frequency": 44.1,
+                "level": "-15LUFS (stéréo)"
+              }
+            }
+          ],
+          "visual": {
+            "model": "EmbedImage",
+            "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/ea236f0f-5b69-441a-9580-fd2b01c7d051/560x315_sc_grappecyrano22024.jpg",
+            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/ea236f0f-5b69-441a-9580-fd2b01c7d051/560x315_sc_grappecyrano22024.webp",
+            "legend": "37ème édition de la Grappe Cyrano Unibéo les 20 et 21 avril 2024",
+            "copyright": "Aucun(e)",
+            "author": "Grappe de Cyrano",
+            "width": 560,
+            "height": 315,
+            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22560%22%20height%3D%22315%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22560%22%20height%3D%22315%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA%2F%2FEABgQAQEBAQEAAAAAAAAAAAAAAAABEhEC%2F8QAFwEBAQEBAAAAAAAAAAAAAAAAAQACA%2F%2FEABYRAQEBAAAAAAAAAAAAAAAAAAARAf%2FaAAwDAQACEQMRAD8A76TTlo050x10zfTHS1nSWs9LWeiJerAaKoBCVkCn%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+            "id": "ea236f0f-5b69-441a-9580-fd2b01c7d051",
+            "type": "image",
+            "preset": "560x315",
+            "dominant": "#989858"
+          },
+          "concept": {
+            "title": "Sport en Périgord",
+            "id": "4174a520-97b0-4787-9d43-d6151d9316b4",
+            "squaredVisual": {
+              "model": "EmbedImage",
+              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/10/ba009169-5658-4b70-b50f-c9c921763c75/400x400_sc_100-pourcent-sport-france-bleu-perigord.jpg",
+              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/10/ba009169-5658-4b70-b50f-c9c921763c75/400x400_sc_100-pourcent-sport-france-bleu-perigord.webp",
+              "legend": "100% sport en Périgord",
+              "copyright": "Aucun(e)",
+              "author": null,
+              "width": 400,
+              "height": 400,
+              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAABAAMBAAAAAAAAAAAAAAAAAgABAwT%2FxAAYEAEBAQEBAAAAAAAAAAAAAAAAAQIREv%2FEABgBAAMBAQAAAAAAAAAAAAAAAAECAwAE%2F8QAGBEBAQEBAQAAAAAAAAAAAAAAAAEREgL%2F2gAMAwEAAhEDEQA%2FAOHGW2cpnLWZAYMynGnFWNK1jPicKj1aekbDzDkGFKS%2BTz0sNFaz1S8m6HVD0mqz6aBXTKvorXxz6u0NVdGhzB6oaDh0Qw2v%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+              "id": "ba009169-5658-4b70-b50f-c9c921763c75",
+              "type": "image",
+              "preset": "400x400",
+              "dominant": "#0878d8"
+            }
+          },
+          "serie": null,
+          "brand": "francebleu",
+          "station": "francebleu_perigord"
+        },
+        {
+          "model": "Expression",
+          "id": "7d313343-0ed9-4338-87b7-e482637e41be",
+          "title": "Jacques Weber, avec panache 4/5 : Sa vie dans celle de Cyrano",
+          "kind": "antenne",
+          "type": "episode",
+          "path": "franceculture/podcasts/a-voix-nue/sa-vie-dans-celle-de-cyrano-2042981",
+          "migrated": true,
+          "startDate": 1608836400,
+          "brandEnums": [
+            "FRANCECULTURE"
+          ],
+          "stationEnums": [
+            "FRANCECULTURE"
+          ],
+          "manifestations": [
+            {
+              "model": "ManifestationAudio",
+              "id": "29960e41-e7e0-4ffd-b132-934d0c835e92",
+              "title": "A VOIX NUE",
+              "url": "https://media.radiofrance-podcast.net/podcast09/10351-20.12.2020-ITEMA_22519922-2020C3500E0139.mp3",
+              "created": 1608491160,
+              "duration": 1755,
+              "shareable": false,
+              "principal": true,
+              "preset": null
+            }
+          ],
+          "visual": {
+            "model": "EmbedImage",
+            "src": "https://www.radiofrance.fr/s3/cruiser-production/2020/12/3d364a6f-38d9-46c3-8faf-3d68dde6f9ca/560x315_010_lwe19a00_237.jpg",
+            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2020/12/3d364a6f-38d9-46c3-8faf-3d68dde6f9ca/560x315_010_lwe19a00_237.webp",
+            "legend": "Jacques Weber jouant Cyrano au Théâtre Mogador à Paris en 1983",
+            "copyright": "AFP",
+            "author": "Jacques Loew / Photo12 via AFP",
+            "width": 560,
+            "height": 315,
+            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22560%22%20height%3D%22315%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22560%22%20height%3D%22315%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBAEF%2F8QAHxAAAgIDAAIDAAAAAAAAAAAAAAECEQMEEiFBMTJR%2F8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC%2F8QAFREBAQAAAAAAAAAAAAAAAAAAABH%2F2gAMAwEAAhEDEQA%2FAPHAARdDXcsXdpIpao2Yrnj4ium%2FivRDZ1ZYIJykrfpMDOnQs4ABLHz2u%2FrfkADdPbhjjzrw4X77MU5ufmTuwCNyIAArL%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+            "id": "3d364a6f-38d9-46c3-8faf-3d68dde6f9ca",
+            "type": "image",
+            "preset": "560x315",
+            "dominant": null
+          },
+          "concept": {
+            "title": "À voix nue",
+            "id": "b4534f1d-40f8-11e5-9fe0-005056a87c89",
+            "squaredVisual": {
+              "model": "EmbedImage",
+              "src": "https://www.radiofrance.fr/s3/cruiser-production/2021/07/94c1e664-27da-4750-b608-5878f08fdabf/400x400_a_voix_nue_1400.jpg",
+              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2021/07/94c1e664-27da-4750-b608-5878f08fdabf/400x400_a_voix_nue_1400.webp",
+              "legend": "A voix nue",
+              "copyright": "Radio France",
+              "author": "",
+              "width": 400,
+              "height": 400,
+              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT%2FxAAiEAACAgEEAgMBAAAAAAAAAAAAAQIREgMhMTITQQQiUTP%2FxAAWAQEBAQAAAAAAAAAAAAAAAAAAAQP%2FxAAVEQEBAAAAAAAAAAAAAAAAAAAAAf%2FaAAwDAQACEQMRAD8A54pRWTB2djuLm6QiXo3bsnvsgyTu2CsWNlaAHjnJ7RZvHL8GWrLhSNnL9IjaWq4StK2VXx5zm3sk9yejGDbU3SOiCin%2FAE%2BvHIpUNXQlCOTaoj6orqzk9Rxy%2BpNx2KClirYtjVfIMWFOlaEezoMeonsAt7jrpbJ%2Bys%2BiEISLYcgR4FA%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+              "id": "94c1e664-27da-4750-b608-5878f08fdabf",
+              "type": "image",
+              "preset": "400x400",
+              "dominant": null
+            }
+          },
+          "serie": {
+            "relationMeta": {
+              "episode_order": 3,
+              "episode_title": "Jacques Weber, avec panache 4/5 : Sa vie dans celle de Cyrano",
+              "episode_number": 4
+            }
+          },
+          "brand": "franceculture",
+          "station": "franceculture"
+        },
+        {
+          "model": "Expression",
+          "id": "fa34a665-04a6-487e-87cc-4cc73cf7e060",
+          "title": "Cyrano de Bergerac de la Comédie-Française + La nuit des Conservatoires",
+          "kind": "antenne",
+          "type": "episode",
+          "path": "francebleu/podcasts/les-bons-plans-sorties/cyrano-de-bergerac-de-la-comedie-francaise-la-nuit-des-conservatoires-8462728",
+          "migrated": true,
+          "startDate": 1706175030,
+          "brandEnums": [
+            "FRANCEBLEU"
+          ],
+          "stationEnums": [
+            "FRANCEBLEU_NORD"
+          ],
+          "manifestations": [
+            {
+              "model": "ManifestationAudio",
+              "id": "698ef558-6c3b-4da9-9664-3d03b248944c",
+              "title": "Les bons plans sorties de Juliette Delannoye",
+              "url": "https://media.radiofrance-podcast.net/podcast09/24286-25.01.2024-ITEMA_23626058-2024B52023S0025-21.mp3",
+              "created": 1706175240,
+              "duration": 244,
+              "shareable": false,
+              "principal": true,
+              "preset": {
+                "id": "21",
+                "name": "stereo",
+                "encoding": "MP3",
+                "bitrate": 128,
+                "frequency": 44.1,
+                "level": "-15LUFS (stéréo)"
+              }
+            }
+          ],
+          "visual": null,
+          "concept": {
+            "title": "Les bons plans sorties",
+            "id": "91187149-7136-41f6-8da9-1270bb822c95",
+            "squaredVisual": {
+              "model": "EmbedImage",
+              "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/08/46f99784-1dd0-44c7-ae8f-a2277fbd9eef/400x400_sc_les-bons-plans-sorties-nord.jpg",
+              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/08/46f99784-1dd0-44c7-ae8f-a2277fbd9eef/400x400_sc_les-bons-plans-sorties-nord.webp",
+              "legend": "Les bons plans sorties de France Bleu Nord dans le Nord et le Pas-de-Calais",
+              "copyright": "Radio France",
+              "author": null,
+              "width": 400,
+              "height": 400,
+              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgEAA%2F%2FEABgQAQEBAQEAAAAAAAAAAAAAAAABEQIS%2F8QAFgEBAQEAAAAAAAAAAAAAAAAAAQID%2F8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB%2F9oADAMBAAIRAxEAPwAyFIkON91jmJi4TCmBiYdRVTuBKUrnKUo3DmumtaOjamKpXofQddB6IKFKKtYxpaNrJRDRolREVX%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+              "id": "46f99784-1dd0-44c7-ae8f-a2277fbd9eef",
+              "type": "image",
+              "preset": "400x400",
+              "dominant": "#0878d8"
+            }
+          },
+          "serie": null,
+          "brand": "francebleu",
+          "station": "francebleu_nord"
+        },
+        {
+          "model": "Expression",
+          "id": "9f4fe8ef-98c3-434a-b40a-730c2369a2be",
+          "title": "Tous des héros ? 2/4 : Cyrano de Bergerac, le héros de l’ombre et du panache",
+          "kind": "antenne",
+          "type": "episode",
+          "path": "franceculture/podcasts/les-chemins-de-la-philosophie/cyrano-de-bergerac-le-heros-de-l-ombre-et-du-panache-5887277",
+          "migrated": true,
+          "startDate": 1529395200,
+          "brandEnums": [
+            "FRANCECULTURE"
+          ],
+          "stationEnums": [
+            "FRANCECULTURE"
+          ],
+          "manifestations": [
+            {
+              "model": "ManifestationAudio",
+              "id": "dc4ba129-5ad1-4d4d-8365-c7fc85da25de",
+              "title": "LES NOUVEAUX CHEMINS DE LA CONNAISSANCE - LES CHEMINS DE LA PHILOSOPHIE",
+              "url": "https://media.radiofrance-podcast.net/podcast09/10467-19.06.2018-ITEMA_21716353-1.mp3",
+              "created": 1529398080,
+              "duration": 3547,
+              "shareable": false,
+              "principal": true,
+              "preset": {
+                "id": "21",
+                "name": "stereo",
+                "encoding": "MP3",
+                "bitrate": 128,
+                "frequency": 44.1,
+                "level": "-15LUFS (stéréo)"
+              }
+            }
+          ],
+          "visual": {
+            "model": "EmbedImage",
+            "src": "https://www.radiofrance.fr/s3/cruiser-production/2018/06/c7d776e5-acc4-45fe-80ff-ca83950a4b3c/560x315_000_par7673698.jpg",
+            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2018/06/c7d776e5-acc4-45fe-80ff-ca83950a4b3c/560x315_000_par7673698.webp",
+            "legend": "Patrick Pineau dans le rôle de Cyrano de Bergerac",
+            "copyright": "AFP",
+            "author": "PIERRE ANDRIEU",
+            "width": 560,
+            "height": 315,
+            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22560%22%20height%3D%22315%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22560%22%20height%3D%22315%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAgME%2F8QAIBAAAgIBBQADAAAAAAAAAAAAAAECEQMEEhMhIhRScf%2FEABYBAQEBAAAAAAAAAAAAAAAAAAEAAv%2FEABgRAQEBAQEAAAAAAAAAAAAAAAABEQIx%2F9oADAMBAAIRAxEAPwBMiaJgrlRrPG4w3BqV2rjfXpGdF1KUn2aSwvbdFbhc4EyVMgQ0xxammMNRPF8R%2Fb8ADNm0lt0rGeKcMujuvS6YAXXihfLG5ybRXikACn%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+            "id": "c7d776e5-acc4-45fe-80ff-ca83950a4b3c",
+            "type": "image",
+            "preset": "560x315",
+            "dominant": null
+          },
+          "concept": {
+            "title": "Les Chemins de la philosophie",
+            "id": "2fae969a-3f60-11e5-8314-005056a87c89",
+            "squaredVisual": {
+              "model": "EmbedImage",
+              "src": "https://www.radiofrance.fr/s3/cruiser-production/2022/08/1883a17d-2f52-47af-8b0e-cba34c23a28e/400x400_les-chemins-de-la-philosophie.jpg",
+              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2022/08/1883a17d-2f52-47af-8b0e-cba34c23a28e/400x400_les-chemins-de-la-philosophie.webp",
+              "legend": "Adèle Van Reeth",
+              "copyright": "Radio France",
+              "author": null,
+              "width": 400,
+              "height": 400,
+              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGQAAAwEBAQAAAAAAAAAAAAAAAgMEAQAF%2F8QAIxAAAgICAQQCAwAAAAAAAAAAAQIAEQMSIgQTIUExUTJCcf%2FEABcBAQEBAQAAAAAAAAAAAAAAAAIAAQP%2FxAAcEQACAgIDAAAAAAAAAAAAAAAAAQIRMUESYYH%2F2gAMAwEAAhEDEQA%2FAElr9QNcj2VHgTXpV8GV9MCMVq45D4MpOsBjWiJTTamGItseRs%2FqwajmxlACfMUXY2D23YmlMztt9RgysPc7uxWbz6JjkBUfRjMWRytKt18GRqxUylOudBQRZyasKzY7Dzu1O3uPUAHVlJ8ydMoy8gG29kSla12INRImYThBIKUYnVbjH7bAkXcToYg%2BkE6DNgEMxuykBWIBM9HfjruSJ5a%2Fmv8AZfEjA%2BI%2FYwNmhCFKwuSWj%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+              "id": "1883a17d-2f52-47af-8b0e-cba34c23a28e",
+              "type": "image",
+              "preset": "400x400",
+              "dominant": null
+            }
+          },
+          "serie": {
+            "relationMeta": {
+              "episode_order": 1,
+              "episode_title": "Tous des héros ? 2/4 : Cyrano de Bergerac, le héros de l’ombre et du panache",
+              "episode_number": 2
+            }
+          },
+          "brand": "franceculture",
+          "station": "franceculture"
+        },
+        {
+          "model": "Expression",
+          "id": "b3ce59af-30e8-11e3-af2e-782bcb73ed47",
+          "title": "Autour de Cyrano",
+          "kind": "antenne",
+          "type": "episode",
+          "path": "franceculture/podcasts/la-grande-table-1ere-partie/autour-de-cyrano-4102218",
+          "migrated": true,
+          "startDate": 1381399320,
+          "brandEnums": [
+            "FRANCECULTURE"
+          ],
+          "stationEnums": [
+            "FRANCECULTURE"
+          ],
+          "manifestations": [
+            {
+              "model": "ManifestationAudio",
+              "id": "909b2365-5a3e-48ff-ac16-71e07ba4bfcb",
+              "title": "Autour de Cyrano",
+              "url": "https://cdn.radiofrance.fr/s3/cruiser-production/static/culture/sons/2013/10/s41/NET_FC_909b2365-5a3e-48ff-ac16-71e07ba4bfcb.mp3",
+              "created": 1381402524,
+              "duration": 1836,
+              "shareable": false,
+              "principal": true,
+              "preset": {
+                "id": "21",
+                "name": "stereo",
+                "encoding": "MP3",
+                "bitrate": 128,
+                "frequency": 44.1,
+                "level": "-15LUFS (stéréo)"
+              }
+            }
+          ],
+          "visual": {
+            "model": "EmbedImage",
+            "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/54183528-a080-47da-8d67-147e4af8b438/560x315_sc_cyrano-jacques-weber.jpg",
+            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/05/54183528-a080-47da-8d67-147e4af8b438/560x315_sc_cyrano-jacques-weber.webp",
+            "legend": "Les comédiens Jacques Weber, Xavier Thiam et Anne Suarez lors d’une répétition de la pièce \"Cyrano\" au théâtre de la Gaîté Montparnasse, le 12 juin 2006 à Paris",
+            "copyright": "AFP",
+            "author": "Jacques Demarthon",
+            "width": 560,
+            "height": 315,
+            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22560%22%20height%3D%22315%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22560%22%20height%3D%22315%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAGQAAAwADAAAAAAAAAAAAAAAAAAIDAQQF%2F8QAGBABAQEBAQAAAAAAAAAAAAAAAAECERL%2FxAAWAQEBAQAAAAAAAAAAAAAAAAABAgD%2FxAAUEQEAAAAAAAAAAAAAAAAAAAAA%2F9oADAMBAAIRAxEAPwDU8lsXuSWJKNhbFbC2FkrGOHsLwh0tZS1AEElJQFMnSgEP%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
+            "id": "54183528-a080-47da-8d67-147e4af8b438",
+            "type": "image",
+            "preset": "560x315",
+            "dominant": "#081818"
+          },
+          "concept": {
+            "title": "La Grande Table",
+            "id": "a69fa832-4028-11e5-8314-005056a87c89",
+            "squaredVisual": {
+              "model": "EmbedImage",
+              "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2020/07/9028ed89-d9d7-4d2f-bc56-d7f9369cc395/400x400_fc_1400x1400_la-grande-table.jpg",
+              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2020/07/9028ed89-d9d7-4d2f-bc56-d7f9369cc395/400x400_fc_1400x1400_la-grande-table.webp",
+              "legend": "La grande table été ",
+              "copyright": "Radio France",
+              "author": "",
+              "width": 400,
+              "height": 400,
+              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT%2FxAAYEAEBAQEBAAAAAAAAAAAAAAAAAQISEf%2FEABUBAQEAAAAAAAAAAAAAAAAAAAEA%2F8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB%2F9oADAMBAAIRAxEAPwDtLRtLaUFpKNoEk1CcreNyTVLS2haS6Qg2t6S1vVDFYZKaP0knqkuh0nScHpuiMSrNG6ShgH%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
+              "id": "9028ed89-d9d7-4d2f-bc56-d7f9369cc395",
+              "type": "image",
+              "preset": "400x400",
+              "dominant": null
+            }
+          },
+          "serie": null,
+          "brand": "franceculture",
+          "station": "franceculture"
+        },
+        {
+          "model": "Expression",
+          "id": "4d854e73-ba58-4688-8a20-c96c5f1cdc16",
+          "title": "Cyrano Guaino",
+          "kind": "antenne",
+          "type": "episode",
+          "path": "franceinter/podcasts/le-sketch-par-jupiter/le-sketch-par-jupiter-du-lundi-02-mai-2022-9815094",
+          "migrated": true,
+          "startDate": 1651506600,
+          "brandEnums": [
+            "FRANCEINTER"
+          ],
+          "stationEnums": [
+            "FRANCEINTER"
+          ],
+          "manifestations": [
+            {
+              "model": "ManifestationAudio",
+              "id": "d62a66c2-551b-44bb-8ea1-6dc7c2d9ce6b",
+              "title": "Le sketch, par Jupiter !",
+              "url": "https://media.radiofrance-podcast.net/podcast09/15275-02.05.2022-ITEMA_23012861-2022F28435S0122-22.mp3",
+              "created": 1651506720,
+              "duration": 99,
+              "shareable": false,
+              "principal": true,
+              "preset": null
+            }
+          ],
+          "visual": null,
+          "concept": {
+            "title": "Pendant ce temps là",
+            "id": "6374cd98-6688-4944-ad44-a6cb3811e1cb",
+            "squaredVisual": {
+              "model": "EmbedImage",
+              "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/02/bc9769eb-c7b5-435a-a244-71ede6ee6c6a/400x400_sc_pendant-ce-temps-la.jpg",
+              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/02/bc9769eb-c7b5-435a-a244-71ede6ee6c6a/400x400_sc_pendant-ce-temps-la.webp",
+              "legend": "Pendant ce temps là",
+              "copyright": "Radio France",
+              "author": null,
+              "width": 400,
+              "height": 400,
+              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgMAAf%2FEABgQAQEBAQEAAAAAAAAAAAAAAAABAhES%2F8QAGAEBAQADAAAAAAAAAAAAAAAAAgMAAQT%2FxAAYEQEBAQEBAAAAAAAAAAAAAAABABECEv%2FaAAwDAQACEQMRAD8AvaNrWp6rmCYXbRtG6c6eVAu0eFC4zZ%2BsqaS1VdJajXNLmna0ax2Q1qbPKnBzD4ktJbtgXKtGiMRo%2BSmTaFsttmFxoQMFv%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
+              "id": "bc9769eb-c7b5-435a-a244-71ede6ee6c6a",
               "type": "image",
               "preset": "400x400",
               "dominant": "#a8c838"
@@ -926,146 +926,50 @@
           "station": "franceinter"
         },
         {
-          "model": "Expression",
-          "id": "f67f8a69-e457-4fd1-9288-28e2256c6830",
-          "title": "100 millions d'euros : le casse légal de Ohm Énergie",
-          "kind": "antenne",
-          "type": "episode",
-          "path": "franceculture/podcasts/recits-d-enquete/recits-d-enquete-chronique-du-samedi-09-mars-2024-1633895",
+          "model": "Article",
+          "id": "cc72f75b-1ba9-11e3-9f7b-782bcb6744eb",
+          "title": "Cyrano de Bergerac",
+          "path": "franceinter/cyrano-de-bergerac-7135254",
           "migrated": true,
-          "startDate": 1709965200,
+          "publishedDate": 1378990183,
           "brandEnums": [
-            "FRANCECULTURE"
+            "FRANCEINTER"
           ],
           "stationEnums": [
-            "FRANCECULTURE"
+            "FRANCEINTER"
           ],
-          "manifestations": [
+          "themes": [
             {
-              "model": "ManifestationAudio",
-              "id": "053d0b25-a3e8-45d2-9855-6cc72178b636",
-              "title": "100 Millions d'euros : le casse légal de Ohm Energie",
-              "url": "https://media.radiofrance-podcast.net/podcast09/23644-09.03.2024-ITEMA_23672619-2024C49314S0069-21.mp3",
-              "created": 1709965440,
-              "duration": 293,
-              "shareable": false,
-              "principal": true,
-              "preset": {
-                "id": "21",
-                "name": "stereo",
-                "encoding": "MP3",
-                "bitrate": 128,
-                "frequency": 44.1,
-                "level": "-15LUFS (stéréo)"
+              "title": "Arts et Divertissement",
+              "path": "arts-divertissements",
+              "migrated": true,
+              "parent": null
+            },
+            {
+              "title": "Théâtre",
+              "path": "arts-divertissements/theatre",
+              "migrated": true,
+              "parent": {
+                "title": "Arts et Divertissement",
+                "path": "arts-divertissements",
+                "migrated": true,
+                "parent": null
               }
             }
           ],
-          "visual": {
-            "model": "EmbedImage",
-            "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/03/f7145604-5092-4adc-9f5d-49f18b21009b/560x315_sc_sc_gettyimages-883730690.jpg",
-            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/03/f7145604-5092-4adc-9f5d-49f18b21009b/560x315_sc_sc_gettyimages-883730690.webp",
-            "legend": "La stratégie de Ohm Energie est simple : perdre le plus de clients possible.",
-            "copyright": "Getty",
-            "author": "Bernd Shunack",
-            "width": 560,
-            "height": 315,
-            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22560%22%20height%3D%22315%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22560%22%20height%3D%22315%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAGAABAQADAAAAAAAAAAAAAAAAAAMBAgT%2FxAAWEAEBAQAAAAAAAAAAAAAAAAAAERL%2FxAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID%2F8QAFREBAQAAAAAAAAAAAAAAAAAAABH%2F2gAMAwEAAhEDEQA%2FAO7RpKlc63FdGk6UpFNGk6UpGgCKyAAAD%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
-            "id": "1fd1343a-179a-46b6-aa57-f2723b5b9723",
-            "type": "image",
-            "preset": "560x315",
-            "dominant": "#c8a878"
-          },
-          "concept": {
-            "title": "Récits d'enquête",
-            "id": "9c3d3cd2-904c-4936-b89f-f299346286c2",
-            "squaredVisual": null
-          },
-          "serie": null,
-          "brand": "franceculture",
-          "station": "franceculture"
-        },
-        {
-          "model": "Expression",
-          "id": "72ea2dab-2756-4293-ac71-511f10ee4431",
-          "title": "Encore dix milliards d'euros à trouver cette année",
-          "kind": "antenne",
-          "type": "episode",
-          "path": "franceculture/podcasts/journal-de-18h/journal-de-18h-emission-du-mercredi-10-avril-2024-3017733",
-          "migrated": true,
-          "startDate": 1712764800,
-          "brandEnums": [
-            "FRANCECULTURE"
-          ],
-          "stationEnums": [
-            "FRANCECULTURE"
-          ],
-          "manifestations": [
-            {
-              "model": "ManifestationAudio",
-              "id": "2c3c9a72-f6d1-470c-9327-3bcf73b47b8a",
-              "title": "JOURNAL DE 18H, émission du mercredi 10 avril 2024",
-              "url": "https://media.radiofrance-podcast.net/podcast09/10060-10.04.2024-ITEMA_23705982-2024C10069S0101-21.mp3",
-              "created": 1712766000,
-              "duration": 1211,
-              "shareable": false,
-              "principal": true,
-              "preset": {
-                "id": "21",
-                "name": "stereo",
-                "encoding": "MP3",
-                "bitrate": 128,
-                "frequency": 44.1,
-                "level": "-15LUFS (stéréo)"
-              }
-            }
-          ],
-          "visual": {
-            "model": "EmbedImage",
-            "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/6ae12954-a8fc-4747-a2ba-010a31a8535e/560x315_sc_photo.jpg",
-            "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/04/6ae12954-a8fc-4747-a2ba-010a31a8535e/560x315_sc_photo.webp",
-            "legend": "Le ministère de l'Economie et des Finances vu depuis la Seine, à Paris. 05/06/2023",
-            "copyright": "AFP",
-            "author": null,
-            "width": 560,
-            "height": 315,
-            "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22560%22%20height%3D%22315%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22560%22%20height%3D%22315%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAXACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBAv%2FEABgQAQEBAQEAAAAAAAAAAAAAAAASEQEC%2F8QAFAEBAAAAAAAAAAAAAAAAAAAAAP%2FEABQRAQAAAAAAAAAAAAAAAAAAAAD%2F2gAMAwEAAhEDEQA%2FAL0yku%2BmUC9loUUC9loUUDjvWaAGmgBpoA%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
-            "id": "6ae12954-a8fc-4747-a2ba-010a31a8535e",
-            "type": "image",
-            "preset": "560x315",
-            "dominant": "#c8d8e8"
-          },
-          "concept": {
-            "title": "Journal de 18h",
-            "id": "7c90d5d1-4288-11e5-9fe0-005056a87c89",
-            "squaredVisual": {
-              "model": "EmbedImage",
-              "src": "https://www.radiofrance.fr/s3/cruiser-production/2021/10/02b6a60e-e09f-4065-b0bf-f8d9a48e0e6e/400x400_journal-de-18h.jpg",
-              "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2021/10/02b6a60e-e09f-4065-b0bf-f8d9a48e0e6e/400x400_journal-de-18h.webp",
-              "legend": "Journal de 18h",
-              "copyright": "Radio France",
-              "author": null,
-              "width": 400,
-              "height": 400,
-              "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22400%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22400%22%20height%3D%22400%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAABAAMBAAAAAAAAAAAAAAAAAgABAwT%2FxAAhEAACAgEDBQEAAAAAAAAAAAAAAQIRMQMhQQQSEyJRYf%2FEABcBAAMBAAAAAAAAAAAAAAAAAAECAwT%2FxAAZEQEBAQADAAAAAAAAAAAAAAAAAQIREhP%2F2gAMAwEAAhEDEQA%2FAOZbUy8snCFEe1ZaWyEkUkNEdUzHxylJ1FleOXw64t1kuhveQOtc8YS1F6rA1ozRfTp06dG8u6Eoq1uGhyyWhP4WtKXw37Z0vZAepNTabTRHQy1nVOhUST3TewiGqeOSLaw6Gm3zgMMiiadUpqUryxfoVkfBDVNEaurERYITtF%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
-              "id": "02b6a60e-e09f-4065-b0bf-f8d9a48e0e6e",
-              "type": "image",
-              "preset": "400x400",
-              "dominant": null
-            }
-          },
-          "serie": null,
-          "brand": "franceculture",
-          "station": "franceculture"
+          "visual": null,
+          "brand": "franceinter",
+          "station": "franceinter"
         }
       ]
     }
   },
-  "total": 1556,
+  "total": 70,
   "aggregation": {
-    "all": 1556,
-    "concepts": 2,
-    "personalities": 0,
-    "expressions_articles": 1554
+    "all": 70,
+    "concepts": 1,
+    "personalities": 1,
+    "expressions_articles": 68
   },
   "metadata": {
     "kirby": {
@@ -1110,756 +1014,17 @@
       "link": "/recherche"
     },
     {
-      "label": "Résultats de la recherche: euros",
+      "label": "Résultats de la recherche: cyrano",
       "link": "/recherche"
     }
   ],
   "topMedia": null,
   "searchFilters": {
-    "term": "euros",
+    "term": "cyrano",
     "since": "all",
     "duration": "all",
     "station": "all",
     "entity": "ALL"
   },
-  "highlights": [
-    {
-      "model": "HighlightElement",
-      "format": "PRODUIT_SLIDER_CATEGORY",
-      "mainImageUuid": null,
-      "mainImage": null,
-      "id": "66dce164-8a5e-4124-89ae-27b04ac8b1e0",
-      "title": null,
-      "chapo": null,
-      "links": [],
-      "contents": [
-        {
-          "model": "Highlight",
-          "id": "1ff3a8c4-8eb3-43c5-8fb8-035cd6ce2dfc",
-          "title": "Catégories",
-          "chapo": null,
-          "label": "",
-          "visuals": null,
-          "elements": [
-            {
-              "model": "HighlightElement",
-              "id": "f94d4e14-4e46-4e98-b22e-22fa41481d41",
-              "kind": null,
-              "type": "taxonomy",
-              "title": null,
-              "body": null,
-              "mainImageUuid": "2294ca8c-22a9-4da8-a979-ac11b46339d7",
-              "mainImage": {
-                "model": "EmbedImage",
-                "src": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/2294ca8c-22a9-4da8-a979-ac11b46339d7/300x300_sc_categorie-histoire.jpg",
-                "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/2294ca8c-22a9-4da8-a979-ac11b46339d7/300x300_sc_categorie-histoire.webp",
-                "legend": "Histoire",
-                "copyright": "Aucun(e)",
-                "author": null,
-                "width": 300,
-                "height": 300,
-                "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22300%22%20height%3D%22300%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22300%22%20height%3D%22300%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAABAQEBAQAAAAAAAAAAAAAAAgEDAAT%2FxAAYEAEBAQEBAAAAAAAAAAAAAAAAARESAv%2FEABgBAAMBAQAAAAAAAAAAAAAAAAECAwQA%2F8QAFxEBAQEBAAAAAAAAAAAAAAAAAAERAv%2FaAAwDAQACEQMRAD8AwKJhRBtWRcWQpBifUZXyPDfl3JtSsZLEWJtRQ4EOO0lJyKOkx51iLCKlCgwoIUoWJDElf%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
-                "id": "2294ca8c-22a9-4da8-a979-ac11b46339d7",
-                "type": "image",
-                "preset": "300x300",
-                "dominant": "#c83808"
-              },
-              "links": [],
-              "originalContent": null,
-              "contents": [
-                {
-                  "id": "9eee88ae-7bac-4c21-b98a-33ba1c025a9b",
-                  "brand": "radiofrance",
-                  "model": "Theme",
-                  "path": "sciences-savoirs/histoire",
-                  "title": "Histoire",
-                  "visual": {
-                    "model": "EmbedImage",
-                    "src": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/2294ca8c-22a9-4da8-a979-ac11b46339d7/640x250_sc_categorie-histoire.jpg",
-                    "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/2294ca8c-22a9-4da8-a979-ac11b46339d7/640x250_sc_categorie-histoire.webp",
-                    "legend": "Histoire",
-                    "copyright": null,
-                    "author": null,
-                    "width": 640,
-                    "height": 250,
-                    "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22640%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22640%22%20height%3D%22250%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAQACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA%2F%2FEABYQAQEBAAAAAAAAAAAAAAAAAAABEf%2FEABcBAAMBAAAAAAAAAAAAAAAAAAABBAL%2FxAAWEQEBAQAAAAAAAAAAAAAAAAAAARH%2F2gAMAwEAAhEDEQA%2FAOBiYuJ1tMhwyHD1ijGxWMCf%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-                    "id": "2294ca8c-22a9-4da8-a979-ac11b46339d7",
-                    "dominant": "#c83808",
-                    "type": "image",
-                    "srcset": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/2294ca8c-22a9-4da8-a979-ac11b46339d7/320x170_sc_categorie-histoire.jpg 320w, https://www.radiofrance.fr/s3/cruiser-production/2024/01/2294ca8c-22a9-4da8-a979-ac11b46339d7/640x250_sc_categorie-histoire.jpg 640w",
-                    "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/2294ca8c-22a9-4da8-a979-ac11b46339d7/320x170_sc_categorie-histoire.webp 320w, https://www.radiofrance.fr/s3/cruiser-production/2024/01/2294ca8c-22a9-4da8-a979-ac11b46339d7/640x250_sc_categorie-histoire.webp 640w"
-                  },
-                  "relation": "subtheme"
-                }
-              ],
-              "brand": "radiofrance"
-            },
-            {
-              "model": "HighlightElement",
-              "id": "04a4eb3f-be06-4103-8123-aed0e7dbe035",
-              "kind": null,
-              "type": "article",
-              "title": "Musique",
-              "body": null,
-              "mainImageUuid": "07869ea8-fcee-40bd-8f2a-2a20ceb606e6",
-              "mainImage": {
-                "model": "EmbedImage",
-                "src": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/07869ea8-fcee-40bd-8f2a-2a20ceb606e6/300x300_sc_categorie-musique.jpg",
-                "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/07869ea8-fcee-40bd-8f2a-2a20ceb606e6/300x300_sc_categorie-musique.webp",
-                "legend": "Musique",
-                "copyright": "Aucun(e)",
-                "author": null,
-                "width": 300,
-                "height": 300,
-                "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22300%22%20height%3D%22300%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22300%22%20height%3D%22300%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT%2FxAAXEAEBAQEAAAAAAAAAAAAAAAAAAgER%2F8QAGAEBAQADAAAAAAAAAAAAAAAAAQACAwT%2FxAAVEQEBAAAAAAAAAAAAAAAAAAAAAf%2FaAAwDAQACEQMRAD8AoGNanQCVptJSSd6l09pmMa7QAizSUfU6BSoh6IQ7QwJM1OlNToFOiGoiT%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
-                "id": "07869ea8-fcee-40bd-8f2a-2a20ceb606e6",
-                "type": "image",
-                "preset": "300x300",
-                "dominant": "#d87858"
-              },
-              "links": [],
-              "originalContent": null,
-              "contents": [
-                {
-                  "id": "f732f684-a093-420e-90fe-62abccb3f2c3",
-                  "brand": "radiofrance",
-                  "model": "PageTemplate",
-                  "path": "ecouter-musique",
-                  "title": "Musique",
-                  "visual": {
-                    "model": "EmbedImage",
-                    "src": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/07869ea8-fcee-40bd-8f2a-2a20ceb606e6/640x250_sc_categorie-musique.jpg",
-                    "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/07869ea8-fcee-40bd-8f2a-2a20ceb606e6/640x250_sc_categorie-musique.webp",
-                    "legend": "Musique",
-                    "copyright": null,
-                    "author": null,
-                    "width": 640,
-                    "height": 250,
-                    "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22640%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22640%22%20height%3D%22250%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAQACoDASIAAhEBAxEB%2F8QAFgABAQEAAAAAAAAAAAAAAAAAAgAB%2F8QAFhABAQEAAAAAAAAAAAAAAAAAABEB%2F8QAFgEBAQEAAAAAAAAAAAAAAAAAAgED%2F8QAFREBAQAAAAAAAAAAAAAAAAAAAAH%2F2gAMAwEAAhEDEQA%2FAMwhxoVtCqo1UShVUaqiv%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
-                    "id": "07869ea8-fcee-40bd-8f2a-2a20ceb606e6",
-                    "dominant": "#d87858",
-                    "type": "image",
-                    "srcset": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/07869ea8-fcee-40bd-8f2a-2a20ceb606e6/320x170_sc_categorie-musique.jpg 320w, https://www.radiofrance.fr/s3/cruiser-production/2024/01/07869ea8-fcee-40bd-8f2a-2a20ceb606e6/640x250_sc_categorie-musique.jpg 640w",
-                    "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/07869ea8-fcee-40bd-8f2a-2a20ceb606e6/320x170_sc_categorie-musique.webp 320w, https://www.radiofrance.fr/s3/cruiser-production/2024/01/07869ea8-fcee-40bd-8f2a-2a20ceb606e6/640x250_sc_categorie-musique.webp 640w"
-                  },
-                  "relation": "page_template"
-                }
-              ],
-              "brand": "radiofrance"
-            },
-            {
-              "model": "HighlightElement",
-              "id": "84db1e58-6cd6-4e57-806a-0ba0000f5fd0",
-              "kind": null,
-              "type": "taxonomy",
-              "title": "Arts",
-              "body": null,
-              "mainImageUuid": "32c53b18-32b7-4042-adff-fa12fd3d93a8",
-              "mainImage": {
-                "model": "EmbedImage",
-                "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/32c53b18-32b7-4042-adff-fa12fd3d93a8/300x300_sc_categorie-art-et-divertissement-2.jpg",
-                "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/32c53b18-32b7-4042-adff-fa12fd3d93a8/300x300_sc_categorie-art-et-divertissement-2.webp",
-                "legend": "Podcasts sur les arts",
-                "copyright": "Radio France",
-                "author": null,
-                "width": 300,
-                "height": 300,
-                "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22300%22%20height%3D%22300%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22300%22%20height%3D%22300%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgEEAP%2FEABUQAQEAAAAAAAAAAAAAAAAAAAAB%2F8QAGAEAAwEBAAAAAAAAAAAAAAAAAAECAwT%2FxAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH%2F2gAMAwEAAhEDEQA%2FAM8KDCjJ3lFiQjKq5ygVnhwIUIacUYUUjVVFBM0OBCiWpwoMKGmKqKBH%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-                "id": "32c53b18-32b7-4042-adff-fa12fd3d93a8",
-                "type": "image",
-                "preset": "300x300",
-                "dominant": "#780808"
-              },
-              "links": [],
-              "originalContent": null,
-              "contents": [
-                {
-                  "id": "8b78fb1a-bf1e-436e-a2fc-4375fa38154b",
-                  "brand": "radiofrance",
-                  "model": "Theme",
-                  "path": "arts-divertissements",
-                  "title": "Arts",
-                  "visual": {
-                    "model": "EmbedImage",
-                    "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/32c53b18-32b7-4042-adff-fa12fd3d93a8/640x250_sc_categorie-art-et-divertissement-2.jpg",
-                    "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/32c53b18-32b7-4042-adff-fa12fd3d93a8/640x250_sc_categorie-art-et-divertissement-2.webp",
-                    "legend": "Podcasts sur les arts",
-                    "copyright": "Radio France",
-                    "author": null,
-                    "width": 640,
-                    "height": 250,
-                    "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22640%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22640%22%20height%3D%22250%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAQACoDASIAAhEBAxEB%2F8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT%2FxAAWEAEBAQAAAAAAAAAAAAAAAAAAAQL%2FxAAXAQEAAwAAAAAAAAAAAAAAAAAAAQME%2F8QAFREBAQAAAAAAAAAAAAAAAAAAAAH%2F2gAMAwEAAhEDEQA%2FAOGKZSiuVbbFIYuTCWoDQB%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
-                    "id": "32c53b18-32b7-4042-adff-fa12fd3d93a8",
-                    "dominant": "#780808",
-                    "type": "image",
-                    "srcset": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/32c53b18-32b7-4042-adff-fa12fd3d93a8/320x170_sc_categorie-art-et-divertissement-2.jpg 320w, https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/32c53b18-32b7-4042-adff-fa12fd3d93a8/640x250_sc_categorie-art-et-divertissement-2.jpg 640w",
-                    "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/32c53b18-32b7-4042-adff-fa12fd3d93a8/320x170_sc_categorie-art-et-divertissement-2.webp 320w, https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/32c53b18-32b7-4042-adff-fa12fd3d93a8/640x250_sc_categorie-art-et-divertissement-2.webp 640w"
-                  },
-                  "relation": "theme"
-                }
-              ],
-              "brand": "radiofrance"
-            },
-            {
-              "model": "HighlightElement",
-              "id": "434528a9-5c0c-4a6e-9fdc-5230fd7ef3f4",
-              "kind": null,
-              "type": "taxonomy",
-              "title": null,
-              "body": null,
-              "mainImageUuid": "f5c39be5-47c4-4f58-b357-f69604aa611f",
-              "mainImage": {
-                "model": "EmbedImage",
-                "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/f5c39be5-47c4-4f58-b357-f69604aa611f/300x300_sc_categorie-monde-2.jpg",
-                "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/f5c39be5-47c4-4f58-b357-f69604aa611f/300x300_sc_categorie-monde-2.webp",
-                "legend": "Podcasts sur l'actualité internationale",
-                "copyright": "Radio France",
-                "author": null,
-                "width": 300,
-                "height": 300,
-                "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22300%22%20height%3D%22300%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22300%22%20height%3D%22300%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT%2FxAAYEAEBAQEBAAAAAAAAAAAAAAAAAQISEf%2FEABgBAQEBAQEAAAAAAAAAAAAAAAMCAQAE%2F8QAFxEBAQEBAAAAAAAAAAAAAAAAAAERAv%2FaAAwDAQACEQMRAD8A4wYaEHIIuRzYJD5XmK5YrHMDChwSNMxEaZTSRpmL8TlaSY4wZEeaHF5RF5RTctMrRlSSP%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
-                "id": "f5c39be5-47c4-4f58-b357-f69604aa611f",
-                "type": "image",
-                "preset": "300x300",
-                "dominant": "#187868"
-              },
-              "links": [],
-              "originalContent": null,
-              "contents": [
-                {
-                  "id": "21c946c9-d1d3-4d9e-b5bc-58725878d9ed",
-                  "brand": "radiofrance",
-                  "model": "Theme",
-                  "path": "monde",
-                  "title": "Monde",
-                  "visual": {
-                    "model": "EmbedImage",
-                    "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/f5c39be5-47c4-4f58-b357-f69604aa611f/640x250_sc_categorie-monde-2.jpg",
-                    "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/f5c39be5-47c4-4f58-b357-f69604aa611f/640x250_sc_categorie-monde-2.webp",
-                    "legend": "Podcasts sur l'actualité internationale",
-                    "copyright": "Radio France",
-                    "author": null,
-                    "width": 640,
-                    "height": 250,
-                    "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22640%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22640%22%20height%3D%22250%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAQACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBP%2FEABYQAQEBAAAAAAAAAAAAAAAAAAARAf%2FEABYBAQEBAAAAAAAAAAAAAAAAAAECA%2F%2FEABURAQEAAAAAAAAAAAAAAAAAAAAB%2F9oADAMBAAIRAxEAPwDmjIShYRkUKILgbjIWiS%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
-                    "id": "f5c39be5-47c4-4f58-b357-f69604aa611f",
-                    "dominant": "#187868",
-                    "type": "image",
-                    "srcset": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/f5c39be5-47c4-4f58-b357-f69604aa611f/320x170_sc_categorie-monde-2.jpg 320w, https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/f5c39be5-47c4-4f58-b357-f69604aa611f/640x250_sc_categorie-monde-2.jpg 640w",
-                    "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/f5c39be5-47c4-4f58-b357-f69604aa611f/320x170_sc_categorie-monde-2.webp 320w, https://www.radiofrance.fr/s3/cruiser-production-eu3/2024/01/f5c39be5-47c4-4f58-b357-f69604aa611f/640x250_sc_categorie-monde-2.webp 640w"
-                  },
-                  "relation": "theme"
-                }
-              ],
-              "brand": "radiofrance"
-            },
-            {
-              "model": "HighlightElement",
-              "id": "ff27dc49-6394-40b1-aec1-4056b4e35862",
-              "kind": null,
-              "type": "taxonomy",
-              "title": null,
-              "body": null,
-              "mainImageUuid": null,
-              "mainImage": null,
-              "links": [],
-              "originalContent": null,
-              "contents": [
-                {
-                  "id": "25bced2b-e4a8-405c-986a-e0bd5a3fe54f",
-                  "brand": "radiofrance",
-                  "model": "Theme",
-                  "path": "environnement",
-                  "title": "Environnement",
-                  "visual": {
-                    "dominant": null,
-                    "model": "EmbedImage",
-                    "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/12/16eb22a4-1d5e-4ae8-b146-cc1a4d89820f/640x250_sc_categorie-environement.jpg",
-                    "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/12/16eb22a4-1d5e-4ae8-b146-cc1a4d89820f/640x250_sc_categorie-environement.webp",
-                    "legend": "Crédits",
-                    "copyright": "Radio France",
-                    "author": null,
-                    "width": 640,
-                    "height": 250,
-                    "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22640%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22640%22%20height%3D%22250%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAQACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAQACBP%2FEABUQAQEAAAAAAAAAAAAAAAAAAAAB%2F8QAFgEBAQEAAAAAAAAAAAAAAAAAAQMA%2F8QAFBEBAAAAAAAAAAAAAAAAAAAAAP%2FaAAwDAQACEQMRAD8A4o1FDEkzGoI1AUVCGf%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
-                    "id": "25bced2b-e4a8-405c-986a-e0bd5a3fe54f",
-                    "type": "image",
-                    "preset": "640x250",
-                    "srcset": "https://www.radiofrance.fr/s3/cruiser-production/2023/12/16eb22a4-1d5e-4ae8-b146-cc1a4d89820f/320x170_sc_categorie-environement.jpg 320w, https://www.radiofrance.fr/s3/cruiser-production/2023/12/16eb22a4-1d5e-4ae8-b146-cc1a4d89820f/640x250_sc_categorie-environement.jpg 640w",
-                    "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production/2023/12/16eb22a4-1d5e-4ae8-b146-cc1a4d89820f/320x170_sc_categorie-environement.webp 320w, https://www.radiofrance.fr/s3/cruiser-production/2023/12/16eb22a4-1d5e-4ae8-b146-cc1a4d89820f/640x250_sc_categorie-environement.webp 640w"
-                  },
-                  "relation": "theme"
-                }
-              ],
-              "brand": "radiofrance"
-            },
-            {
-              "model": "HighlightElement",
-              "id": "ebc51fef-5882-408f-99f1-3b86a72c5bee",
-              "kind": null,
-              "type": "taxonomy",
-              "title": null,
-              "body": null,
-              "mainImageUuid": null,
-              "mainImage": null,
-              "links": [],
-              "originalContent": null,
-              "contents": [
-                {
-                  "id": "0791a9e4-4c72-44ec-84ef-12eddc039740",
-                  "brand": "radiofrance",
-                  "model": "Theme",
-                  "path": "sports",
-                  "title": "Sports",
-                  "visual": {
-                    "dominant": null,
-                    "model": "EmbedImage",
-                    "src": "https://www.radiofrance.fr/s3/cruiser-production/2023/12/9b007612-15c3-4042-b6cd-521ad601dd1a/640x250_sc_categorie-sport.jpg",
-                    "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2023/12/9b007612-15c3-4042-b6cd-521ad601dd1a/640x250_sc_categorie-sport.webp",
-                    "legend": "Crédits",
-                    "copyright": "Radio France",
-                    "author": null,
-                    "width": 640,
-                    "height": 250,
-                    "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22640%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22640%22%20height%3D%22250%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAQACoDASIAAhEBAxEB%2F8QAFgABAQEAAAAAAAAAAAAAAAAAAQIA%2F8QAFRABAQAAAAAAAAAAAAAAAAAAAAH%2FxAAWAQEBAQAAAAAAAAAAAAAAAAABBAD%2FxAAWEQEBAQAAAAAAAAAAAAAAAAAAARH%2F2gAMAwEAAhEDEQA%2FAJi4iLiSqFwiEaKWBbQ%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-                    "id": "0791a9e4-4c72-44ec-84ef-12eddc039740",
-                    "type": "image",
-                    "preset": "640x250",
-                    "srcset": "https://www.radiofrance.fr/s3/cruiser-production/2023/12/9b007612-15c3-4042-b6cd-521ad601dd1a/320x170_sc_categorie-sport.jpg 320w, https://www.radiofrance.fr/s3/cruiser-production/2023/12/9b007612-15c3-4042-b6cd-521ad601dd1a/640x250_sc_categorie-sport.jpg 640w",
-                    "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production/2023/12/9b007612-15c3-4042-b6cd-521ad601dd1a/320x170_sc_categorie-sport.webp 320w, https://www.radiofrance.fr/s3/cruiser-production/2023/12/9b007612-15c3-4042-b6cd-521ad601dd1a/640x250_sc_categorie-sport.webp 640w"
-                  },
-                  "relation": "theme"
-                }
-              ],
-              "brand": "radiofrance"
-            },
-            {
-              "model": "HighlightElement",
-              "id": "8001949e-1050-4d53-bf2b-90cab86aa83e",
-              "kind": null,
-              "type": "article",
-              "title": "Enfants",
-              "body": null,
-              "mainImageUuid": "d152b19a-015a-4b00-bc4c-b87e6905a58f",
-              "mainImage": {
-                "model": "EmbedImage",
-                "src": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/d152b19a-015a-4b00-bc4c-b87e6905a58f/300x300_sc_categorie-enfants.jpg",
-                "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/d152b19a-015a-4b00-bc4c-b87e6905a58f/300x300_sc_categorie-enfants.webp",
-                "legend": "Enfants",
-                "copyright": "Aucun(e)",
-                "author": null,
-                "width": 300,
-                "height": 300,
-                "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22300%22%20height%3D%22300%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22300%22%20height%3D%22300%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT%2FxAAXEAEBAQEAAAAAAAAAAAAAAAAAARES%2F8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECBP%2FEABURAQEAAAAAAAAAAAAAAAAAAAAR%2F9oADAMBAAIRAxEAPwDoBG5XSC0VNoK0dM7R00kXp6nRqRTtRaLWdpA7S1Fpao6NK0FWgrWdqqioJtLRSFf%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
-                "id": "d152b19a-015a-4b00-bc4c-b87e6905a58f",
-                "type": "image",
-                "preset": "300x300",
-                "dominant": "#e88848"
-              },
-              "links": [],
-              "originalContent": null,
-              "contents": [
-                {
-                  "id": "0d977ad9-7cdc-4396-bd88-e84967854f66",
-                  "brand": "radiofrance",
-                  "model": "PageTemplate",
-                  "path": "podcasts/enfants",
-                  "title": "Enfants",
-                  "visual": {
-                    "model": "EmbedImage",
-                    "src": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/d152b19a-015a-4b00-bc4c-b87e6905a58f/640x250_sc_categorie-enfants.jpg",
-                    "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/d152b19a-015a-4b00-bc4c-b87e6905a58f/640x250_sc_categorie-enfants.webp",
-                    "legend": "Enfants",
-                    "copyright": null,
-                    "author": null,
-                    "width": 640,
-                    "height": 250,
-                    "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22640%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22640%22%20height%3D%22250%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAQACoDASIAAhEBAxEB%2F8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDAf%2FEABYQAQEBAAAAAAAAAAAAAAAAAAARAf%2FEABcBAQADAAAAAAAAAAAAAAAAAAABAwT%2FxAAWEQEBAQAAAAAAAAAAAAAAAAAAARH%2F2gAMAwEAAhEDEQA%2FAKZopaKosaTVlLulqMFK2p5pqD%2F%2F2Q%3D%3D%22%20%2F%3E%3C%2Fsvg%3E",
-                    "id": "d152b19a-015a-4b00-bc4c-b87e6905a58f",
-                    "dominant": "#e88848",
-                    "type": "image",
-                    "srcset": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/d152b19a-015a-4b00-bc4c-b87e6905a58f/320x170_sc_categorie-enfants.jpg 320w, https://www.radiofrance.fr/s3/cruiser-production/2024/01/d152b19a-015a-4b00-bc4c-b87e6905a58f/640x250_sc_categorie-enfants.jpg 640w",
-                    "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/d152b19a-015a-4b00-bc4c-b87e6905a58f/320x170_sc_categorie-enfants.webp 320w, https://www.radiofrance.fr/s3/cruiser-production/2024/01/d152b19a-015a-4b00-bc4c-b87e6905a58f/640x250_sc_categorie-enfants.webp 640w"
-                  },
-                  "relation": "page_template"
-                }
-              ],
-              "brand": "radiofrance"
-            },
-            {
-              "model": "HighlightElement",
-              "id": "e23ac6f4-122f-4979-9896-8c402842a21d",
-              "kind": null,
-              "type": "article",
-              "title": "Fictions",
-              "body": null,
-              "mainImageUuid": "33fd7ebe-2857-45d2-9190-02b29875b7f8",
-              "mainImage": {
-                "model": "EmbedImage",
-                "src": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/33fd7ebe-2857-45d2-9190-02b29875b7f8/300x300_sc_categorie-fiction-2.jpg",
-                "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/33fd7ebe-2857-45d2-9190-02b29875b7f8/300x300_sc_categorie-fiction-2.webp",
-                "legend": "Fictions",
-                "copyright": "Aucun(e)",
-                "author": null,
-                "width": 300,
-                "height": 300,
-                "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22300%22%20height%3D%22300%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22300%22%20height%3D%22300%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA%2F%2FEABYQAQEBAAAAAAAAAAAAAAAAAAABEf%2FEABcBAAMBAAAAAAAAAAAAAAAAAAABAgP%2FxAAWEQEBAQAAAAAAAAAAAAAAAAAAARH%2F2gAMAwEAAhEDEQA%2FANgKZooBNAC1KooGqIVKE2LqazpqKWOyKi2jNZrVZoDIVE4T%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-                "id": "33fd7ebe-2857-45d2-9190-02b29875b7f8",
-                "type": "image",
-                "preset": "300x300",
-                "dominant": "#889898"
-              },
-              "links": [],
-              "originalContent": null,
-              "contents": [
-                {
-                  "id": "6159443b-45f2-4a9b-b340-c8ae35913e13",
-                  "brand": "radiofrance",
-                  "model": "PageTemplate",
-                  "path": "podcasts/fictions",
-                  "title": "Fictions",
-                  "visual": {
-                    "model": "EmbedImage",
-                    "src": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/33fd7ebe-2857-45d2-9190-02b29875b7f8/640x250_sc_categorie-fiction-2.jpg",
-                    "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/33fd7ebe-2857-45d2-9190-02b29875b7f8/640x250_sc_categorie-fiction-2.webp",
-                    "legend": "Fictions",
-                    "copyright": null,
-                    "author": null,
-                    "width": 640,
-                    "height": 250,
-                    "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22640%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22640%22%20height%3D%22250%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAQACoDASIAAhEBAxEB%2F8QAFgABAQEAAAAAAAAAAAAAAAAAAAEC%2F8QAFRABAQAAAAAAAAAAAAAAAAAAABH%2FxAAWAQEBAQAAAAAAAAAAAAAAAAABAAL%2FxAAVEQEBAAAAAAAAAAAAAAAAAAAAEf%2FaAAwDAQACEQMRAD8A2AmEAQiKsIRH%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-                    "id": "33fd7ebe-2857-45d2-9190-02b29875b7f8",
-                    "dominant": "#889898",
-                    "type": "image",
-                    "srcset": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/33fd7ebe-2857-45d2-9190-02b29875b7f8/320x170_sc_categorie-fiction-2.jpg 320w, https://www.radiofrance.fr/s3/cruiser-production/2024/01/33fd7ebe-2857-45d2-9190-02b29875b7f8/640x250_sc_categorie-fiction-2.jpg 640w",
-                    "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/33fd7ebe-2857-45d2-9190-02b29875b7f8/320x170_sc_categorie-fiction-2.webp 320w, https://www.radiofrance.fr/s3/cruiser-production/2024/01/33fd7ebe-2857-45d2-9190-02b29875b7f8/640x250_sc_categorie-fiction-2.webp 640w"
-                  },
-                  "relation": "page_template"
-                }
-              ],
-              "brand": "radiofrance"
-            },
-            {
-              "model": "HighlightElement",
-              "id": "212c7c21-c882-4e2e-946b-6bf2da42e99e",
-              "kind": null,
-              "type": "taxonomy",
-              "title": null,
-              "body": null,
-              "mainImageUuid": "5d80653f-1af7-44a8-9417-80779ae0bf3e",
-              "mainImage": {
-                "model": "EmbedImage",
-                "src": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/5d80653f-1af7-44a8-9417-80779ae0bf3e/300x300_sc_categorie-sciences.jpg",
-                "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/5d80653f-1af7-44a8-9417-80779ae0bf3e/300x300_sc_categorie-sciences.webp",
-                "legend": "Sciences",
-                "copyright": "Aucun(e)",
-                "author": null,
-                "width": 300,
-                "height": 300,
-                "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22300%22%20height%3D%22300%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22300%22%20height%3D%22300%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAGAABAQEBAQAAAAAAAAAAAAAAAQIAAwT%2FxAAWEAEBAQAAAAAAAAAAAAAAAAAAARH%2FxAAXAQEBAQEAAAAAAAAAAAAAAAABAgAD%2F8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER%2F9oADAMBAAIRAxEAPwCDAY7OKoYIqBmw4YW0485iVQhUVBCKYptTaNSpyVAqLQqEQpqoKlVQC%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
-                "id": "5d80653f-1af7-44a8-9417-80779ae0bf3e",
-                "type": "image",
-                "preset": "300x300",
-                "dominant": "#4888b8"
-              },
-              "links": [],
-              "originalContent": null,
-              "contents": [
-                {
-                  "id": "cc6810e9-da63-4398-b8b6-efccd8d089da",
-                  "brand": "radiofrance",
-                  "model": "Theme",
-                  "path": "sciences-savoirs/sciences",
-                  "title": "Sciences",
-                  "visual": {
-                    "model": "EmbedImage",
-                    "src": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/5d80653f-1af7-44a8-9417-80779ae0bf3e/640x250_sc_categorie-sciences.jpg",
-                    "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/5d80653f-1af7-44a8-9417-80779ae0bf3e/640x250_sc_categorie-sciences.webp",
-                    "legend": "Sciences",
-                    "copyright": null,
-                    "author": null,
-                    "width": 640,
-                    "height": 250,
-                    "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22640%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22640%22%20height%3D%22250%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAQACoDASIAAhEBAxEB%2F8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT%2FxAAWEAEBAQAAAAAAAAAAAAAAAAAAAQL%2FxAAWAQEBAQAAAAAAAAAAAAAAAAABAwD%2FxAAUEQEAAAAAAAAAAAAAAAAAAAAA%2F9oADAMBAAIRAxEAPwDni8ojTKqSoYgYJpHUkP%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
-                    "id": "5d80653f-1af7-44a8-9417-80779ae0bf3e",
-                    "dominant": "#4888b8",
-                    "type": "image",
-                    "srcset": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/5d80653f-1af7-44a8-9417-80779ae0bf3e/320x170_sc_categorie-sciences.jpg 320w, https://www.radiofrance.fr/s3/cruiser-production/2024/01/5d80653f-1af7-44a8-9417-80779ae0bf3e/640x250_sc_categorie-sciences.jpg 640w",
-                    "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/5d80653f-1af7-44a8-9417-80779ae0bf3e/320x170_sc_categorie-sciences.webp 320w, https://www.radiofrance.fr/s3/cruiser-production/2024/01/5d80653f-1af7-44a8-9417-80779ae0bf3e/640x250_sc_categorie-sciences.webp 640w"
-                  },
-                  "relation": "subtheme"
-                }
-              ],
-              "brand": "radiofrance"
-            },
-            {
-              "model": "HighlightElement",
-              "id": "eb46b5c2-8669-4216-a4d4-4bd46de6c66c",
-              "kind": null,
-              "type": "taxonomy",
-              "title": null,
-              "body": null,
-              "mainImageUuid": "71a44e03-c21f-455a-b3a2-83babcfc96c7",
-              "mainImage": {
-                "model": "EmbedImage",
-                "src": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/71a44e03-c21f-455a-b3a2-83babcfc96c7/300x300_sc_categorie-vie-quotidienne.jpg",
-                "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/71a44e03-c21f-455a-b3a2-83babcfc96c7/300x300_sc_categorie-vie-quotidienne.webp",
-                "legend": "Cuisine",
-                "copyright": "Aucun(e)",
-                "author": null,
-                "width": 300,
-                "height": 300,
-                "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22300%22%20height%3D%22300%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22300%22%20height%3D%22300%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAqACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA%2F%2FEABYQAQEBAAAAAAAAAAAAAAAAAAABEf%2FEABcBAQEBAQAAAAAAAAAAAAAAAAABAgP%2FxAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH%2F2gAMAwEAAhEDEQA%2FAKKNOSACQFkXAiAqNICixZGsSNBHMABRRcI1rKg%2F%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-                "id": "71a44e03-c21f-455a-b3a2-83babcfc96c7",
-                "type": "image",
-                "preset": "300x300",
-                "dominant": "#489898"
-              },
-              "links": [],
-              "originalContent": null,
-              "contents": [
-                {
-                  "id": "a77f1174-8934-475e-89e2-c00b93ee0baf",
-                  "brand": "radiofrance",
-                  "model": "Theme",
-                  "path": "vie-quotidienne/cuisine",
-                  "title": "Cuisine",
-                  "visual": {
-                    "model": "EmbedImage",
-                    "src": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/71a44e03-c21f-455a-b3a2-83babcfc96c7/640x250_sc_categorie-vie-quotidienne.jpg",
-                    "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/71a44e03-c21f-455a-b3a2-83babcfc96c7/640x250_sc_categorie-vie-quotidienne.webp",
-                    "legend": "Cuisine",
-                    "copyright": null,
-                    "author": null,
-                    "width": 640,
-                    "height": 250,
-                    "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22640%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22640%22%20height%3D%22250%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAQACoDASIAAhEBAxEB%2F8QAFQABAQAAAAAAAAAAAAAAAAAAAAH%2FxAAUEAEAAAAAAAAAAAAAAAAAAAAA%2F8QAFgEBAQEAAAAAAAAAAAAAAAAAAAED%2F8QAFREBAQAAAAAAAAAAAAAAAAAAABH%2F2gAMAwEAAhEDEQA%2FAKoKzFAIIqCR%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-                    "id": "71a44e03-c21f-455a-b3a2-83babcfc96c7",
-                    "dominant": "#489898",
-                    "type": "image",
-                    "srcset": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/71a44e03-c21f-455a-b3a2-83babcfc96c7/320x170_sc_categorie-vie-quotidienne.jpg 320w, https://www.radiofrance.fr/s3/cruiser-production/2024/01/71a44e03-c21f-455a-b3a2-83babcfc96c7/640x250_sc_categorie-vie-quotidienne.jpg 640w",
-                    "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production/2024/01/71a44e03-c21f-455a-b3a2-83babcfc96c7/320x170_sc_categorie-vie-quotidienne.webp 320w, https://www.radiofrance.fr/s3/cruiser-production/2024/01/71a44e03-c21f-455a-b3a2-83babcfc96c7/640x250_sc_categorie-vie-quotidienne.webp 640w"
-                  },
-                  "relation": "subtheme"
-                }
-              ],
-              "brand": "radiofrance"
-            },
-            {
-              "model": "HighlightElement",
-              "id": "f56ce2e3-f7e3-4487-966d-1fc05ca31e73",
-              "kind": null,
-              "type": "taxonomy",
-              "title": null,
-              "body": null,
-              "mainImageUuid": null,
-              "mainImage": null,
-              "links": [],
-              "originalContent": null,
-              "contents": [
-                {
-                  "id": "7f65fb6c-dfa6-46ce-a8ef-4eec0bf31ee2",
-                  "brand": "radiofrance",
-                  "model": "Theme",
-                  "path": "economie",
-                  "title": "Économie",
-                  "visual": {
-                    "dominant": null,
-                    "model": "EmbedImage",
-                    "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/d773e566-5bd9-441a-8485-9b4f78feb72e/640x250_sc_categorie-e-conomie.jpg",
-                    "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/d773e566-5bd9-441a-8485-9b4f78feb72e/640x250_sc_categorie-e-conomie.webp",
-                    "legend": "Crédits",
-                    "copyright": "Radio France",
-                    "author": null,
-                    "width": 640,
-                    "height": 250,
-                    "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22640%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22640%22%20height%3D%22250%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAQACoDASIAAhEBAxEB%2F8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDAf%2FEABYQAQEBAAAAAAAAAAAAAAAAAAABAv%2FEABcBAAMBAAAAAAAAAAAAAAAAAAABBAL%2FxAAWEQEBAQAAAAAAAAAAAAAAAAAAARH%2F2gAMAwEAAhEDEQA%2FAFimU4pEig8MSGGM1oYCpP%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
-                    "id": "7f65fb6c-dfa6-46ce-a8ef-4eec0bf31ee2",
-                    "type": "image",
-                    "preset": "640x250",
-                    "srcset": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/d773e566-5bd9-441a-8485-9b4f78feb72e/320x170_sc_categorie-e-conomie.jpg 320w, https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/d773e566-5bd9-441a-8485-9b4f78feb72e/640x250_sc_categorie-e-conomie.jpg 640w",
-                    "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/d773e566-5bd9-441a-8485-9b4f78feb72e/320x170_sc_categorie-e-conomie.webp 320w, https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/d773e566-5bd9-441a-8485-9b4f78feb72e/640x250_sc_categorie-e-conomie.webp 640w"
-                  },
-                  "relation": "theme"
-                }
-              ],
-              "brand": "radiofrance"
-            },
-            {
-              "model": "HighlightElement",
-              "id": "6353f22c-3671-4928-b89d-d1de25e7c41e",
-              "kind": null,
-              "type": "taxonomy",
-              "title": null,
-              "body": null,
-              "mainImageUuid": null,
-              "mainImage": null,
-              "links": [],
-              "originalContent": null,
-              "contents": [
-                {
-                  "id": "ef694d8a-2ca2-4d45-bcb2-cc87cebbff8d",
-                  "brand": "radiofrance",
-                  "model": "Theme",
-                  "path": "societe",
-                  "title": "Société",
-                  "visual": {
-                    "dominant": null,
-                    "model": "EmbedImage",
-                    "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/e0bf146c-cda9-4c67-9c91-5cb2ed7e761a/640x250_sc_categorie-socie-te.jpg",
-                    "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/e0bf146c-cda9-4c67-9c91-5cb2ed7e761a/640x250_sc_categorie-socie-te.webp",
-                    "legend": "Crédits",
-                    "copyright": "Radio France",
-                    "author": null,
-                    "width": 640,
-                    "height": 250,
-                    "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22640%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22640%22%20height%3D%22250%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAQACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA%2F%2FEABYQAQEBAAAAAAAAAAAAAAAAAAABEf%2FEABcBAQADAAAAAAAAAAAAAAAAAAABAgT%2FxAAVEQEBAAAAAAAAAAAAAAAAAAAAEf%2FaAAwDAQACEQMRAD8A4xcRFRZpXG0C0K1o0WjRFf%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
-                    "id": "ef694d8a-2ca2-4d45-bcb2-cc87cebbff8d",
-                    "type": "image",
-                    "preset": "640x250",
-                    "srcset": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/e0bf146c-cda9-4c67-9c91-5cb2ed7e761a/320x170_sc_categorie-socie-te.jpg 320w, https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/e0bf146c-cda9-4c67-9c91-5cb2ed7e761a/640x250_sc_categorie-socie-te.jpg 640w",
-                    "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/e0bf146c-cda9-4c67-9c91-5cb2ed7e761a/320x170_sc_categorie-socie-te.webp 320w, https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/e0bf146c-cda9-4c67-9c91-5cb2ed7e761a/640x250_sc_categorie-socie-te.webp 640w"
-                  },
-                  "relation": "theme"
-                }
-              ],
-              "brand": "radiofrance"
-            },
-            {
-              "model": "HighlightElement",
-              "id": "f4b67bdf-1db8-4d8f-aebc-d2c9f160277e",
-              "kind": null,
-              "type": "taxonomy",
-              "title": null,
-              "body": null,
-              "mainImageUuid": null,
-              "mainImage": null,
-              "links": [],
-              "originalContent": null,
-              "contents": [
-                {
-                  "id": "45b7c905-648d-44f4-a0d8-bdc80e8feea8",
-                  "brand": "radiofrance",
-                  "model": "Theme",
-                  "path": "vie-quotidienne",
-                  "title": "Vie quotidienne",
-                  "visual": {
-                    "dominant": null,
-                    "model": "EmbedImage",
-                    "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/c40b0bb0-df3a-4799-8fcc-5319a822b0b4/640x250_sc_categorie-vie-quotidienne.jpg",
-                    "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/c40b0bb0-df3a-4799-8fcc-5319a822b0b4/640x250_sc_categorie-vie-quotidienne.webp",
-                    "legend": "Crédits",
-                    "copyright": "Radio France",
-                    "author": null,
-                    "width": 640,
-                    "height": 250,
-                    "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22640%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22640%22%20height%3D%22250%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAQACoDASIAAhEBAxEB%2F8QAFQABAQAAAAAAAAAAAAAAAAAAAAH%2FxAAUEAEAAAAAAAAAAAAAAAAAAAAA%2F8QAFgEBAQEAAAAAAAAAAAAAAAAAAAED%2F8QAFREBAQAAAAAAAAAAAAAAAAAAABH%2F2gAMAwEAAhEDEQA%2FAKoKzFAIIqCR%2F9k%3D%22%20%2F%3E%3C%2Fsvg%3E",
-                    "id": "45b7c905-648d-44f4-a0d8-bdc80e8feea8",
-                    "type": "image",
-                    "preset": "640x250",
-                    "srcset": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/c40b0bb0-df3a-4799-8fcc-5319a822b0b4/320x170_sc_categorie-vie-quotidienne.jpg 320w, https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/c40b0bb0-df3a-4799-8fcc-5319a822b0b4/640x250_sc_categorie-vie-quotidienne.jpg 640w",
-                    "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/c40b0bb0-df3a-4799-8fcc-5319a822b0b4/320x170_sc_categorie-vie-quotidienne.webp 320w, https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/c40b0bb0-df3a-4799-8fcc-5319a822b0b4/640x250_sc_categorie-vie-quotidienne.webp 640w"
-                  },
-                  "relation": "theme"
-                }
-              ],
-              "brand": "radiofrance"
-            },
-            {
-              "model": "HighlightElement",
-              "id": "80f92505-662d-4790-9ab7-3b272dd26fc1",
-              "kind": null,
-              "type": "taxonomy",
-              "title": null,
-              "body": null,
-              "mainImageUuid": null,
-              "mainImage": null,
-              "links": [],
-              "originalContent": null,
-              "contents": [
-                {
-                  "id": "f64053b0-bc93-4276-9c54-a6a7e4ed901f",
-                  "brand": "radiofrance",
-                  "model": "Theme",
-                  "path": "arts-divertissements/livres",
-                  "title": "Livres",
-                  "visual": {
-                    "id": "f64053b0-bc93-4276-9c54-a6a7e4ed901f"
-                  },
-                  "relation": "subtheme"
-                }
-              ],
-              "brand": "radiofrance"
-            },
-            {
-              "model": "HighlightElement",
-              "id": "33f738c1-b567-4f5c-b9eb-0804b4a657fb",
-              "kind": null,
-              "type": "taxonomy",
-              "title": null,
-              "body": null,
-              "mainImageUuid": null,
-              "mainImage": null,
-              "links": [],
-              "originalContent": null,
-              "contents": [
-                {
-                  "id": "8993e1ce-8ab4-41fb-acb2-c4bae779b944",
-                  "brand": "radiofrance",
-                  "model": "Theme",
-                  "path": "arts-divertissements/humour",
-                  "title": "Humour",
-                  "visual": {
-                    "id": "8993e1ce-8ab4-41fb-acb2-c4bae779b944"
-                  },
-                  "relation": "subtheme"
-                }
-              ],
-              "brand": "radiofrance"
-            },
-            {
-              "model": "HighlightElement",
-              "id": "61463342-0153-44a3-9199-906333e8254e",
-              "kind": null,
-              "type": "taxonomy",
-              "title": null,
-              "body": null,
-              "mainImageUuid": null,
-              "mainImage": null,
-              "links": [],
-              "originalContent": null,
-              "contents": [
-                {
-                  "id": "f15e4e03-0f8d-4d43-abaf-e1d6a9b98ea6",
-                  "brand": "radiofrance",
-                  "model": "Theme",
-                  "path": "politique",
-                  "title": "Politique",
-                  "visual": {
-                    "dominant": null,
-                    "model": "EmbedImage",
-                    "src": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/9154d17f-e81c-4bd2-9495-57fed81dd77f/640x250_sc_categorie-politique.jpg",
-                    "webpSrc": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/9154d17f-e81c-4bd2-9495-57fed81dd77f/640x250_sc_categorie-politique.webp",
-                    "legend": "Crédits",
-                    "copyright": "Radio France",
-                    "author": null,
-                    "width": 640,
-                    "height": 250,
-                    "preview": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22640%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfilter%20id%3D%22blur%22%3E%3CfeGaussianBlur%20in%3D%22SourceGraphic%22%20stdDeviation%3D%2226%22%20%2F%3E%3C%2Ffilter%3E%3Cimage%20width%3D%22640%22%20height%3D%22250%22%20filter%3D%22url(%23blur)%22%20xlink%3Ahref%3D%22data%3Aimage%2Fjpeg%3Bcharset%3Dutf-8%3Bbase64%2C%2F9j%2F2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo%2BAjIqgtObDoKrarYqMyP%2FL2u71%2F%2F%2F%2Fm8H%2F%2F%2F%2F6%2F%2Bb9%2F%2Fj%2F2wBDASstLTw1PHZBQXb4pYyl%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj4%2BPj%2FwAARCAAQACoDASIAAhEBAxEB%2F8QAFwABAQEBAAAAAAAAAAAAAAAAAwIEAP%2FEABgQAQEBAQEAAAAAAAAAAAAAAAACARIR%2F8QAFwEAAwEAAAAAAAAAAAAAAAAAAQIDBP%2FEABURAQEAAAAAAAAAAAAAAAAAAAAB%2F9oADAMBAAIRAxEAPwAMXI8LKLYvMdsrnF8iS1luRctVyLwSv%2F%2FZ%22%20%2F%3E%3C%2Fsvg%3E",
-                    "id": "f15e4e03-0f8d-4d43-abaf-e1d6a9b98ea6",
-                    "type": "image",
-                    "preset": "640x250",
-                    "srcset": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/9154d17f-e81c-4bd2-9495-57fed81dd77f/320x170_sc_categorie-politique.jpg 320w, https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/9154d17f-e81c-4bd2-9495-57fed81dd77f/640x250_sc_categorie-politique.jpg 640w",
-                    "webpSrcset": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/9154d17f-e81c-4bd2-9495-57fed81dd77f/320x170_sc_categorie-politique.webp 320w, https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/12/9154d17f-e81c-4bd2-9495-57fed81dd77f/640x250_sc_categorie-politique.webp 640w"
-                  },
-                  "relation": "theme"
-                }
-              ],
-              "brand": "radiofrance"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "highlights": "ALL"
 }
