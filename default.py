@@ -14,7 +14,6 @@ import xbmcplugin
 
 from utils import *
 
-
 DEFAULT_MANIFESTATION = 0
 RADIOFRANCE_PAGE = "https://www.radiofrance.fr"
 
@@ -25,7 +24,15 @@ def build_lists(data, args, url):
     def add_search():
         new_args = {k: v[0] for (k, v) in args.items()}
         new_args["mode"] = "search"
-        li = xbmcgui.ListItem(label="? Search term")
+        li = xbmcgui.ListItem(label=localize(30100))
+        li.setIsFolder(True)
+        new_url = build_url(new_args)
+        highlight_list.append((new_url, li, True))
+
+    def add_podcasts():
+        new_args = {k: v[0] for (k, v) in args.items()}
+        new_args["mode"] = "podcasts"
+        pli = xbmcgui.ListItem(label=localize(30104))
         li.setIsFolder(True)
         new_url = build_url(new_args)
         highlight_list.append((new_url, li, True))
@@ -35,13 +42,13 @@ def build_lists(data, args, url):
         (num, last) = item.pages
         if 1 < num:
             new_args["page"] = num - 1
-            li = xbmcgui.ListItem(label="<< Previous page")
+            li = xbmcgui.ListItem(label=localize(30101))
             li.setIsFolder(True)
             new_url = build_url(new_args)
             highlight_list.append((new_url, li, True))
         if num < last:
             new_args["page"] = num + 1
-            li = xbmcgui.ListItem(label=">> Next page")
+            li = xbmcgui.ListItem(label=localize(30102))
             li.setIsFolder(True)
             new_url = build_url(new_args)
             highlight_list.append((new_url, li, True))
@@ -95,7 +102,6 @@ def build_lists(data, args, url):
             tag = li.getMusicInfoTag(offscreen=True)
             tag.setMediaType("audio")
             tag.setTitle(item.title)
-            # tag.setComment(item.standFirst if "standFirst" in item else None)
             tag.setURL(item.path)
             tag.setGenres(["podcast"])
             tag.setArtist(item.artists)
@@ -119,6 +125,7 @@ def build_lists(data, args, url):
     mode = args.get("mode", [None])[0]
     if mode is None:
         add_search()
+        add_podcasts()
 
     item = create_item_from_page(data)
     if mode == "index":
@@ -143,12 +150,13 @@ def build_lists(data, args, url):
 
 def brand(args):
     url = args.get("url", [""])[0]
-    # url = RADIOFRANCE_PAGE + "/" + name.split("_")[0] + "/api/live/webradios/" + name
 
     xbmc.log("[Brand]: " + url, xbmc.LOGINFO)
 
     data = requests.get(url).text
     item = BrandPage(data)
+
+    add_podcasts()
 
     li = xbmcgui.ListItem(label=item.title)
     li.setArt({"thumb": item.image, "icon": item.icon})
@@ -158,9 +166,6 @@ def brand(args):
     tag.setTitle(item.title)
     tag.setURL(item.url)
     tag.setGenres(["radio"])
-    # tag.setArtist(item.artists)
-    # tag.setDuration(item.duration)
-    # tag.setReleaseDate(sub_item.release)
     li.setProperty("IsPlayable", "true")
 
     xbmc.Player().play(item.url, li)
@@ -174,7 +179,7 @@ def play(url):
 
 def search(args):
     def GUIEditExportName(name):
-        kb = xbmc.Keyboard("Odyssées", "Search title")
+        kb = xbmc.Keyboard("Odyssées", localize(30103))
         kb.doModal()
         if not kb.isConfirmed():
             return None
@@ -229,9 +234,10 @@ def main():
     elif mode is not None and mode[0] == "brand":
         brand(args)
     else:
-        if mode is None:
+        if mode is not None and mode[0] == "podcasts":
+            args["url"][0] += "/podcasts"
+        elif mode is None:
             url = RADIOFRANCE_PAGE
-            # url = url + "/podcasts"
             args["url"] = []
             args["url"].append(url)
         # New page

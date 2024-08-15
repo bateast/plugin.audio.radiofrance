@@ -7,9 +7,7 @@ from enum import Enum
 from time import localtime, strftime
 
 RADIOFRANCE_PAGE = "https://www.radiofrance.fr/"
-local_link = "podcasts/"
 BRAND_EXTENSION = "/api/live/webradios/"
-
 
 class Model(Enum):
     Other = 0
@@ -29,9 +27,6 @@ class Model(Enum):
 
 
 def create_item_from_page(data):
-
-    global local_link
-    local_link = data['context']['station'] if 'context' in data else ""
 
     if "model" not in data:
         if "content" in data:
@@ -220,7 +215,6 @@ class Other(Item):
 
 class PageTemplate(Item):
     def __init__(self, data):
-        global local_link
         super().__init__(data)
         if data['model'] == Model.PageTemplate.name:
             self.subs = [data['layout']] if "layout" in data else []
@@ -267,6 +261,7 @@ class HighlightElement(Item):
             if 0 < len(data['links']):
                 url = data['links'][0]['path']
                 if data['links'][0]['type'] == "path":
+                    local_link = data['context']['station'] if 'context' in data else ""
                     self.path = podcast_url(url, local_link)
                 else:
                     self.path = podcast_url(url)
@@ -361,6 +356,18 @@ def podcast_url(url, local=""):
         return None
     return RADIOFRANCE_PAGE + local + "/" + url if url[:8] != "https://" else "" + url
 
+## From plugin.video.orange.fr by f-lawe (https://github.com/f-lawe/plugin.video.orange.fr/)
+def localize(string_id: int, **kwargs) -> str:
+    """Return the translated string from the .po language files, optionally translating variables."""
+    import xbmcaddon
+
+    ADDON = xbmcaddon.Addon()
+    ADDON_ID = ADDON.getAddonInfo("id")
+    if not isinstance(string_id, int) and not string_id.isdecimal():
+        return string_id
+    if kwargs:
+        return Formatter().vformat(ADDON.getLocalizedString(string_id), (), **kwargs)
+    return ADDON.getLocalizedString(string_id)
 
 def build_url(query):
     base_url = sys.argv[0]
