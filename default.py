@@ -1,7 +1,7 @@
 import sys
 import requests
 from urllib.parse import parse_qs
-from multiprocessing import Pool
+from concurrent.futures import ThreadPoolExecutor
 import itertools
 
 import xbmc
@@ -32,8 +32,8 @@ def build_lists(data, args, url):
 
     Pages(item, args).add(gui_elements_list)
 
-    with Pool() as p:
-        elements_lists = itertools.starmap(add_with_index, combine((itertools.count(), iter(items_list), itertools.repeat(args))))
+    with ThreadPoolExecutor() as p:
+        elements_lists = p.map(add_with_index, itertools.count(), iter(items_list), itertools.repeat(args))
         gui_elements_list += list(itertools.chain.from_iterable(elements_lists))
 
     xbmcplugin.setContent(addon_handle, "episodes")
@@ -63,7 +63,6 @@ def add_with_index(index, data, args):
 
 def brand(args):
     url = args.get("url", [""])[0]
-
     xbmc.log("[Play Brand]: " + url, xbmc.LOGINFO)
     play(url)
 

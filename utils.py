@@ -7,6 +7,7 @@ import requests
 from enum import Enum
 from time import localtime, strftime
 from multiprocessing import Pool
+from concurrent.futures import ThreadPoolExecutor
 import itertools
 
 RADIOFRANCE_PAGE = "https://www.radiofrance.fr/"
@@ -455,7 +456,12 @@ if __name__ == "__main__":
 
     print(str(itertools.starmap(create_item, combine((itertools.count(), iter(subs))))))
 
-    with Pool() as p:
+    # with Pool() as p:
+    #     sub_items = filter(lambda sub_item: len(sub_item.subs) != 0 or (sub_item.path is not None and sub_item.path != ""),
+    #                        list(p.starmap(create_item, combine((itertools.count(), iter(subs))))))
+    #     p.map(print, sub_items)
+
+    with ThreadPoolExecutor() as p:
         sub_items = filter(lambda sub_item: len(sub_item.subs) != 0 or (sub_item.path is not None and sub_item.path != ""),
-                           list(p.starmap(create_item, combine((itertools.count(), iter(subs))))))
+                           list(p.map(create_item, itertools.count(), iter(subs))))
         p.map(print, sub_items)
