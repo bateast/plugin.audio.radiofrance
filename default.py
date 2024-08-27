@@ -26,7 +26,7 @@ def build_lists(data, args, url):
     item = create_item_from_page(data)
     if mode == "index":
         element_index = int(args.get("index", [None])[0])
-        items_list = create_item(0, item.subs[element_index]).elements
+        items_list = create_item(0, item.subs[element_index]).subs
     else:
         items_list = item.subs
 
@@ -46,17 +46,19 @@ def add_with_index(index, data, args):
     xbmc.log(str(item), xbmc.LOGINFO)
     elements_list = []
     url = args.get("url", [""])[0]
+
+    if 1 == len(item.subs):
+        sub_item = create_item(0, item.subs[0])
+        if sub_item.is_folder() :
+            elements_list.append(Folder(sub_item, args).construct())
+        else:
+            elements_list.append(Playable(sub_item, args).construct())
+    elif 1 < len(item.subs):
+        elements_list.append(Indexed(item, url, index, args).construct())
+
     if item.is_folder():
         if item.path is not None:
             elements_list.append(Folder(item, args).construct())
-        if 1 == len(item.subs):
-            sub_item = create_item(0, item.subs[0])
-            if sub_item.is_folder() :
-                elements_list.append(Folder(sub_item, args).construct())
-            else:
-                elements_list.append(Playable(sub_item, args).construct())
-        elif 1 < len(item.subs):
-            elements_list.append(Indexed(item, url, index, args).construct())
     else:
         elements_list.append(Playable(item, args).construct())
     return elements_list

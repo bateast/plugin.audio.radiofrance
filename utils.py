@@ -31,6 +31,7 @@ class Model(Enum):
     Event = 13
     Slug = 14
     Station = 15
+    StationPage = 16
 
 
 def create_item_from_page(data):
@@ -67,7 +68,7 @@ def create_item(index, data):
         Model.Article.name: Article,
         Model.Event.name: Event,
         Model.Slug.name: Slug,
-        Model.Station.name: Station,
+        Model.StationPage.name: StationPage
     }
 
     if 'model' in data:
@@ -88,11 +89,13 @@ def create_item(index, data):
     # Remove singletons
     if item.path is None and len(item.subs) == 1:
         item = create_item(index, item.subs[0])
-
-    item.elements = item.subs
-    while len(item.elements) == 1 and item.elements[0] is not None:
-        item.elements = create_item(index, item.elements[0]).elements
+    while len(item.subs) == 1 and item.subs[0] is not None:
+        item.subs = create_item(index, item.subs[0]).subs
         index += 1
+
+    if item.model == Model['Station']:
+        data['model'] = 'StationPage'
+        item.subs += [data]
 
     return item
 
@@ -108,7 +111,6 @@ class Item:
 
         # Sub elements
         self.subs = []
-        self.elements = []
 
         # Image
         self.image = (
@@ -153,7 +155,7 @@ class Item:
             + str(self.model)
             + "]"
             + " ["
-            + str(len(self.elements))
+            + str(len(self.subs))
             + "] ("
             + str(self.path)
             + ")"
@@ -171,6 +173,7 @@ class Item:
             Model['Tag'],
             Model['Article'],
             Model['Slug'],
+            Model['StationPage'],
             Model['Other'],
         ]
 
@@ -198,6 +201,12 @@ class Station(Item):
         self.subs = []
         self.path = data['now']['media']['sources'][0]['url'] if 0 < len(data['now']['media']['sources']) else None
 
+class StationPage (Item):
+    def __init__(self, data, index):
+        super().__init__(data, index)
+        self.model = Model['StationPage']
+        self.title = data['stationName']
+        self.path = podcast_url(data['stationName'])
 
 class Tag(Item):
     def __init__(self, data, index):
@@ -452,7 +461,7 @@ if __name__ == "__main__":
     while 1 < len(sys.argv):
         index = int(sys.argv.pop())
         print("Using index: " + str(index))
-        subs = create_item(0, subs[index]).elements
+        subs = create_item(0, subs[index]).subs
 
     print(str(itertools.starmap(create_item, combine((itertools.count(), iter(subs))))))
 
@@ -461,7 +470,12 @@ if __name__ == "__main__":
     #                        list(p.starmap(create_item, combine((itertools.count(), iter(subs))))))
     #     p.map(print, sub_items)
 
+    def display(item):
+        print(item)
+        if len(item.subs) == 1:
+            display(create_item(0, item.subs[0]))
+
     with ThreadPoolExecutor() as p:
         sub_items = filter(lambda sub_item: len(sub_item.subs) != 0 or (sub_item.path is not None and sub_item.path != ""),
                            list(p.map(create_item, itertools.count(), iter(subs))))
-        p.map(print, sub_items)
+        list(p.map(display, sub_items))
