@@ -43,6 +43,12 @@ def build_lists(data, args, url):
 
 def add_with_index(index, data, args):
     item = create_item(index, data)
+    if not isinstance(item, Item):
+        (_, data, exception) = item
+        xbmc.log("Error :" + str( exception) + " on " + str( data),
+                 xbmc.LOGERROR)
+        return []
+
     xbmc.log(str(item), xbmc.LOGINFO)
     elements_list = []
     url = args.get("url", [""])[0]
