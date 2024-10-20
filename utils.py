@@ -44,9 +44,9 @@ def fetch_data(url):
 def get_key_src(key, data):
     if data is None:
         return None
-    visual = data.get(key, {})
-    if 'src' in visual:
-        return visual['src']
+    value = data.get(key, {})
+    if value is not None and 'src' in value:
+        return value['src']
     return None
 
 def create_item_from_page(data):
@@ -59,9 +59,17 @@ def create_item_from_page(data):
             data = data["podcastsData"]
 
     item = create_item(0, data)
+    if not isinstance(item, Item):
+        _, data, e = item
+        print(json.dumps(data))
+        raise(e)
     index = 0
     while len(item.subs) == 1:
-        item = create_item(index, item.subs[0])
+        new_item = create_item(index, item.subs[0])
+        if isinstance(new_item, Item):
+            item = new_item
+        else:
+            break
         index += 1
     return item
 
@@ -113,22 +121,37 @@ def create_item(index, data):
 
 class Item:
     def __init__(self, data, index):
-        self.id = data['id'] if 'id' in data else "x" * 8
-        self.model = Model[data['model'].upper()] if "model" in data else Model.OTHER
-        self.path = podcast_url(data['path'] if "path" in data else None)
+        self.id = data.get('id', "x" * 8)
+        self.model = Model[data.get('model', "Other").upper()]
+        self.path = podcast_url(data.get('path', None))
         self.subs = []
-        self.image = get_key_src('visual', data)
-        self.icon = get_key_src('squaredVisual', data)
+        try:
+            self.image = get_key_src('visual', data)
+            self.icon = get_key_src('squaredVisual', data)
+        except Exception as e:
+            print(json.dumps(data), e)
+            raise (e)
         self.pages = (1, 1)
-        self.pages = (data['pagination']['pageNumber'], data['pagination']['lastPage'] if "lastPage" in data['pagination'] else data['pagination']['pageNumber'],) if "pagination" in data else (1, 1)
-        self.title = str(data['title']) if "title" in data and data['title'] is not None else None
+        pagination = data.get('pagination', {'pageNumber': 1})
+        self.pages = (pagination['pageNumber'], pagination.get('lastPage', pagination['pageNumber']))
+        self.title = str(data.get('title', ""))
         self.index = index
 
     def remove_singletons(self):
         if self.path is None and len(self.subs) == 1:
-            self = create_item(self.index, self.subs[0])
+            print(json.dumps(self.subs))
+            new_item = create_item(self.index, self.subs[0])
+            if not isinstance(new_item, Item):
+                _, data, e = new_item
+                print(json.dumps(data))
+                raise(e)
+            self = new_item
         while len(self.subs) == 1 and self.subs[0] is not None:
             sub_item = create_item(self.index, self.subs[0])
+            if not isinstance(sub_item, Item):
+                _, data, e = sub_item
+                print(json.dumps(data))
+                raise(e)
             self.subs = sub_item.subs if isinstance(sub_item, Item) else []
             self.index += 1
 
@@ -185,9 +208,10 @@ class Tag(Item):
     def __init__(self, data, index):
         super().__init__(data, index)
         self.path = podcast_url(data['path'])
-        self.subs = data['documents']['items'] if 'documents' in data else []
-        if 'documents' in data and 'pagination' in data['documents']:
-            self.pages = (data['documents']['pagination']['pageNumber'], data['documents']['pagination']['lastPage'] if "lastPage" in data['documents']['pagination'] else data['documents']['pagination']['pageNumber'],)
+        self.subs = data.get('documents', {'items': []})['items']
+        document = data.get('documents', {})
+        pagination = document.get('pagination', {'pageNumber': 1})
+        self.pages = (pagination['pageNumber'], pagination.get('lastPage', pagination['pageNumber']))
 
 class Search(Item):
     def __init__(self, data, index):
@@ -218,7 +242,7 @@ class PageTemplate(Item):
     def __init__(self, data, index):
         super().__init__(data, index)
         if data['model'].upper() == Model.PAGETEMPLATE.name:
-            self.subs = [data['layout']] if "layout" in data else []
+            self.subs = [data.get('layout', None)]
 
 class ManifestationAudio(Item):
     def __init__(self, data, index):
@@ -232,17 +256,15 @@ class Concept(Item):
     def __init__(self, data, index):
         super().__init__(data, index)
         self.model = Model.CONCEPT
-        if 'expressions' in data:
-            self.subs = data['expressions']['items']
-            self.pages = (data['expressions']['pageNumber'], data['expressions']['lastPage'] if 'lastPage' in data['expressions'] else data['expressions']['pageNumber'],)
-        elif 'promoEpisode' in data:
-            self.subs = data['promoEpisode']['items']
+        expressions = data.get('expressions', {'pageNumber': 1})
+        self.subs = expressions.get('items', data.get('promoEpisode', {'items': []})['items'])
+        self.pages = (expressions['pageNumber'], expressions.get('lastPage', expressions['pageNumber']))
 
 class Highlight(Item):
     def __init__(self, data, index):
         super().__init__(data, index)
         if data['model'].upper() == Model.HIGHLIGHT.name:
-            self.subs = data['elements']
+            self.subs = data['highlights']
             if self.title is None and len(self.subs) == 1:
                 self.title = self.subs[0]['title']
 
@@ -257,7 +279,7 @@ class HighlightElement(Item):
                     self.path = podcast_url(url, local_link)
                 else:
                     self.path = podcast_url(url)
-            self.subs = data['contents']
+            self.subs = data.get('contents',[])
             self.image = data['mainImage']['src'] if data['mainImage'] is not None else None
             if self.title is None and len(self.subs) == 1:
                 self.title = self.subs[0]['title']
@@ -265,8 +287,7 @@ class HighlightElement(Item):
 class Brand(Item):
     def __init__(self, data, index):
         super().__init__(data, index)
-        print(data)
-        brand = data['slug'] if 'slug' in data else data['brand']
+        brand = data.get('slug', data.get('brand', "franceinter"))
         url = podcast_url(brand.split("_")[0] + BRAND_EXTENSION + brand)
         data = fetch_data(url)
 
@@ -297,7 +318,7 @@ class Slug(Item):
         self.model = Model.SLUG
         name = data['slug']
         self.path = podcast_url(name)
-        self.title = data['brand'] if 'brand' in data else name
+        self.title = data.get('brand', name)
 
 class Expression(Item):
     def __init__(self, data, index):
@@ -306,7 +327,7 @@ class Expression(Item):
         self.artists = ", ".join([g['name'] for g in (data['guest'] if "guest" in data else [])])
         self.release = strftime("%d-%m.%y", localtime(data['publishedDate'])) if "publishedDate" in data else ""
         self.duration = 0
-        manifestations_audio = list([d for d in (data['manifestations'] if 'manifestations' in data else []) if d['model'] == "ManifestationAudio"])
+        manifestations_audio = list([d for d in data.get('manifestations', []) if d['model'] == "ManifestationAudio"])
         if 0 < len(manifestations_audio):
             manifestation = create_item(self.index, next(filter(lambda d: d['principal'], manifestations_audio), data['manifestations'][0]))
             self.duration = manifestation.duration
@@ -385,6 +406,8 @@ def combine(l):
 if __name__ == "__main__":
     data = sys.stdin.read()
     data = expand_json(data)
+    # print(json.dumps(data))
+    # exit(0)
 
     item = create_item_from_page(data)
     subs = item.subs
@@ -400,8 +423,9 @@ if __name__ == "__main__":
                 if len(item.subs) == 1:
                     display(create_item(0, item.subs[0]))
         else:
-            (_, data, exception) = item
-            print(f"Error : {exception} on {data}")
+            (_, data, e) = item
+            print(f"Error : {e} on {json.dumps(data)}")
+            raise e
 
     display(item)
     with ThreadPoolExecutor() as p:
