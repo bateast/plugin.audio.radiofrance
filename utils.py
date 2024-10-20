@@ -90,6 +90,7 @@ def create_item(index, data):
         Model.EVENT.name: Event,
         Model.SLUG.name: Slug,
         Model.STATIONPAGE.name: StationPage,
+        Model.STATION.name: Station,
         Model.GRID.name: Grid,
         Model.PROGRAM.name: Program
     }
@@ -99,7 +100,7 @@ def create_item(index, data):
             model_name = data['model'].upper()
             item = model_map[model_name](data, index)
         elif 'stationName' in data:
-            item = Station(data, index)
+            item = StationDir(data, index)
         elif 'items' in data and 'concepts' in data['items'] and 'expressions_articles' in data['items']:
             item = Search(data, index)
         elif 'slug' in data:
@@ -172,6 +173,13 @@ class Event(Item):
         super().__init__(data, index)
         self.path = podcast_url(data['href'])
 
+class StationDir(Item):
+    def __init__(self, data, index):
+        super().__init__(data, index)
+        self.model = Model.STATIONPAGE
+        self.title = data['stationName']
+        self.subs += [dict(data, **{'model': "Station"}), dict(data, **{'model': "StationPage"})]
+
 class Station(Item):
     def __init__(self, data, index):
         super().__init__(data, index)
@@ -180,13 +188,12 @@ class Station(Item):
         self.artists = data['stationName']
         self.duration = None
         self.release = None
-        self.subs = []
         self.path = data['now']['media']['sources'][0]['url'] if 0 < len(data['now']['media']['sources']) else None
 
 class StationPage(Item):
     def __init__(self, data, index):
         super().__init__(data, index)
-        self.model = Model.STATION_PAGE
+        self.model = Model.STATIONPAGE
         self.title = data['stationName']
         self.path = podcast_url(data['stationName'])
 

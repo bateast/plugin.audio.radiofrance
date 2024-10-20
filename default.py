@@ -78,12 +78,14 @@ def add_with_index(index, data, args):
     elements_list = []
     url = args.get("url", [""])[0]
 
-    if len(item.subs) == 1:
-        sub_item = create_item(0, item.subs[0])
-        if sub_item.is_folder():
-            elements_list.append(Folder(sub_item, args).construct())
-        else:
-            elements_list.append(Playable(sub_item, args).construct())
+    if len(item.subs) <= 2:
+        sub_list = list(map(lambda idx, data: create_item(idx, data), range(len(item.subs)), item.subs))
+
+        for sub_item in sub_list:
+            if sub_item.is_folder():
+                elements_list.append(Folder(sub_item, args).construct())
+            else:
+                elements_list.append(Playable(sub_item, args).construct())
     elif len(item.subs) > 1:
         elements_list.append(Indexed(item, url, index, args).construct())
 
