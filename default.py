@@ -49,17 +49,19 @@ def build_lists(data, args, url):
         Podcasts(args).add(gui_elements_list)
 
     item = create_item_from_page(data)
+    context = data.get('context', {})
 
     if mode == "index":
         element_index = int(args.get("index", [None])[0])
-        items_list = create_item(0, item.subs[element_index]).subs
+        items_list = create_item(0, item.subs[element_index], context).subs
     else:
         items_list = item.subs
 
     Pages(item, args).add(gui_elements_list)
 
+    context = data.get('context', {})
     with ThreadPoolExecutor() as executor:
-        elements_lists = list(executor.map(lambda idx, data: add_with_index(idx, data, args), range(len(items_list)), items_list))
+        elements_lists = list(executor.map(lambda idx, data: add_with_index(idx, data, args, context), range(len(items_list)), items_list))
 
     gui_elements_list.extend(itertools.chain.from_iterable(elements_lists))
 
@@ -67,8 +69,8 @@ def build_lists(data, args, url):
     xbmcplugin.addDirectoryItems(addon_handle, gui_elements_list, len(gui_elements_list))
     xbmcplugin.endOfDirectory(addon_handle)
 
-def add_with_index(index, data, args):
-    item = create_item(index, data)
+def add_with_index(index, data, args, context):
+    item = create_item(index, data, context)
     if not isinstance(item, Item):
         _, data, exception = item
         xbmc.log(f"Error: {exception} on {data}", xbmc.LOGERROR)
@@ -79,7 +81,7 @@ def add_with_index(index, data, args):
     url = args.get("url", [""])[0]
 
     if len(item.subs) <= 2:
-        sub_list = list(map(lambda idx, data: create_item(idx, data), range(len(item.subs)), item.subs))
+        sub_list = list(map(lambda idx, data: create_item(idx, data, context), range(len(item.subs)), item.subs))
 
         for sub_item in sub_list:
             if sub_item.is_folder():
@@ -133,13 +135,13 @@ def get_and_build_lists(args, url_args="?"):
     url = args.get("url", [RADIOFRANCE_PAGE])[0]
 
     now = datetime.datetime.now()
-    if url in cache and now - datetime.datetime.fromisoformat(cache[url]['datetime']) < CACHE_TIMEOUT:
-        xbmc.log(f"Using cached data for url: {url}", xbmc.LOGINFO)
-        data = cache[url]['data']
+    if url + url_args in cache and now - datetime.datetime.fromisoformat(cache[url + url_args]['datetime']) < CACHE_TIMEOUT:
+        xbmc.log(f"Using cached data for url: {url + url_args}", xbmc.LOGINFO)
+        data = cache[url + url_args]['data']
     else:
         page = requests.get(f"{url}/__data.json{url_args}").text
         data = expand_json(page)
-        cache[url] = {'datetime': datetime.datetime.now().isoformat(), 'data': data}
+        cache[url + url_args] = {'datetime': datetime.datetime.now().isoformat(), 'data': data}
         save_cache(cache)
 
     build_lists(data, args, url)
