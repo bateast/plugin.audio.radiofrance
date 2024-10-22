@@ -155,7 +155,7 @@ def main():
     # Initial launch of add-on
     url = ""
     url_args = "?"
-    url_args += "recent=false&"
+    # url_args += "recent=false&"
     if "page" in args and int(args.get("page", ["1"])[0]) > 1:
         url_args += f"&p={args.get('page', ['1'])[0]}"
     if mode == "stream":

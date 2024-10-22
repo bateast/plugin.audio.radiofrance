@@ -6,7 +6,6 @@ import sys
 import requests
 from enum import Enum
 from time import localtime, strftime
-from multiprocessing import Pool
 from concurrent.futures import ThreadPoolExecutor
 import itertools
 
@@ -35,6 +34,9 @@ class Model(Enum):
     STATIONPAGE = 16
     GRID = 17
     PROGRAM = 18
+
+class Format(Enum):
+    SLIDER_CHAINE = 1
 
 def fetch_data(url):
     response = requests.get(url)
@@ -96,11 +98,17 @@ def create_item(index, data, context = {}):
         Model.GRID.name: Grid,
         Model.PROGRAM.name: Program
     }
+    format_map = {
+        Format.SLIDER_CHAINE.name : Slider
+    }
 
     try:
-        if 'model' in data:
-            model_name = data['model'].upper()
-            item = model_map[model_name](data, index, context)
+        if data.get('model', "").upper() in model_map:
+            model_class = model_map[data['model'].upper()]
+            item = model_class(data, index, context)
+        elif data.get('format', "").upper() in format_map:
+            format_class = format_map[data['format'].upper()]
+            item = format_class(data, index, context)
         elif 'stationName' in data:
             item = StationDir(data, index, context)
         elif 'items' in data and 'concepts' in data['items'] and 'expressions_articles' in data['items']:
@@ -119,6 +127,7 @@ def create_item(index, data, context = {}):
         return (None, data, e)
 
     item.index = index
+    item.clean_subs()
     item.remove_singletons()
     return item
 
@@ -130,9 +139,9 @@ class Item:
         url_station = ""
         if data.get('format', None) == "TYPED_ELEMENT_AUTOPROMO" and context.get('station', None) is not None:
             url_station = "/" + context.get('station')
-        if isinstance(data.get('link', None), dict):
+        if isinstance(data.get('link', None), dict) and data['link'].get('type', "") !=  "mail":
             link = data.get('link')
-            self.path = podcast_url(link.get('path',""), url_station)
+            self.path = podcast_url(link.get('path',link.get('url',"")), url_station)
         else:
             self.path = podcast_url(data.get('path', data.get('href', None)))
         self.subs = []
@@ -148,9 +157,11 @@ class Item:
         self.title = str(data.get('title', ""))
         self.index = index
 
+    def clean_subs(self) :
+        self.subs = list(filter(lambda i : i is not None, self.subs))
+
     def remove_singletons(self):
-        if self.path is None and len(self.subs) == 1:
-            print(json.dumps(self.subs))
+        if self.path is None and len(self.subs) == 1 :
             new_item = create_item(self.index, self.subs[0], self.context)
             if not isinstance(new_item, Item):
                 _, data, e = new_item
@@ -256,6 +267,8 @@ class Other(Item):
 class PageTemplate(Item):
     def __init__(self, data, index, context = {}):
         super().__init__(data, index, context)
+        self.path = podcast_url(data.get('slug', self.path))
+        self.title = data.get('label', self.title)
         if data['model'].upper() == Model.PAGETEMPLATE.name:
             self.subs = [data.get('layout', None)]
 
@@ -269,7 +282,6 @@ class ManifestationAudio(Item):
 
 class Concept(Item):
     def __init__(self, data, index, context = {}):
-        print ("Concept")
         super().__init__(data, index, context)
         self.model = Model.CONCEPT
         expressions = data.get('expressions', {'pageNumber': 1})
@@ -280,7 +292,7 @@ class Highlight(Item):
     def __init__(self, data, index, context = {}):
         super().__init__(data, index, context)
         if data['model'].upper() == Model.HIGHLIGHT.name:
-            self.subs = data['highlights']
+            self.subs = data.get('highlights')
             if self.title is None and len(self.subs) == 1:
                 self.title = self.subs[0]['title']
 
@@ -349,6 +361,12 @@ class Expression(Item):
             self.duration = manifestation.duration
             self.path = podcast_url(manifestation.path)
 
+class Slider(Item):
+    def __init__(self, data, index, context = {}):
+        super().__init__(data, index, context)
+        self.model = "Slider"
+        self.subs = data.get('items', [])
+
 class Theme(Item):
     pass
 
@@ -398,8 +416,11 @@ def expand_json(data):
         if 'data' in node:
             parsed = node['data']
             expanded = expand_element(parsed[0])
-            if expanded.get('metadata', None) is not None :
+            if expanded.get('content', expanded.get('metadata', None)) is not None :
                 break
+            else:
+                print(json.dumps(expanded))
+
     return expanded
 
 def podcast_url(url, local=""):
@@ -457,10 +478,15 @@ if __name__ == "__main__":
     while 1 < len(sys.argv):
         index = int(sys.argv.pop())
         print(f"Using index: {index}")
-        subs = create_item(0, subs[index], context).subs
+        sub_item = create_item(0, subs[index], context)
+        if not isinstance(sub_item, Item):
+            (_, data, e) = sub_item
+            print(f"Error : {e} on {json.dumps(data)}")
+            raise e
+        subs = sub_item.subs
 
+    # print(json.dumps(subs))
     display(item)
     with ThreadPoolExecutor() as p:
         sub_items = list(p.map(create_item, itertools.count(), iter(subs), repeat(context)))
-
-        list(map(display, sub_items))
+    list(map(display, sub_items))
