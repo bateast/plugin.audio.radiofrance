@@ -34,6 +34,7 @@ class Model(Enum):
     STATIONPAGE = 16
     GRID = 17
     PROGRAM = 18
+    SLIDER = 19
 
 class Format(Enum):
     SLIDER_CHAINE = 1
@@ -181,7 +182,7 @@ class Item:
         return (f"{self.pages}{''.join([f'{self.index}. {self.title} [{self.model}] [{len(self.subs)}] ({self.path}) — {self.id[:8]}'])}")
 
     def is_folder(self):
-        return self.model in [Model.THEME, Model.CONCEPT, Model.HIGHLIGHT, Model.HIGHLIGHTELEMENT, Model.PAGETEMPLATE, Model.TAG, Model.ARTICLE, Model.SLUG, Model.STATIONPAGE, Model.GRID, Model.OTHER]
+        return self.model in [Model.THEME, Model.CONCEPT, Model.HIGHLIGHT, Model.HIGHLIGHTELEMENT, Model.PAGETEMPLATE, Model.TAG, Model.ARTICLE, Model.SLUG, Model.STATIONPAGE, Model.GRID, Model.SLIDER, Model.OTHER]
 
     def is_image(self):
         return self.model in [Model.EMBED_IMAGE]
@@ -364,7 +365,7 @@ class Expression(Item):
 class Slider(Item):
     def __init__(self, data, index, context = {}):
         super().__init__(data, index, context)
-        self.model = "Slider"
+        self.model = model.SLIDER
         self.subs = data.get('items', [])
 
 class Theme(Item):
