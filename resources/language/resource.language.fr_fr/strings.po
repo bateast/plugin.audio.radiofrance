@@ -35,3 +35,10 @@ msgctxt "#30104"
 msgid "podcasts"
 msgstr "Les Podcasts"
 
+msgctxt "#30105"
+msgid "playback error"
+msgstr "Flux audio introuvable"
+
+msgctxt "#30106"
+msgid "page error"
+msgstr "Impossible de charger la page RadioFrance"

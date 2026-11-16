@@ -19,11 +19,14 @@ from interface import *
 DEFAULT_MANIFESTATION = 0
 RADIOFRANCE_PAGE = "https://www.radiofrance.fr"
 
-CACHE_FILE = os.path.join(xbmcvfs.translatePath('special://temp/'), 'my_cache.json')
+# v2: pages are now stored decoded with the current data model; don't read caches of older versions
+CACHE_FILE = os.path.join(xbmcvfs.translatePath('special://temp/'), 'radiofrance_cache_v2.json')
 CACHE_TIMEOUT = datetime.timedelta(seconds=300)
 
 # Function to save cache to a file
 def save_cache(data):
+    now = datetime.datetime.now()
+    data = {k: v for k, v in data.items() if now - datetime.datetime.fromisoformat(v['datetime']) < CACHE_TIMEOUT}
     with open(CACHE_FILE, 'w') as f:
         xbmc.log("Caching to :" + CACHE_FILE, xbmc.LOGINFO)
         json.dump(data, f)
@@ -57,6 +60,9 @@ def build_lists(data, args, url):
     else:
         items_list = item.subs
 
+    # the current page is the one asked for: new-model pages only give `lastPage`
+    current_page = int(args.get("page", ["1"])[0])
+    item.pages = (current_page, max(item.pages[1], current_page))
     Pages(item, args).add(gui_elements_list)
 
     context = data.get('context', {})
@@ -84,16 +90,20 @@ def add_with_index(index, data, args, context):
         sub_list = list(map(lambda idx, data: create_item(idx, data, context), range(len(item.subs)), item.subs))
 
         for sub_item in sub_list:
-            if sub_item.is_folder():
-                elements_list.append(Folder(sub_item, args).construct())
-            else:
+            if not isinstance(sub_item, Item):
+                _, data, exception = sub_item
+                xbmc.log(f"Error: {exception} on {data}", xbmc.LOGERROR)
+            elif sub_item.is_folder():
+                if sub_item.path is not None:
+                    elements_list.append(Folder(sub_item, args).construct())
+            elif sub_item.path is not None:
                 elements_list.append(Playable(sub_item, args).construct())
     elif len(item.subs) > 1:
         elements_list.append(Indexed(item, url, index, args).construct())
 
     if item.is_folder() and item.path is not None:
         elements_list.append(Folder(item, args).construct())
-    elif not item.is_folder():
+    elif not item.is_folder() and item.path is not None:
         elements_list.append(Playable(item, args).construct())
 
     return elements_list
@@ -101,7 +111,38 @@ def add_with_index(index, data, args, context):
 def brand(args):
     url = args.get("url", [""])[0]
     xbmc.log(f"[Play Brand]: {url}", xbmc.LOGINFO)
+    if TRANSISTOR_PATH in url:
+        # listed while the live API was unreachable: resolve the stream now
+        try:
+            url = live_stream_url(fetch_live(url))
+        except Exception as e:
+            fail_playback(f"Cannot resolve live stream: {e}")
+            return
     play(url)
+
+def episode(args):
+    """Resolve an episode (player endpoint, or episode page) to its audio file and play it."""
+    url = args.get("url", [""])[0]
+    xbmc.log(f"[Play Episode]: {url}", xbmc.LOGINFO)
+    try:
+        if AOD_PATH in url:
+            audio = aod_stream_url(fetch_data(url, SITE_HEADERS))
+        else:
+            response = requests.get(f"{url}/__data.json", timeout=HTTP_TIMEOUT)
+            response.raise_for_status()
+            audio = find_audio_url(expand_json(response.text))
+    except Exception as e:
+        fail_playback(f"Cannot load episode {url}: {e}")
+        return
+    if audio is None:
+        fail_playback(f"No audio stream found in episode {url}")
+        return
+    play(podcast_url(audio))
+
+def fail_playback(message):
+    xbmc.log(message, xbmc.LOGERROR)
+    xbmcgui.Dialog().notification("RadioFrance", localize(30105), xbmcgui.NOTIFICATION_ERROR)
+    xbmcplugin.setResolvedUrl(addon_handle, False, xbmcgui.ListItem())
 
 def play(url):
     play_item = xbmcgui.ListItem(path=url)
@@ -125,7 +166,7 @@ def search(args):
     new_args["url"] = f"{RADIOFRANCE_PAGE}/recherche"
     new_args = {k: [v] for k, v in new_args.items()}
     build_url(new_args)
-    get_and_build_lists(new_args, url_args=f"?term={value}&")
+    get_and_build_lists(new_args, url_args=f"?term={quote_plus(value)}&")
 
 def get_and_build_lists(args, url_args="?"):
 
@@ -139,8 +180,15 @@ def get_and_build_lists(args, url_args="?"):
         xbmc.log(f"Using cached data for url: {url + url_args}", xbmc.LOGINFO)
         data = cache[url + url_args]['data']
     else:
-        page = requests.get(f"{url}/__data.json{url_args}").text
-        data = expand_json(page)
+        try:
+            response = requests.get(f"{url}/__data.json{url_args}", timeout=HTTP_TIMEOUT)
+            response.raise_for_status()
+            data = expand_json(response.text)
+        except Exception as e:
+            xbmc.log(f"Cannot load {url}: {e}", xbmc.LOGERROR)
+            xbmcgui.Dialog().notification("RadioFrance", localize(30106), xbmcgui.NOTIFICATION_ERROR)
+            xbmcplugin.endOfDirectory(addon_handle, succeeded=False)
+            return
         cache[url + url_args] = {'datetime': datetime.datetime.now().isoformat(), 'data': data}
         save_cache(cache)
 
@@ -164,6 +212,8 @@ def main():
         search(args)
     elif mode == "brand":
         brand(args)
+    elif mode == "episode":
+        episode(args)
     else:
         if mode == "podcasts":
             args["url"][0] += "/podcasts"

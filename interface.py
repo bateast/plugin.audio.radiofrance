@@ -12,9 +12,6 @@ class Element:
     def set_mode(self, mode):
         self.mode = mode
 
-    def is_folder(self):
-        return self.is_folder
-
     def construct(self):
         li = xbmcgui.ListItem(self.title)
         li.setIsFolder(self.is_folder)
@@ -93,7 +90,13 @@ class Playable(Element):
         self.release = item.release
         self.args['url'] = item.path
         self.path = item.path
-        self.mode = "brand" if item.model == Model["BRAND"] else "stream"
+        self.lazy = item.lazy
+        if item.model == Model["BRAND"]:
+            self.mode = "brand"      # live station (stream may still need resolving)
+        elif item.lazy:
+            self.mode = "episode"    # episode page: audio url is resolved when played
+        else:
+            self.mode = "stream"
 
     def construct(self):
         (url, li, _) = super().construct()
@@ -102,11 +105,15 @@ class Playable(Element):
         tag = li.getMusicInfoTag(offscreen=True)
         tag.setMediaType("audio")
         tag.setTitle(self.title)
-        tag.setURL(self.path)
+        if not self.lazy:
+            # Kodi plays the tag's URL instead of calling the plugin back: only a real media file may be set
+            # here, never a lookup url (the plugin resolves those when played, see default.py)
+            tag.setURL(self.path)
         tag.setGenres([self.genre])
         tag.setArtist(self.artists)
         tag.setDuration(self.duration)
-        tag.setReleaseDate(self.release)
+        if self.release:
+            tag.setReleaseDate(self.release)
 
         return url, li, False
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.radiofrance" name="RadioFrance — Lives and Podcasts" version="1.1.3" provider-name="bateast">
+<addon id="plugin.audio.radiofrance" name="RadioFrance — Lives and Podcasts" version="1.2.0" provider-name="bateast">
     <requires>
         <import addon="script.module.requests" version="2.25.1" />
         <import addon="xbmc.python" version="3.0.0" />
@@ -15,6 +15,12 @@
         <source>https://github.com/bateast/plugin.audio.radiofrance</source>
         <platform>all</platform>
         <news>
+            v1.2.0 (2026-11)
+            - adapt to the new RadioFrance data model (__typename, Highlight_* blocks, image ids, episode pages)
+            - episode audio is resolved when played through the site's player endpoint (listings no longer carry it)
+            - live radios use the new transistor/livemeta endpoints (HLS stream, current show)
+            - fix: json decoding of pages with null nodes, sliders, single-episode blocks, paging, release dates
+            - video reports (franceinfo) are listed
             v1.1.4 (2024-11)
             - minor fix on slider element
             v1.1.3 (2024-10)

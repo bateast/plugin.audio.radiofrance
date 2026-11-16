@@ -35,3 +35,10 @@ msgctxt "#30104"
 msgid "podcasts"
 msgstr "Podcasts"
 
+msgctxt "#30105"
+msgid "playback error"
+msgstr "Unable to find the audio stream"
+
+msgctxt "#30106"
+msgid "page error"
+msgstr "Unable to load the RadioFrance page"
