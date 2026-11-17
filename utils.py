@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 from urllib.parse import urlencode, quote_plus
+import base64
 import json
 import sys
 import time
@@ -19,6 +20,11 @@ TRANSISTOR_PATH = "/transistor/live/"
 AOD_PATH = "/transistor/aod/"
 LIVEMETA_URL = "https://api.radiofrance.fr/livemeta/"
 SITE_HEADERS = {"Referer": RADIOFRANCE_PAGE + "/", "Origin": RADIOFRANCE_PAGE}  # what the site's own player sends
+# Search is a SvelteKit "remote function" call: /_app/remote/<hash>/<name>?payload=<devalue args>.
+# The hash identifies the site's search module (it was the same across captures a day apart, but
+# it is the one thing here that a site rebuild might change: if search stops working, capture a
+# search in the browser's network tab, look for `getSearchItems`, and update it).
+SEARCH_REMOTE = "/_app/remote/7lqoro/getSearchItems"
 HTTP_TIMEOUT = 15
 LIVE_TTL = 60  # seconds a live-station answer is reused
 
@@ -194,6 +200,53 @@ def _pagination(data):
     number = pagination.get('pageNumber', 1)
     return (number, pagination.get('lastPage', number))
 
+def remote_payload(args):
+    """`payload` query value of a SvelteKit remote function call: the arguments object in devalue's
+    flat form (every value of an object/array is the *index* of another entry; the root is tagged
+    `__skrao`), JSON-serialised then base64url-encoded without padding."""
+    flat = [["__skrao", 1], None]
+    seen = {}
+
+    def add(value):
+        if value is None:
+            return -1  # undefined
+        if isinstance(value, (list, tuple)):
+            flat.append(None)
+            index = len(flat) - 1
+            flat[index] = [add(v) for v in value]
+            return index
+        key = (type(value), value)
+        if key not in seen:  # devalue stores a given primitive once
+            flat.append(value)
+            seen[key] = len(flat) - 1
+        return seen[key]
+
+    flat[1] = {k: add(v) for k, v in args.items()}
+    raw = json.dumps(flat, separators=(',', ':'), ensure_ascii=False)
+    return base64.urlsafe_b64encode(raw.encode()).rstrip(b'=').decode()
+
+def fetch_remote(url, headers=None):
+    """Call a SvelteKit remote function and decode its devalue-encoded result."""
+    answer = fetch_data(url, headers)
+    if answer.get('type') != 'result':
+        raise ValueError(f"remote function failed: {str(answer)[:200]}")
+    return devalue_parse(json.loads(answer['result']))
+
+def fetch_search(term):
+    """Results of a search as a page (`content` = concepts, personalities and expressions/articles)."""
+    args = {'durations': [], 'entities': [], 'globalAggregations': False, 'limitConcepts': 6,
+            'sort': None, 'stations': [], 'term': term, 'years': []}
+    headers = dict(SITE_HEADERS, Referer=f"{RADIOFRANCE_PAGE}/recherche?q={quote_plus(term)}")
+    content = fetch_remote(f"{RADIOFRANCE_PAGE}{SEARCH_REMOTE}?{urlencode({'payload': remote_payload(args)})}", headers)
+    return {'content': content, 'context': {'station': None}}
+
+class ItemCreationError(Exception):
+    """An item could not be built from `data`; wraps the exception that was raised."""
+    def __init__(self, data, original_exception):
+        super().__init__(f"{type(original_exception).__name__}: {original_exception}")
+        self.data = data
+        self.original_exception = original_exception
+
 def create_item_from_page(data):
     context = data.get('context', {})
 
@@ -204,16 +257,11 @@ def create_item_from_page(data):
                 break
 
     item = create_item(0, data, context)
-    if not isinstance(item, Item):
-        _, data, e = item
-        print(json.dumps(data))
-        raise(e)
     index = 0
     while len(item.subs) == 1:
-        new_item = create_item(index, item.subs[0], context)
-        if isinstance(new_item, Item):
-            item = new_item
-        else:
+        try:
+            item = create_item(index, item.subs[0], context)
+        except ItemCreationError:
             break
         index += 1
     return item
@@ -249,16 +297,18 @@ def create_item(index, data, context = None):
         if typename(data) in model_map:
             model_class = model_map[typename(data)]
             item = model_class(data, index, context)
-        elif data.get('format', "").upper() in format_map:
+        elif str(data.get('format') or "").upper() in format_map:
             format_class = format_map[data['format'].upper()]
             item = format_class(data, index, context)
         elif 'stationName' in data:
             item = StationDir(data, index, context)
         elif 'items' in data and isinstance(data['items'], dict) and 'concepts' in data['items'] and 'expressions_articles' in data['items']:
             item = Search(data, index, context)
+        elif 'concepts' in data and 'expressionsArticles' in data:
+            item = Search(data, index, context)
         elif 'slug' in data:
             item = model_map['SLUG'](data, index, context)
-        elif 'brand' in data and not typename(data) and not data.get('format', "") in NOT_ITEM_FORMAT :
+        elif isinstance(data.get('brand'), str) and not typename(data) and not data.get('format') in NOT_ITEM_FORMAT :
             item = model_map['BRAND'](data, index, context)
         elif 'grid' in data:
             item = model_map['GRID'](data, index, context)
@@ -267,7 +317,7 @@ def create_item(index, data, context = None):
         else:
             item = model_map['OTHER'](data, index, context)
     except Exception as e:
-        return (None, data, e)
+        raise ItemCreationError(data, e) from e
 
     item.index = index
     item.clean_subs()
@@ -301,8 +351,11 @@ class Item:
         link-less container is replaced by that child's children. A leaf (playable) or a
         child with its own link is never swallowed."""
         while self.path is None and len(self.subs) == 1:
-            child = create_item(self.index, self.subs[0], self.context)
-            if not isinstance(child, Item) or child.path is not None or len(child.subs) == 0:
+            try:
+                child = create_item(self.index, self.subs[0], self.context)
+            except ItemCreationError:
+                break
+            if child.path is not None or len(child.subs) == 0:
                 break
             self.subs = child.subs
 
@@ -372,7 +425,11 @@ class Tag(Item):
 class Search(Item):
     def __init__(self, data, index, context = None):
         super().__init__(data, index, context)
-        self.subs = data['items']['concepts']['contents'] + data['items']['expressions_articles']['contents']
+        items = data.get('items')
+        if isinstance(items, dict) and 'concepts' in items:  # old model
+            self.subs = items['concepts']['contents'] + items['expressions_articles']['contents']
+        else:  # concepts first, then people, then episodes/articles
+            self.subs = [sub for key in ('concepts', 'personalities', 'expressionsArticles') for sub in collect_subs(data, (key,))]
 
 class Article(Item):
     pass
@@ -420,6 +477,7 @@ class Concept(Item):
     def __init__(self, data, index, context = None):
         super().__init__(data, index, context)
         self.model = Model.CONCEPT
+        self.title = self.title or _clean(data.get('text')) or ""  # search results: `title` is empty, the name is in `text`
         self.subs = collect_subs(data, ('expressions', 'promoEpisode', 'items'))
         expressions = data.get('expressions')
         # old model: page numbers inside `expressions`; new model: `pagination.lastPage` on the concept
@@ -671,7 +729,7 @@ def expand_json(data):
     layout = {}
     page = None
     for node in payload.get('nodes', []):
-        if not isinstance(node, dict) or node.get('type') != 'data' or not node.get('data'):
+        if not isinstance(node, dict) or node.get('type', 'data') != 'data' or not node.get('data'):
             continue
         decoded = devalue_parse(node['data'])
         if not isinstance(decoded, dict):
@@ -730,15 +788,17 @@ if __name__ == "__main__":
             yield item
 
     def display(item):
-        if isinstance(item, Item):
-            if len(item.subs) != 0 or (item.path is not None and item.path != ""):
-                print(item)
-                if len(item.subs) == 1:
-                    display(create_item(0, item.subs[0], context))
-        else:
-            (_, data, e) = item
-            print(f"Error : {e} on {json.dumps(data)}")
-            raise e
+        if len(item.subs) != 0 or (item.path is not None and item.path != ""):
+            print(item)
+            if len(item.subs) == 1:
+                display(create_item(0, item.subs[0], context))
+
+    def safe_create_item(index, data, context):
+        try:
+            return create_item(index, data, context)
+        except ItemCreationError as e:
+            print(f"Error : {e} on {json.dumps(e.data)}")
+            return None
 
     if sys.argv[1:] == ["audio"]:
         # python utils.py audio < episode___data.json : the stream the plugin would play
@@ -751,15 +811,10 @@ if __name__ == "__main__":
     while 1 < len(sys.argv):
         index = int(sys.argv.pop())
         print(f"Using index: {index}")
-        sub_item = create_item(0, subs[index], context)
-        if not isinstance(sub_item, Item):
-            (_, data, e) = sub_item
-            print(f"Error : {e} on {json.dumps(data)}")
-            raise e
-        subs = sub_item.subs
+        subs = create_item(0, subs[index], context).subs
 
     # print(json.dumps(subs))
     display(item)
     with ThreadPoolExecutor() as p:
-        sub_items = list(p.map(create_item, itertools.count(), iter(subs), repeat(context)))
-    list(map(display, sub_items))
+        sub_items = list(p.map(safe_create_item, itertools.count(), iter(subs), repeat(context)))
+    list(map(display, filter(None, sub_items)))

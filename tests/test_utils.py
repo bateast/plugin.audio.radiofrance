@@ -74,8 +74,11 @@ def test_create_item_from_page_builds_item_with_subs():
 
 
 def test_create_item_raises_item_creation_error_on_bad_data():
-    # 'pagination' sans 'pageNumber' déclenche un KeyError dans Item.__init__.
-    bad_data = {"model": "other", "pagination": {}}
+    # Un modèle dont les champs obligatoires manquent (StationPage lit
+    # data['stationName']) déclenche un KeyError dans __init__.
+    # (Un 'pagination' sans 'pageNumber' n'est plus une erreur : les pages
+    # actuelles ne donnent que 'lastPage'.)
+    bad_data = {"model": "StationPage"}
 
     with pytest.raises(utils.ItemCreationError) as exc_info:
         utils.create_item(0, bad_data)
@@ -139,7 +142,17 @@ def test_create_item_does_not_misdetect_brand_object_as_brand_model():
 
     item = utils.create_item(0, data)
 
-    assert item.model == utils.Model.OTHER
+    # reconnu par son __typename, et surtout pas pris pour une station
+    assert item.model == utils.Model.PAGETEMPLATE
+    assert item.model != utils.Model.BRAND
+
+
+def test_untyped_object_with_brand_object_is_not_a_brand():
+    # même chose sans __typename : l'heuristique "brand" n'est valable que
+    # si 'brand' est un slug (chaîne), pas un objet de métadonnées
+    data = {"title": "Aujourd'hui", "brand": {"name": "radiofrance"}, "highlights": []}
+
+    assert utils.create_item(0, data).model == utils.Model.OTHER
 
 
 def test_other_falls_back_to_highlights_when_no_items():

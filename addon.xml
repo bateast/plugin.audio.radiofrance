@@ -20,6 +20,8 @@
             - episode audio is resolved when played through the site's player endpoint (listings no longer carry it)
             - live radios use the new transistor/livemeta endpoints (HLS stream, current show)
             - fix: json decoding of pages with null nodes, sliders, single-episode blocks, paging, release dates
+            - search uses the site's new search function (results: shows, people, episodes; first page)
+            - create_item raises ItemCreationError; a broken item is skipped instead of aborting the listing
             - video reports (franceinfo) are listed
             v1.1.4 (2024-11)
             - minor fix on slider element

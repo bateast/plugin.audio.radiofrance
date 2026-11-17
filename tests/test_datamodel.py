@@ -283,6 +283,64 @@ class ThemePage(unittest.TestCase):
         self.assertEqual([s["title"] for s in theme.subs], ["d1", "d2", "d3"])
 
 
+class SearchTests(unittest.TestCase):
+    # what the site's own search page sent for "morizot"
+    BROWSER_PAYLOAD = ("W1siX19za3JhbyIsMV0seyJkdXJhdGlvbnMiOjIsImVudGl0aWVzIjozLCJnbG9iYWxBZ2dyZWdhdGlvbnMiOjQsImxpbWl0Q29uY2Vw"
+                       "dHMiOjUsInNvcnQiOi0xLCJzdGF0aW9ucyI6NiwidGVybSI6NywieWVhcnMiOjh9LFtdLFtdLGZhbHNlLDYsW10sIm1vcml6b3QiLFtdXQ")
+    ARGS = {"durations": [], "entities": [], "globalAggregations": False, "limitConcepts": 6,
+            "sort": None, "stations": [], "term": "morizot", "years": []}
+
+    @staticmethod
+    def search_expression(id_, title):
+        data = {k: v for k, v in expression(id_).items() if k not in ("title", "href")}
+        return dict(data, titleProps={"title": title, "href": f"/p/{id_}"})
+
+    def results(self):
+        concept = {"__typename": "Concept", "id": "c", "title": "", "text": "Dans l'inexplor\u00e9", "brand": "franceinter",
+                   "href": "/franceinter/podcasts/serie"}
+        person = {"__typename": "Personality", "id": "p", "titleProps": {"title": "Baptiste Morizot", "href": "/personnes/baptiste-morizot"}}
+        return {"concepts": {"items": [concept], "total": 1}, "personalities": {"items": [person], "total": 1},
+                "expressionsArticles": {"items": [self.search_expression("e1", "Ep 1"), self.search_expression("e2", "Ep 2")], "total": 42},
+                "next": "Mg==", "prev": None, "total": 44}
+
+    def test_payload_is_what_the_browser_sends(self):
+        self.assertEqual(utils.remote_payload(self.ARGS), self.BROWSER_PAYLOAD)
+
+    def test_primitives_are_stored_once(self):
+        raw = json.loads(utils.base64.urlsafe_b64decode(utils.remote_payload({"a": 6, "b": 6, "c": "x", "d": "x"}) + "=="))
+        self.assertEqual(raw[1], {"a": 2, "b": 2, "c": 3, "d": 3})
+
+    def test_request_url_and_headers(self):
+        seen = []
+        def fetch(url, headers=None):
+            seen.append((url, headers))
+            return {"type": "result", "result": json.dumps([{"a": 1}, "ok"])}
+        with mock.patch.object(utils, "fetch_data", side_effect=fetch):
+            page = utils.fetch_search("morizot")
+        self.assertEqual(seen[0][0], f"https://www.radiofrance.fr/_app/remote/7lqoro/getSearchItems?payload={self.BROWSER_PAYLOAD}")
+        self.assertEqual(seen[0][1]["Referer"], "https://www.radiofrance.fr/recherche?q=morizot")
+        self.assertEqual(page["content"], {"a": "ok"})
+
+    def test_remote_failure_is_an_error(self):
+        with mock.patch.object(utils, "fetch_data", return_value={"type": "error", "status": 404}):
+            with self.assertRaises(ValueError):
+                utils.fetch_search("x")
+
+    def test_results_become_concepts_people_then_episodes(self):
+        top = create_item_from_page({"content": self.results(), "context": {}})
+        self.assertIsInstance(top, utils.Search)
+        items = [create_item(i, raw, {}) for i, raw in enumerate(top.subs)]
+        self.assertEqual([(i.model.name, i.title) for i in items],
+                         [("CONCEPT", "Dans l'inexplor\u00e9"), ("OTHER", "Baptiste Morizot"), ("EXPRESSION", "Ep 1"), ("EXPRESSION", "Ep 2")])
+        self.assertTrue(all(i.is_folder() and i.path for i in items[:2]))
+        self.assertTrue(all(i.lazy and "/transistor/aod/" in i.path for i in items[2:]))
+
+    def test_old_model_search_still_builds(self):
+        old = {"items": {"concepts": {"contents": [{"model": "Concept", "title": "c", "path": "c"}]},
+                         "expressions_articles": {"contents": [{"model": "Expression", "title": "e", "href": "/e"}]}}}
+        self.assertEqual(len(create_item(0, old).subs), 2)
+
+
 class LiveCache(unittest.TestCase):
     def test_failures_are_cached_briefly(self):
         utils._live_cache.clear()
@@ -326,6 +384,25 @@ class RealPodcastAndEpisode(unittest.TestCase):
         with open(os.environ["RF_EPISODE_JSON"]) as f:
             url = find_audio_url(expand_json(f.read()))
         self.assertTrue(url and url.startswith("https://"), url)
+
+
+@unittest.skipUnless(os.environ.get("RF_SEARCH_HAR"), "set RF_SEARCH_HAR to a browser HAR of a search for 'morizot'")
+class RealSearch(unittest.TestCase):
+    def test_encoder_and_results_against_the_capture(self):
+        from urllib.parse import parse_qs, urlparse
+        with open(os.environ["RF_SEARCH_HAR"]) as f:
+            entries = json.load(f)["log"]["entries"]
+        call = next(e for e in entries if "getSearchItems" in e["request"]["url"])
+        sent = parse_qs(urlparse(call["request"]["url"]).query)["payload"][0]
+        self.assertEqual(utils.remote_payload(SearchTests.ARGS), sent)
+        answer = json.loads(call["response"]["content"]["text"])
+        top = create_item_from_page({"content": utils.devalue_parse(json.loads(answer["result"])), "context": {}})
+        items = [create_item(i, raw, {}) for i, raw in enumerate(top.subs)]
+        self.assertGreater(len(items), 2)
+        for item in items:
+            self.assertIsInstance(item, Item, item if not isinstance(item, Item) else "")
+            self.assertTrue(item.title)
+            self.assertTrue(item.path)
 
 
 if __name__ == "__main__":

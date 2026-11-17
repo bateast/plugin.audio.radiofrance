@@ -76,10 +76,10 @@ def build_lists(data, args, url):
     xbmcplugin.endOfDirectory(addon_handle)
 
 def add_with_index(index, data, args, context):
-    item = create_item(index, data, context)
-    if not isinstance(item, Item):
-        _, data, exception = item
-        xbmc.log(f"Error: {exception} on {data}", xbmc.LOGERROR)
+    try:
+        item = create_item(index, data, context)
+    except ItemCreationError as e:
+        xbmc.log(f"Error: {e} on {e.data}", xbmc.LOGERROR)
         return []
 
     xbmc.log(str(item), xbmc.LOGINFO)
@@ -87,13 +87,13 @@ def add_with_index(index, data, args, context):
     url = args.get("url", [""])[0]
 
     if len(item.subs) <= 2:
-        sub_list = list(map(lambda idx, data: create_item(idx, data, context), range(len(item.subs)), item.subs))
-
-        for sub_item in sub_list:
-            if not isinstance(sub_item, Item):
-                _, data, exception = sub_item
-                xbmc.log(f"Error: {exception} on {data}", xbmc.LOGERROR)
-            elif sub_item.is_folder():
+        for sub_index, sub_data in enumerate(item.subs):
+            try:
+                sub_item = create_item(sub_index, sub_data, context)
+            except ItemCreationError as e:
+                xbmc.log(f"Error: {e} on {e.data}", xbmc.LOGERROR)
+                continue
+            if sub_item.is_folder():
                 if sub_item.path is not None:
                     elements_list.append(Folder(sub_item, args).construct())
             elif sub_item.path is not None:
@@ -148,25 +148,33 @@ def play(url):
     play_item = xbmcgui.ListItem(path=url)
     xbmcplugin.setResolvedUrl(addon_handle, True, listitem=play_item)
 
+def safe_build_lists(data, args, url):
+    try:
+        build_lists(data, args, url)
+    except ItemCreationError as e:
+        xbmc.log(f"Cannot build {url}: {e} on {e.data}", xbmc.LOGERROR)
+        xbmcgui.Dialog().notification("RadioFrance", localize(30106), xbmcgui.NOTIFICATION_ERROR)
+        xbmcplugin.endOfDirectory(addon_handle, succeeded=False)
+
 def search(args):
-    def GUIEditExportName(name):
-        kb = xbmc.Keyboard("Odyssées", localize(30103))
-        kb.doModal()
-        if not kb.isConfirmed():
-            return None
-        query = kb.getText()
-        return query
+    kb = xbmc.Keyboard("Odyssées", localize(30103))
+    kb.doModal()
+    if not kb.isConfirmed():
+        return
+    term = kb.getText()
 
     new_args = {k: v[0] for k, v in args.items()}
     new_args["mode"] = "page"
-    value = GUIEditExportName("Odyssées")
-    if value is None:
-        return
-
     new_args["url"] = f"{RADIOFRANCE_PAGE}/recherche"
     new_args = {k: [v] for k, v in new_args.items()}
-    build_url(new_args)
-    get_and_build_lists(new_args, url_args=f"?term={quote_plus(value)}&")
+    try:
+        data = fetch_search(term)
+    except Exception as e:
+        xbmc.log(f"Cannot search {term!r}: {e}", xbmc.LOGERROR)
+        xbmcgui.Dialog().notification("RadioFrance", localize(30106), xbmcgui.NOTIFICATION_ERROR)
+        xbmcplugin.endOfDirectory(addon_handle, succeeded=False)
+        return
+    safe_build_lists(data, new_args, new_args["url"][0])
 
 def get_and_build_lists(args, url_args="?"):
 
@@ -192,7 +200,7 @@ def get_and_build_lists(args, url_args="?"):
         cache[url + url_args] = {'datetime': datetime.datetime.now().isoformat(), 'data': data}
         save_cache(cache)
 
-    build_lists(data, args, url)
+    safe_build_lists(data, args, url)
 
 def main():
     args = parse_qs(sys.argv[2][1:])
